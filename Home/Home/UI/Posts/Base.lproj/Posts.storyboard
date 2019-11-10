@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="adG-9N-UDP">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Posts View Controller-->
+        <scene sceneID="bE7-DK-avh">
+            <objects>
+                <viewController id="adG-9N-UDP" customClass="PostsViewController" customModule="Home" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Rg-tk-P7r">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RuZ-7D-FM5" customClass="PagedTableView" customModule="Presentation">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4x-gp-ONz">
+                                <rect key="frame" x="349" y="787" width="45" height="45"/>
+                                <color key="backgroundColor" name="Green"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="alG-46-6Z4"/>
+                                    <constraint firstAttribute="height" constant="45" id="mV6-Vv-f3Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="dropShadow" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addPost:" destination="adG-9N-UDP" eventType="touchUpInside" id="pCp-vG-K5Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RuZ-7D-FM5" firstAttribute="bottom" secondItem="4OS-GG-3kl" secondAttribute="bottom" id="Fnb-vL-3lx"/>
+                            <constraint firstItem="RuZ-7D-FM5" firstAttribute="top" secondItem="4OS-GG-3kl" secondAttribute="top" id="Ks3-71-XOc"/>
+                            <constraint firstItem="4OS-GG-3kl" firstAttribute="trailing" secondItem="V4x-gp-ONz" secondAttribute="trailing" constant="20" id="Se3-Ng-cfr"/>
+                            <constraint firstItem="RuZ-7D-FM5" firstAttribute="trailing" secondItem="4OS-GG-3kl" secondAttribute="trailing" id="dgU-fa-bHV"/>
+                            <constraint firstItem="RuZ-7D-FM5" firstAttribute="leading" secondItem="4OS-GG-3kl" secondAttribute="leading" id="dlr-8l-ps4"/>
+                            <constraint firstItem="4OS-GG-3kl" firstAttribute="bottom" secondItem="V4x-gp-ONz" secondAttribute="bottom" constant="30" id="vTZ-iw-Aff"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4OS-GG-3kl"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="RuZ-7D-FM5" id="iuK-35-nrJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSp-uK-tCD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-265.21739130434787" y="119.86607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Green">
+            <color red="0.21568627450980393" green="0.63529411764705879" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
