@@ -20,7 +20,7 @@ public class PostEntity: NSManagedObject {
         items.forEach{ saveItem(item: $0) }
     }
 
-    public class func saveItem(item: PostResponse){
+    public class func saveItem(item: PostResponse) {
         let obj = NSEntityDescription.insertNewObject(
                 forEntityName: name,
                 into: managedContext()!

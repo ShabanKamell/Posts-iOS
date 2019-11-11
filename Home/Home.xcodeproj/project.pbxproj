@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042078E2236F8B060007CFDE /* Posts.strings in Resources */ = {isa = PBXBuildFile; fileRef = 042078D4236F8B060007CFDE /* Posts.strings */; };
-		042078E3236F8B060007CFDE /* PostCell.strings in Resources */ = {isa = PBXBuildFile; fileRef = 042078D6236F8B060007CFDE /* PostCell.strings */; };
 		042078E4236F8B060007CFDE /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042078DA236F8B060007CFDE /* PostsViewController.swift */; };
 		042078E5236F8B060007CFDE /* Posts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042078DB236F8B060007CFDE /* Posts.storyboard */; };
 		042078E6236F8B060007CFDE /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042078DD236F8B060007CFDE /* PostCell.xib */; };
@@ -19,6 +17,8 @@
 		046B8033236F4AAF00AE23A4 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B8032236F4AAF00AE23A4 /* HomeTests.swift */; };
 		046B8035236F4AAF00AE23A4 /* Home.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B8027236F4AAF00AE23A4 /* Home.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04941D8A23706B9500B38971 /* HomeStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04941D8923706B9500B38971 /* HomeStoryboards.swift */; };
+		04D207E62379989D004CD6B9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D207CD23799328004CD6B9 /* Colors.xcassets */; };
+		04D207E72379989D004CD6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D207C623799321004CD6B9 /* Assets.xcassets */; };
 		1A54FC699B6F053C3642BA8C /* HomeFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F7D1F8B348CAA79157F6 /* HomeFlow.swift */; };
 		883DC1FE137AC66D5585D831 /* Pods_Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045AA9835A8D3D5E77DF3614 /* Pods_Home.framework */; };
 /* End PBXBuildFile section */
@@ -76,10 +76,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		042078D5236F8B060007CFDE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Posts.strings; sourceTree = "<group>"; };
-		042078D7236F8B060007CFDE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/PostCell.strings; sourceTree = "<group>"; };
-		042078D8236F8B060007CFDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Posts.strings; sourceTree = "<group>"; };
-		042078D9236F8B060007CFDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PostCell.strings; sourceTree = "<group>"; };
 		042078DA236F8B060007CFDE /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		042078DC236F8B060007CFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Posts.storyboard; sourceTree = "<group>"; };
 		042078DE236F8B060007CFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PostCell.xib; sourceTree = "<group>"; };
@@ -97,6 +93,8 @@
 		046B8032236F4AAF00AE23A4 /* HomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
 		046B8034236F4AAF00AE23A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04941D8923706B9500B38971 /* HomeStoryboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStoryboards.swift; sourceTree = "<group>"; };
+		04D207C623799321004CD6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../App/App/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		04D207CD23799328004CD6B9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1A54F7D1F8B348CAA79157F6 /* HomeFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFlow.swift; sourceTree = "<group>"; };
 		3FAEE7F96EFB5706E0AA7BFC /* Pods-Home.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home.debug.xcconfig"; path = "Target Support Files/Pods-Home/Pods-Home.debug.xcconfig"; sourceTree = "<group>"; };
 		DE4499736A80369D4D0C8C3F /* Pods-Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home.release.xcconfig"; path = "Target Support Files/Pods-Home/Pods-Home.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +123,8 @@
 		042078CE236F84FC0007CFDE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04D207CD23799328004CD6B9 /* Colors.xcassets */,
+				04D207C623799321004CD6B9 /* Assets.xcassets */,
 				04941D8923706B9500B38971 /* HomeStoryboards.swift */,
 			);
 			path = Resources;
@@ -141,13 +141,11 @@
 		042078D3236F8B060007CFDE /* Posts */ = {
 			isa = PBXGroup;
 			children = (
-				042078D4236F8B060007CFDE /* Posts.strings */,
-				042078D6236F8B060007CFDE /* PostCell.strings */,
 				042078DA236F8B060007CFDE /* PostsViewController.swift */,
 				042078DB236F8B060007CFDE /* Posts.storyboard */,
-				042078DD236F8B060007CFDE /* PostCell.xib */,
 				042078DF236F8B060007CFDE /* PostsViewModel.swift */,
 				042078E0236F8B060007CFDE /* PostsBuilder.swift */,
+				042078DD236F8B060007CFDE /* PostCell.xib */,
 				042078E1236F8B060007CFDE /* PostCell.swift */,
 			);
 			path = Posts;
@@ -412,9 +410,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D207E62379989D004CD6B9 /* Colors.xcassets in Resources */,
+				04D207E72379989D004CD6B9 /* Assets.xcassets in Resources */,
 				042078E5236F8B060007CFDE /* Posts.storyboard in Resources */,
-				042078E3236F8B060007CFDE /* PostCell.strings in Resources */,
-				042078E2236F8B060007CFDE /* Posts.strings in Resources */,
 				042078E6236F8B060007CFDE /* PostCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,24 +502,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		042078D4236F8B060007CFDE /* Posts.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				042078D5236F8B060007CFDE /* ar */,
-				042078D8236F8B060007CFDE /* en */,
-			);
-			name = Posts.strings;
-			sourceTree = "<group>";
-		};
-		042078D6236F8B060007CFDE /* PostCell.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				042078D7236F8B060007CFDE /* ar */,
-				042078D9236F8B060007CFDE /* en */,
-			);
-			name = PostCell.strings;
-			sourceTree = "<group>";
-		};
 		042078DB236F8B060007CFDE /* Posts.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -7,8 +7,8 @@ import UIKit
 
 public extension UITableView {
 
-    func register(_ identifier: Identifier) {
-        self.register(identifier.nib, forCellReuseIdentifier: identifier.rawValue)
+    func register(_ identifier: Identifier, bundle: Bundle) {
+        self.register(identifier.nib(bundle: bundle), forCellReuseIdentifier: identifier.rawValue)
     }
 
     func dequeueReusableCell<T: UITableViewCell>(

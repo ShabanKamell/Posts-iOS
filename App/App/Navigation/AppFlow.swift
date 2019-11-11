@@ -29,6 +29,7 @@ class AppFlow: Flow {
 extension AppFlow: AppNavDelegate {
 
     func home() {
+
     }
 
     func addPost() {

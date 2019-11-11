@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Core
+import Presentation
+import Home
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,7 +20,40 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+
+        self.window = UIWindow(windowScene: windowScene)
+
+        initFlow()
+        /*
+
+              guard let windowScene = (scene as? UIWindowScene) else { return }
+
+
+              self.window = UIWindow(windowScene: windowScene)
+              //self.window =  UIWindow(frame: UIScreen.main.bounds)
+              guard let rootVC = AppConstants.Storyboards.board.Miscellaneous?.instantiateViewController(identifier: LanguageVC.className) as? LanguageVC else {
+                  print("Lanaguge VC not found")
+                  return
+              }
+              let rootNC = UINavigationController(rootViewController: rootVC)
+              self.window?.rootViewController = rootNC
+              self.window?.makeKeyAndVisible()
+
+              */
+    }
+
+    private func initFlow() {
+        appFlow = AppFlow()
+        appFlow.start()
+        self.window = UIWindow()
+        appFlow.root.window = window
+//        self.window?.rootViewController = appFlow.root
+//        self.window?.makeKeyAndVisible()
+
+        UIApplication.shared.windows.first?.rootViewController = appFlow.root
+        UIApplication.shared.windows.first?.makeKeyAndVisible()
+
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

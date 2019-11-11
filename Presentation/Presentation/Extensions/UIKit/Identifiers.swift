@@ -10,8 +10,8 @@ public enum Identifier: String {
     case postCell = "PostCell"
     case loadingCell = "LoadingCell"
 
-    var nib: UINib {
-        return UINib(nibName: self.rawValue, bundle: nil)
+    func nib(bundle: Bundle) -> UINib {
+        return UINib(nibName: self.rawValue, bundle: bundle)
     }
 
     func view<T: UIView>() -> T {

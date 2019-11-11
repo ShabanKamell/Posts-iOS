@@ -9,12 +9,13 @@ extension UITableView {
 
     func setup(
             source: UITableViewDataSource?,
+            bundle: Bundle,
             cellIdentifier: Identifier...
     ) {
         rowHeight = UITableView.automaticDimension
         estimatedRowHeight = 600
         dataSource = source
-        cellIdentifier.forEach{ register($0) }
+        cellIdentifier.forEach{ register($0, bundle: bundle) }
 
         separatorColor = UIColor.clear
         allowsSelection = false

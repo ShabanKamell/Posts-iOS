@@ -26,7 +26,7 @@ public extension RootViewController {
 
 public extension RootViewController {
 
-    func navigate(vc: UIViewController, with nvc: Bool = true) {
+    func navigate(vc: UIViewController) {
 
         vc.modalPresentationStyle = .fullScreen
         vc.modalTransitionStyle = .coverVertical

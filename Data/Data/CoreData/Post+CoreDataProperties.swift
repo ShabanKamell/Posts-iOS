@@ -13,7 +13,7 @@ import CoreData
 extension PostEntity {
 
     public class func fetchRequest() -> NSFetchRequest<PostEntity> {
-        return NSFetchRequest<PostEntity>(entityName: "PostEntity")
+         NSFetchRequest<PostEntity>(entityName: PostEntity.name)
     }
 
     @NSManaged public var id: Int64

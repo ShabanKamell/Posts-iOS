@@ -11,6 +11,7 @@
         <!--Posts View Controller-->
         <scene sceneID="bE7-DK-avh">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSp-uK-tCD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="adG-9N-UDP" customClass="PostsViewController" customModule="Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Rg-tk-P7r">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -57,7 +58,6 @@
                         <outlet property="tableView" destination="RuZ-7D-FM5" id="iuK-35-nrJ"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zSp-uK-tCD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-265.21739130434787" y="119.86607142857142"/>
         </scene>

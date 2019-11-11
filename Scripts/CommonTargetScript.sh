@@ -14,7 +14,7 @@ $PODS_ROOT/BartyCrouch/bartycrouch normalize -p $PROJECT_DIR/$PROJECT_NAME -l en
 $PODS_ROOT/SwiftGen/bin/swiftgen strings -t structured-swift4 $PROJECT_DIR/../Presentation/Presentation/Resources/Localizations/en.lproj/Localizable.strings -o $PROJECT_DIR/../Presentation/Presentation/Resources/L10n.swift --param publicAccess
 
 # SwiftGen
-$PODS_ROOT/SwiftGen/bin/swiftgen xcassets -t swift4 $PROJECT_DIR/../Presentation/Presentation/Resources/Assets.xcassets  $PROJECT_DIR/../Presentation/Presentation/Resources/Colors.xcassets -o $PROJECT_DIR/../Presentation/Presentation/Resources/Assets.swift
+$PODS_ROOT/SwiftGen/bin/swiftgen xcassets -t swift4 $PROJECT_DIR/$PROJECT_NAME/Resources/Assets.xcassets  $PROJECT_DIR/$PROJECT_NAME/Resources/Colors.xcassets -o $PROJECT_DIR/$PROJECT_NAME/Resources/Assets.swift
 
 #$PODS_ROOT/SwiftGen/bin/swiftgen ib -t scenes-swift4 $PROJECT_NAME/ -o $PROJECT_DIR/../Presentation/Presentation/Resources/Storyboards.swift --param module=$PROJECT_NAME --param ignoreTargetModule=true --param sceneEnumName=Storyboards
 

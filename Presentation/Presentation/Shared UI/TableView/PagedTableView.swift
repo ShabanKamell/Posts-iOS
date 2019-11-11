@@ -58,9 +58,9 @@ public class PagedTableView: UITableView {
 }
 
 // MARK: helpers
-public extension PagedTableView {
+extension PagedTableView {
 
-    func loadItems(refresh: Bool = false) {
+    public func loadItems(refresh: Bool = false) {
 
         // reset page number if refresh
         if refresh {

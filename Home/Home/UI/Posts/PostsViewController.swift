@@ -13,7 +13,7 @@ final class PostsViewController: BaseViewController {
     
     @IBOutlet weak var tableView: PagedTableView!{
         didSet {
-            tableView?.register(.postCell)
+            tableView.register(.postCell, bundle: Bundle(for: type(of: self)))
         }
     }
 
@@ -42,10 +42,7 @@ extension PostsViewController: PaginatedTableViewDelegate {
 
     func loadMore(start: Int, pageCount: Int, onSuccess: ((Int) -> Void)?, onError: ((Error) -> Void)?) {
         let pagingInfo = PagingInfo(start: start)
-        vm.posts(pagingInfo: pagingInfo,
-                        onError: { error in
-                            onError?(error)
-                        })
+        vm.posts(pagingInfo: pagingInfo, onError: { onError?($0) })
                 .subscribe(onNext: { [weak self] response in
                     self?.list += response
                     onSuccess?(response.count)

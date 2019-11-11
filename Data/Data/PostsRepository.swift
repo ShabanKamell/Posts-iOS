@@ -12,7 +12,7 @@ public let postsRepository: PostsRepository = PostsRepository()
 public class PostsRepository {
 
     public func all(pagingInfo: PagingInfo, onError: @escaping (Error) -> Void) -> Observable<[PostResponse]> {
-        return allLocal(pagingInfo: pagingInfo, onError: onError)
+         allLocal(pagingInfo: pagingInfo, onError: onError)
                 .flatMap({ [unowned self] items -> Observable<[PostResponse]> in
                     if items.isEmpty {
                         return self.allRemote(pagingInfo: pagingInfo, onError: onError)
@@ -22,7 +22,7 @@ public class PostsRepository {
     }
 
     private func allLocal(pagingInfo: PagingInfo, onError: @escaping (Error) -> Void) -> Observable<[PostResponse]> {
-        return PostEntity.items(pagingInfo: pagingInfo)
+        PostEntity.items(pagingInfo: pagingInfo)
         .do(onError: { error in
             onError(error)
             print(error.localizedDescription)
@@ -30,7 +30,7 @@ public class PostsRepository {
     }
 
     private func allRemote(pagingInfo: PagingInfo, onError: @escaping (Error) -> Void) -> Observable<[PostResponse]> {
-        return requestList(
+        requestList(
                 request: {
                     api.rx.request(.posts(pagingInfo))
                 },
@@ -42,19 +42,19 @@ public class PostsRepository {
     }
 
     public func add(request: AddPostRequest) -> Observable<Success> {
-        return requestItem(request: {
+        requestItem(request: {
             api.rx.request(.addPost(request.encode()))
         })
     }
 
     public func edit(request: EditPostRequest) -> Observable<Success> {
-        return requestItem(request: {
+        requestItem(request: {
             api.rx.request(.editPost(request))
         })
     }
 
     public func delete(id: Int) -> Observable<Success> {
-        return requestItem(request: {
+        requestItem(request: {
             api.rx.request(.deletePost(id))
         })
     }
