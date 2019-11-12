@@ -12,8 +12,6 @@ import Core
 import Presentation
 import Home
 
-var appFlow: AppFlow!
-
 @UIApplicationMain
 class AppDelegate: CoreAppDelegate, UIApplicationDelegate {
 
@@ -22,19 +20,8 @@ class AppDelegate: CoreAppDelegate, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared().isEnabled = true
         self.window = UIWindow(frame: UIScreen.main.bounds)
-
-//        initFlow()
         return true
     }
-
-        private func initFlow() {
-            appFlow = AppFlow()
-            appFlow.start()
-            self.window = UIWindow()
-            appFlow.root.window = window
-            self.window?.rootViewController = appFlow.root
-            self.window?.makeKeyAndVisible()
-        }
 
     // MARK: UISceneSession Lifecycle
 

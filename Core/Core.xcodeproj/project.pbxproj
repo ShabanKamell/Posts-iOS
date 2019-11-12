@@ -38,8 +38,6 @@
 		04207812236F5EC30007CFDE /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207805236F5EC30007CFDE /* KeyboardManager.swift */; };
 		04207814236F5EC30007CFDE /* SelectionFeedbackGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207809236F5EC30007CFDE /* SelectionFeedbackGenerator.swift */; };
 		04207815236F5EC30007CFDE /* cairo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0420780B236F5EC30007CFDE /* cairo.ttf */; };
-		04207824236F5F080007CFDE /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207817236F5F080007CFDE /* UIViewController+Navigation.swift */; };
-		04207825236F5F080007CFDE /* UITableViewCell+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207818236F5F080007CFDE /* UITableViewCell+Navigation.swift */; };
 		04207826236F5F080007CFDE /* ImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420781A236F5F080007CFDE /* ImageRenderer.swift */; };
 		0420782A236F5F080007CFDE /* JSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420781F236F5F080007CFDE /* JSONCodable.swift */; };
 		0420782C236F5F080007CFDE /* AppDelegate+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207822236F5F080007CFDE /* AppDelegate+Util.swift */; };
@@ -47,7 +45,7 @@
 		046B7FBF236F368D00AE23A4 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046B7FB5236F368D00AE23A4 /* Core.framework */; };
 		046B7FC4236F368D00AE23A4 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B7FC3236F368D00AE23A4 /* CoreTests.swift */; };
 		046B7FC6236F368D00AE23A4 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B7FB8236F368D00AE23A4 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A54F35E05685F95DA56FF2C /* CoreAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F6F8DF63DDF38BB4357D /* CoreAppDelegate.swift */; };
+		1A54FB55CC6E380B16437617 /* CoreAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F78EFF4AF0A73B932F39 /* CoreAppDelegate.swift */; };
 		EF721921F582E397A866E10B /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BD1C6B4F275CE98E38207E /* Pods_Core.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,8 +91,6 @@
 		04207805236F5EC30007CFDE /* KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
 		04207809236F5EC30007CFDE /* SelectionFeedbackGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionFeedbackGenerator.swift; sourceTree = "<group>"; };
 		0420780B236F5EC30007CFDE /* cairo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cairo.ttf; sourceTree = "<group>"; };
-		04207817236F5F080007CFDE /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
-		04207818236F5F080007CFDE /* UITableViewCell+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Navigation.swift"; sourceTree = "<group>"; };
 		0420781A236F5F080007CFDE /* ImageRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRenderer.swift; sourceTree = "<group>"; };
 		0420781F236F5F080007CFDE /* JSONCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONCodable.swift; sourceTree = "<group>"; };
 		04207822236F5F080007CFDE /* AppDelegate+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Util.swift"; sourceTree = "<group>"; };
@@ -107,7 +103,7 @@
 		046B7FC5236F368D00AE23A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07BD1C6B4F275CE98E38207E /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F856705658ED56CA9EC094 /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
-		1A54F6F8DF63DDF38BB4357D /* CoreAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreAppDelegate.swift; sourceTree = "<group>"; };
+		1A54F78EFF4AF0A73B932F39 /* CoreAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreAppDelegate.swift; sourceTree = "<group>"; };
 		8EEF38583B092E2CA219FD0F /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -212,15 +208,6 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		04207816236F5F080007CFDE /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				04207817236F5F080007CFDE /* UIViewController+Navigation.swift */,
-				04207818236F5F080007CFDE /* UITableViewCell+Navigation.swift */,
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
 		04207819236F5F080007CFDE /* Misc */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,7 +257,6 @@
 			isa = PBXGroup;
 			children = (
 				04207819236F5F080007CFDE /* Misc */,
-				04207816236F5F080007CFDE /* Navigation */,
 				0420781B236F5F080007CFDE /* Protocols */,
 				04207821236F5F080007CFDE /* Util */,
 				04207808236F5EC30007CFDE /* FeedbackGenerator */,
@@ -281,7 +267,7 @@
 				0420775E236F4E560007CFDE /* Extensions */,
 				046B7FB8236F368D00AE23A4 /* Core.h */,
 				046B7FB9236F368D00AE23A4 /* Info.plist */,
-				1A54F6F8DF63DDF38BB4357D /* CoreAppDelegate.swift */,
+				1A54F78EFF4AF0A73B932F39 /* CoreAppDelegate.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -460,7 +446,6 @@
 				0420782C236F5F080007CFDE /* AppDelegate+Util.swift in Sources */,
 				0420777D236F4E560007CFDE /* Date+Components.swift in Sources */,
 				04207776236F4E560007CFDE /* Slice+Array.swift in Sources */,
-				04207824236F5F080007CFDE /* UIViewController+Navigation.swift in Sources */,
 				042077F7236F5E190007CFDE /* UserNotificationHelper.swift in Sources */,
 				04207787236F4E560007CFDE /* NSAttributedString+Color.swift in Sources */,
 				04207777236F4E560007CFDE /* NSObject+ClassName.swift in Sources */,
@@ -479,13 +464,12 @@
 				04207783236F4E560007CFDE /* Int+Localized.swift in Sources */,
 				042077FB236F5E190007CFDE /* SemanticContenthelper.swift in Sources */,
 				04207786236F4E560007CFDE /* String+HTML.swift in Sources */,
-				04207825236F5F080007CFDE /* UITableViewCell+Navigation.swift in Sources */,
 				04207810236F5EC30007CFDE /* JsonUtil.swift in Sources */,
 				04207812236F5EC30007CFDE /* KeyboardManager.swift in Sources */,
 				0420777B236F4E560007CFDE /* Bundle+Helper.swift in Sources */,
 				04207789236F4E560007CFDE /* Double+Localized.swift in Sources */,
 				0420777A236F4E560007CFDE /* String+Dimensions.swift in Sources */,
-				1A54F35E05685F95DA56FF2C /* CoreAppDelegate.swift in Sources */,
+				1A54FB55CC6E380B16437617 /* CoreAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,7 +543,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -616,7 +600,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

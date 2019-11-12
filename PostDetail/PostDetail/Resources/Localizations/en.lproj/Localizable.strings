@@ -1,0 +1,155 @@
+"add_post" = "Add Post";
+
+"Address" = "Address";
+
+"are you sure the student is picked up" = "Are you sure the student is picked up?";
+
+"Back" = "Back";
+
+"Birth Date" = "Birth Date";
+
+"boarded" = "Boarded";
+
+"Bus Location" = "Bus Location";
+
+"can_not_be_less_than" = "Can't be less than";
+
+"can_not_be_more_than" = "Can't ne more than";
+
+"cancel" = "Cancel";
+
+"Check your email for next steps" = "Check your email for next steps";
+
+"complete_trip" = "Complete Trip";
+
+"confirmation" = "Confirmation";
+
+"Connection too slow" = "Connection too slow, check your network.";
+
+"Country" = "Country";
+
+"delete" = "Delete";
+
+"details" = "Details";
+
+"direction" = "Direction";
+
+"edit" = "Edit";
+
+"edit_post" = "Edit Post";
+
+"Email" = "Email";
+
+"end_time" = "End Time";
+
+"Feedback" = "Feedback";
+
+"Fill required fields" = "Fill required fields";
+
+"First name cannot be empty" = "First name cannot be empty";
+
+"First name cannot be less than 3 letters" = "First name cannot be less than 3 letters";
+
+"First name is invalid" = "First name is invalid";
+
+"forgot_Password" = "Forgot password";
+
+"forward" = "Forward";
+
+"Go to mail" = "Go to mail";
+
+"History" = "History";
+
+"Invalid" = "Invalid";
+
+"Invalid e-mail Address" = "Invalid e-mail address";
+
+"Invalid e-mail Address" = "Invalid e-mail Address";
+
+"Last name cannot be empty" = "Last name cannot be empty";
+
+"Last name cannot be less than 3 letters" = "Last name cannot be less than 3 letters";
+
+"Last name is invalid" = "Last name is invalid";
+
+"Login" = "Login";
+
+"must_be" = "Must be";
+
+"Name" = "Name";
+
+"Nationality" = "Nationality";
+
+"network offline" = "Network appears to be offline.";
+
+"not_matching" = "Not matching";
+
+"OOPS! something went wrong" = "OOPS! something went wrong, please try again later.";
+
+"options" = "Options";
+
+"parent" = "Parent";
+
+"Password cannot be empty" = "Password cannot be empty";
+
+"Password must be at least 8 characters long" = "Password must be at least 8 characters long";
+
+"Phone Number 1" = "Phone Number 1";
+
+"Phone Number 2" = "Phone Number 2";
+
+"Picked_Up" = "Picked Up";
+
+"pickup" = "Pickup";
+
+"Please enter a valid email" = "Please enter a valid email";
+
+"proceed" = "Proceed";
+
+"Really want to log out" = "Really want to log out?";
+
+"really_want_to_complete_trip" = "Really want to complete trip?";
+
+"really_want_to_start_trip" = "Really want to start trip?";
+
+"really_want_to_update_student_location" = "Really want to update student location?";
+
+"Register" = "Register";
+
+"Required" = "Required";
+
+"Reset Password" = "Reset Password";
+
+"return" = "Return";
+
+"Save" = "Save";
+
+"School Code" = "School Code";
+
+"Send" = "Send";
+
+"Send Your Feedback" = "Feedback";
+
+"send_note" = "Send Note";
+
+"sent" = "Sent successfully.";
+
+"start_time" = "Start Time";
+
+"start_trip" = "Start Trip";
+
+"Tell us about your problem or recommendation" = "Tell us about your problem or recommendation";
+
+"Today" = "Today";
+
+"trip_completed" = "Trip Completed";
+
+"Upcoming" = "Upcoming";
+
+"update_location" = "Update Location";
+
+"updated_successfully" = "Updated successfully.";
+
+"waiting" = "Waiting";
+
+"Write note" = "Write a note";

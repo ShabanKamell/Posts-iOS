@@ -12,7 +12,6 @@ import UIKit
 	- var currentVC: Returns view controller that is currently being displayed
 */
 public protocol Flow {
-    init(root: RootViewController?)
     func start()
     var root: RootViewController! { get set }
     var currentVC: UIViewController?  { get }

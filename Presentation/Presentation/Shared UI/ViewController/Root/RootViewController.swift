@@ -4,6 +4,7 @@
 //
 import UserNotifications
 import UIKit
+import Dependencies
 
 #if DEBUG
 import FLEX
@@ -17,8 +18,6 @@ public final class RootViewController:
         Reportable,
         Alertable {
 
-    public var initialFlow: Flow!
-
     var current: UIViewController?
     var vm: RootVm!
     public var window: UIWindow!
@@ -26,7 +25,7 @@ public final class RootViewController:
     public override func viewDidLoad() {
         super.viewDidLoad()
         configureApp()
-        initialFlow.start()
+        navigate(vc: Dependencies.shared.homeModule.homeScreen())
     }
 }
 

@@ -10,10 +10,6 @@ import Presentation
 public class HomeFlow: Flow {
     public var root: RootViewController!
 
-   public required init(root: RootViewController? = nil) {
-        self.root = root
-    }
-
     public func start() {
         root?.navigate(vc: PostsBuilder.make())
     }

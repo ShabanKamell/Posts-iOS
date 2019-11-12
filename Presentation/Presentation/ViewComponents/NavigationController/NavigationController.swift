@@ -5,8 +5,8 @@ import UIKit
 public class NavigationController: UINavigationController {
     public var lastViewController: UIViewController? = nil
 
-    public override var childForStatusBarStyle: UIViewController? { return viewControllers.last }
-    public override var tabBarController: UITabBarController? { return parent?.tabBarController }
+    public override var childForStatusBarStyle: UIViewController? { viewControllers.last }
+    public override var tabBarController: UITabBarController? { parent?.tabBarController }
     var appliedAppearance: Appearance?
 
     // MARK: initializers

@@ -10,6 +10,7 @@ import UIKit
 import Core
 import Presentation
 import Home
+import Dependencies
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -24,6 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         self.window = UIWindow(windowScene: windowScene)
 
+        setupDependencies()
         initFlow()
         /*
 
@@ -44,17 +46,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     private func initFlow() {
-        appFlow = AppFlow()
-        appFlow.start()
-        self.window = UIWindow()
-        appFlow.root.window = window
-//        self.window?.rootViewController = appFlow.root
-//        self.window?.makeKeyAndVisible()
-
-        UIApplication.shared.windows.first?.rootViewController = appFlow.root
+        let root = Dependencies.shared.rootViewController.get() as! RootViewController
+        root.window = window
+        UIApplication.shared.windows.first?.rootViewController = root
         UIApplication.shared.windows.first?.makeKeyAndVisible()
-
     }
+
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

@@ -6,6 +6,7 @@
 import UIKit
 import Data
 import Presentation
+import Dependencies
 
 final class PostsViewController: BaseViewController {
     var vm: PostsViewModel!
@@ -30,6 +31,7 @@ final class PostsViewController: BaseViewController {
 extension PostsViewController {
 
     @IBAction func addPost(_ sender: UIButton) {
+        Dependencies.shared.addPostModule.push()
 //        rootViewController.navigateToAddPost() {
 //            // on real life app, we can reload data
 //            // or simply add the new post at the top of the list

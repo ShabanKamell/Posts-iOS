@@ -8,12 +8,18 @@
       location = "container:"
       name = "Features">
       <FileRef
+         location = "group:PostDetail/PostDetail.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Home/Home.xcodeproj">
       </FileRef>
    </Group>
    <Group
       location = "container:"
       name = "Common">
+      <FileRef
+         location = "group:Dependencies/Dependencies.xcodeproj">
+      </FileRef>
       <FileRef
          location = "group:Data/Data.xcodeproj">
       </FileRef>

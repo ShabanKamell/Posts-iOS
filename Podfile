@@ -75,3 +75,23 @@ target 'Home' do
     project 'Home/Home.project'
     home_pods
 end
+
+#PostDetail feature module
+def postDetail_pods
+    core_pods
+end
+
+target 'PostDetail' do
+    project 'PostDetail/PostDetail.project'
+    postDetail_pods
+end
+
+
+#PostDetail feature module
+def dependencies_pods
+end
+
+target 'Dependencies' do
+    project 'Dependencies/Dependencies.project'
+    dependencies_pods
+end
