@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,17 +17,16 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RuZ-7D-FM5" customClass="PagedTableView" customModule="Presentation">
                                 <rect key="frame" x="20" y="44" width="374" height="818"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4x-gp-ONz">
-                                <rect key="frame" x="349" y="787" width="45" height="45"/>
-                                <color key="backgroundColor" name="Green"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4x-gp-ONz">
+                                <rect key="frame" x="329" y="767" width="65" height="65"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="45" id="alG-46-6Z4"/>
-                                    <constraint firstAttribute="height" constant="45" id="mV6-Vv-f3Y"/>
+                                    <constraint firstAttribute="width" constant="65" id="rTd-6u-9gV"/>
+                                    <constraint firstAttribute="height" constant="65" id="w5V-VQ-J2O"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="+">
+                                <state key="normal" title="+" image="Plus">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -42,7 +40,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="RuZ-7D-FM5" firstAttribute="bottom" secondItem="4OS-GG-3kl" secondAttribute="bottom" id="2wG-v7-NWw"/>
                             <constraint firstItem="4OS-GG-3kl" firstAttribute="trailing" secondItem="RuZ-7D-FM5" secondAttribute="trailing" constant="20" id="6Xn-XT-sjo"/>
@@ -63,8 +62,6 @@
         </scene>
     </scenes>
     <resources>
-        <namedColor name="Green">
-            <color red="0.21568627450980393" green="0.63529411764705879" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
+        <image name="Plus" width="512" height="512"/>
     </resources>
 </document>
