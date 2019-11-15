@@ -5,6 +5,6 @@
 
 import Foundation
 
-struct ValidationInfo {
+public struct ValidationInfo {
     var isValid: Bool
 }

@@ -9,8 +9,7 @@
 import UIKit
 
 public protocol AddPostModuleProtocol {
-    func addPostScreen() -> UIViewController
-    func push() -> UIViewController
+    func addPostScreen(onAddPost: @escaping () -> Void) -> UIViewController
 }
 
 extension Dependencies {

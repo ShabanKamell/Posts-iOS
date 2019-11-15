@@ -7,6 +7,7 @@ import Foundation
 import UIKit
 import Presentation
 import Data
+import Dependencies
 
 class PostCell: BaseCell<Post, PostsViewModel> {
 
@@ -24,11 +25,13 @@ class PostCell: BaseCell<Post, PostsViewModel> {
     func didTapMore() {
         let edit = UIAlertAction(title: L10n.edit, style: .default){ [weak self] alert -> Void in
             guard self != nil else { return }
-//            rootViewController.navigateToEditPost(post: self!.item) {
-//                [weak self] in
-//                guard self != nil else { return }
-//                self?.tableView.reloadData()
-//            }
+            Dependencies.shared.editPostModule.editPostScreen(
+                    post: self!.item!,
+                    onUpdatePost: {
+                        [weak self] in
+                        guard self != nil else { return }
+                        self?.tableView.reloadData()
+                    }).push()
         }
         let delete = UIAlertAction(title: L10n.delete, style: .default){ [weak self] alert -> Void in
             self?.deletePost()
@@ -54,7 +57,7 @@ class PostCell: BaseCell<Post, PostsViewModel> {
 
     @objc
     func didTapCell() {
-//        rootViewController.navigateToPostDetail(post: item)
+        Dependencies.shared.postDetailModule.postDetailScreen(post: item!).push()
     }
 
 }

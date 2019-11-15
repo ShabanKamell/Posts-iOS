@@ -8,9 +8,9 @@ protocol ValidatorConvertible {
     func validate(_ field: UITextField, result: ValidationResult) -> Bool
 }
 
-typealias ValidationResult =  ( String?) -> Void
+public typealias ValidationResult =  ( String?) -> Void
 
-enum ValidatorType {
+public enum ValidatorType {
     case email
     case password
     case username

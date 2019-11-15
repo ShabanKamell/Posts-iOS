@@ -5,6 +5,7 @@
 import UserNotifications
 import UIKit
 import Dependencies
+import Data
 
 #if DEBUG
 import FLEX
@@ -25,7 +26,8 @@ public final class RootViewController:
     public override func viewDidLoad() {
         super.viewDidLoad()
         configureApp()
-        navigate(vc: Dependencies.shared.homeModule.homeScreen())
+        Dependencies.shared.homeModule.homeScreen().push()
+//        Dependencies.shared.postDetailModule.postDetailScreen(post: Post(id: 1, title: "TITLE", body: "BODY")).push()
     }
 }
 

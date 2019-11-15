@@ -36,6 +36,34 @@
 			remoteGlobalIDString = 0446414A237AB80C00D8FF96;
 			remoteInfo = DependenciesTests;
 		};
+		047EBF2B237F1425005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0446418D237AC81B00D8FF96 /* Dependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04464140237AB80C00D8FF96;
+			remoteInfo = Dependencies;
+		};
+		047EBF2D237F1425005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D2085A2379F7E4004CD6B9 /* Data.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FFC236F3A1500AE23A4;
+			remoteInfo = Data;
+		};
+		047EBF2F237F1425005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D208512379F7E4004CD6B9 /* Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FB4236F368D00AE23A4;
+			remoteInfo = Core;
+		};
+		047EBF31237F1425005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D208632379F7E4004CD6B9 /* Presentation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FD8236F39E000AE23A4;
+			remoteInfo = Presentation;
+		};
 		04D208412379F7B7004CD6B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04D2082D2379F7B7004CD6B9 /* Project object */;
@@ -290,6 +318,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				047EBF2C237F1425005B93CE /* PBXTargetDependency */,
+				047EBF2E237F1425005B93CE /* PBXTargetDependency */,
+				047EBF30237F1425005B93CE /* PBXTargetDependency */,
+				047EBF32237F1425005B93CE /* PBXTargetDependency */,
 			);
 			name = PostDetail;
 			productName = PostDetail;
@@ -517,6 +549,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		047EBF2C237F1425005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dependencies;
+			targetProxy = 047EBF2B237F1425005B93CE /* PBXContainerItemProxy */;
+		};
+		047EBF2E237F1425005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Data;
+			targetProxy = 047EBF2D237F1425005B93CE /* PBXContainerItemProxy */;
+		};
+		047EBF30237F1425005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			targetProxy = 047EBF2F237F1425005B93CE /* PBXContainerItemProxy */;
+		};
+		047EBF32237F1425005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Presentation;
+			targetProxy = 047EBF31237F1425005B93CE /* PBXContainerItemProxy */;
+		};
 		04D208422379F7B7004CD6B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04D208352379F7B7004CD6B9 /* PostDetail */;

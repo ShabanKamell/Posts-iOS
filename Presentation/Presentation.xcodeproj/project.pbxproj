@@ -116,6 +116,7 @@
 		1A54F71B2595F88D3589D9D5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F790678F100AA62E5D32 /* RootViewController.swift */; };
 		1A54FAC9094620CC78122405 /* RootViewConrollerProtocolImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F7089EB856468E63C704 /* RootViewConrollerProtocolImpl.swift */; };
 		1A54FB7037B18916236D8235 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F7F5A932C510069DDAE8 /* RootBuilder.swift */; };
+		1A54FBD47A086CD1F36FC013 /* UIViewController+RootNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F870EE9305DF27CF0345 /* UIViewController+RootNavigation.swift */; };
 		1A54FC71F67A77304B2E2A6E /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A54F81D712D5364DF81E854 /* Root.storyboard */; };
 		1A54FD09C9D32A72C8C6B24E /* RootVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F20991814B1F51EC490E /* RootVm.swift */; };
 		1A54FD81618984969E22696A /* RootViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FF9D4C1413977743F236 /* RootViewController+Navigation.swift */; };
@@ -159,6 +160,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 046B7FD8236F39E000AE23A4;
 			remoteInfo = Presentation;
+		};
+		047EBF0F237F13DB005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04464223237AFED300D8FF96 /* Dependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04464140237AB80C00D8FF96;
+			remoteInfo = Dependencies;
+		};
+		047EBF11237F13DB005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04941D3A23702A5800B38971 /* Data.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FFC236F3A1500AE23A4;
+			remoteInfo = Data;
+		};
+		047EBF13237F13DB005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042077D4236F55950007CFDE /* Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FB4236F368D00AE23A4;
+			remoteInfo = Core;
 		};
 		04941D3F23702A5800B38971 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -294,6 +316,7 @@
 		1A54F790678F100AA62E5D32 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1A54F7F5A932C510069DDAE8 /* RootBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
 		1A54F81D712D5364DF81E854 /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
+		1A54F870EE9305DF27CF0345 /* UIViewController+RootNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+RootNavigation.swift"; sourceTree = "<group>"; };
 		1A54F8998BACD570DB3987B3 /* RootViewController+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RootViewController+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
 		1A54F8ADD10095DE60164947 /* RootViewController+Presenters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RootViewController+Presenters.swift"; sourceTree = "<group>"; };
 		1A54F8BA30CE5EA91C8471E9 /* Flow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
@@ -476,6 +499,7 @@
 			isa = PBXGroup;
 			children = (
 				1A54F8BA30CE5EA91C8471E9 /* Flow.swift */,
+				1A54F870EE9305DF27CF0345 /* UIViewController+RootNavigation.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -799,6 +823,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				047EBF10237F13DB005B93CE /* PBXTargetDependency */,
+				047EBF12237F13DB005B93CE /* PBXTargetDependency */,
+				047EBF14237F13DB005B93CE /* PBXTargetDependency */,
 			);
 			name = Presentation;
 			productName = Presentation;
@@ -1096,6 +1123,7 @@
 				1A54FD09C9D32A72C8C6B24E /* RootVm.swift in Sources */,
 				1A54FB7037B18916236D8235 /* RootBuilder.swift in Sources */,
 				1A54FAC9094620CC78122405 /* RootViewConrollerProtocolImpl.swift in Sources */,
+				1A54FBD47A086CD1F36FC013 /* UIViewController+RootNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1114,6 +1142,21 @@
 			isa = PBXTargetDependency;
 			target = 046B7FD8236F39E000AE23A4 /* Presentation */;
 			targetProxy = 046B7FE4236F39E000AE23A4 /* PBXContainerItemProxy */;
+		};
+		047EBF10237F13DB005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dependencies;
+			targetProxy = 047EBF0F237F13DB005B93CE /* PBXContainerItemProxy */;
+		};
+		047EBF12237F13DB005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Data;
+			targetProxy = 047EBF11237F13DB005B93CE /* PBXContainerItemProxy */;
+		};
+		047EBF14237F13DB005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			targetProxy = 047EBF13237F13DB005B93CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

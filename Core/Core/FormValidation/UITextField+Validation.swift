@@ -7,7 +7,7 @@ import UIKit.UITextField
 
 extension FormEntryTextField {
 
-    func validate(
+    public func validate(
             type: ValidatorType = .requiredField,
             result: ValidationResult? = nil
     ) -> ValidationInfo {

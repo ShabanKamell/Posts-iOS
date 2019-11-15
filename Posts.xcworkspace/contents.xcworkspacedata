@@ -8,10 +8,16 @@
       location = "container:"
       name = "Features">
       <FileRef
+         location = "group:Home/Home.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:PostDetail/PostDetail.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:Home/Home.xcodeproj">
+         location = "group:AddPost/AddPost.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:EditPost/EditPost.xcodeproj">
       </FileRef>
    </Group>
    <Group

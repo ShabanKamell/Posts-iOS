@@ -11,6 +11,8 @@ import Dependencies
 import Home
 import Presentation
 import PostDetail
+import AddPost
+import EditPost
 
 
 func setupDependencies() {
@@ -23,12 +25,10 @@ func setupDependencies() {
         return rootViewController
     }
 
-    dependencies.register(HomeModuleProtocol.self) {
-         HomeModule()
-    }
+    dependencies.register(HomeModuleProtocol.self) { HomeModule() }
+    dependencies.register(PostDetailModuleProtocol.self) { PostDetailModule() }
+    dependencies.register(AddPostModuleProtocol.self) { AddPostModule()}
+    dependencies.register(EditPostModuleProtocol.self) { EditPostModule() }
 
-    dependencies.register(PostDetailModuleProtocol.self) {
-        PostDetailModule()
-    }
 
 }

@@ -2,199 +2,176 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/App/Navigation/AppDependencies.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Dependencies.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies/DependecyManager.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Dependencies.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Dependencies.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/AddPost.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/EditPost.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/Home.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/PostDetail.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Root.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/DependenciesTests/DependenciesTests.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dependencies/DependenciesTests/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Navigation/HomeModule.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-121.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-167.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-61.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-81.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-87.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/LaunchImage.launchimage/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/ic-downArrow.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/icBack.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/icBack.imageset/left-arrow (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Localizations/ar.lproj/Localizable.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Localizations/en.lproj/Localizable.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/ar.lproj/PostCell.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/ar.lproj/Posts.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/en.lproj/PostCell.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/en.lproj/Posts.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-Dependencies.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-PostDetail.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Dependencies/Pods-Dependencies-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Dependencies/Pods-Dependencies-acknowledgements.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Dependencies/Pods-Dependencies-acknowledgements.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Dependencies/Pods-Dependencies-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Dependencies/Pods-Dependencies-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Dependencies/Pods-Dependencies.debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Dependencies/Pods-Dependencies.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Dependencies/Pods-Dependencies.release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail-acknowledgements.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail-acknowledgements.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail.debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-PostDetail/Pods-PostDetail.release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/PostDetail.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Base.lproj/PostDetail.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Navigation/PostDetailModule.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetail.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailBuilder.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailViewController.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailViewModel.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-121.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-167.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-61.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-81.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-87.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/LaunchImage.launchimage/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/ic-downArrow.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/icBack.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Assets.xcassets/icBack.imageset/left-arrow (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/BlackDark.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/BlackLight.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/Blue.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/BlueDark.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/Gray.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/Green.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/GreenLight.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/Orange.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/OrangeLight.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/White.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/WhiteDark.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/Yellow.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Colors.xcassets/YellowLight.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Localizations/ar.lproj/Localizable.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/Localizations/en.lproj/Localizable.strings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Resources/PostDetailStoryboards.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetailTests/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PostDetail/PostDetailTests/PostDetailTests.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewConrollerProtocolImpl.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Presentation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Presentation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/PostDetail.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/AddPostBuilder.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/AddPostViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/AddPostViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Base.lproj/AddPost.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Navigation/AddPostModule.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/AddPostStoryboards.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-121.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/LaunchImage.launchimage/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/ic-downArrow.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/icBack.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Assets.xcassets/icBack.imageset/left-arrow (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/BlackDark.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/BlackLight.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/Blue.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/BlueDark.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/Gray.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/Green.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/GreenLight.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/Orange.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/OrangeLight.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/White.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/WhiteDark.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/Yellow.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Colors.xcassets/YellowLight.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Localizations/ar.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/Resources/Localizations/en.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/ar.lproj/AddPost.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPost/en.lproj/AddPost.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPostTests/AddPostTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AddPost/AddPostTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/App.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/AddPost.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/EditPost.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/PostDetail.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Base.lproj/EditPost.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/EditPostBuilder.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/EditPostViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/EditPostViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Navigation/EditPostModule.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/PostDetail.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-121.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/LaunchImage.launchimage/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/ic-downArrow.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/ic-downArrow.imageset/ic-more@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/icBack.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Assets.xcassets/icBack.imageset/left-arrow (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/BlackDark.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/BlackLight.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/Blue.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/BlueDark.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/Gray.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/Green.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/GreenLight.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/Orange.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/OrangeLight.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/White.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/WhiteDark.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/Yellow.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Colors.xcassets/YellowLight.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/EditPostStoryboards.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Localizations/ar.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/Resources/Localizations/en.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/ar.lproj/EditPost.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPost/en.lproj/EditPost.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPostTests/EditPostTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditPost/EditPostTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/Navigation/UIViewController+RootNavigation.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/App.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/App/App.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/App.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/App.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/App/App.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/App.xcscheme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/App.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/App/App.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/App/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/App/App/AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/App/Navigation/AppFlow.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/App/Navigation/AppNavDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/App/Navigation/AppDependencies.swift" beforeDir="false" afterPath="$PROJECT_DIR$/App/App/Navigation/AppDependencies.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/App/SceneDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/App/App/SceneDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Core.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/CoreAppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/CoreAppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Navigation/UITableViewCell+Navigation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Navigation/UIViewController+Navigation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/FormValidation/FormValidator.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/FormValidation/FormValidator.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/FormValidation/UITextField+Validation.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/FormValidation/UITextField+Validation.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/FormValidation/ValidationInfo.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/FormValidation/ValidationInfo.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/FormValidation/Validators.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core/FormValidation/Validators.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Data.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Data.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data/Model/AddPostReqest.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Model/AddPostReqest.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data/Model/EditPostReqest.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Model/EditPostReqest.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data/Model/Post.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Model/Post.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/AddPost.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/AddPost.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/EditPost.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/EditPost.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/Home.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/Home.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/PostDetail.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Modules/PostDetail.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies/Root.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies/Root.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home/Home.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/Navigation/HomeFlow.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/Navigation/HomeFlow.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/Navigation/HomeFlow.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/Navigation/HomeModule.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/Navigation/HomeModule.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/Base.lproj/Posts.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/Base.lproj/Posts.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostCell.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewModel.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Alamofire.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Alamofire.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/BartyCrouch.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/BartyCrouch.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/BulletinBoard.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/BulletinBoard.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Crashlytics.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Crashlytics.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/FLEX.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/FLEX.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Fabric.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Fabric.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/IQKeyboardManager.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/IQKeyboardManager.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Layout.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Layout.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Moya.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Moya.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-App.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-App.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-Core.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-Core.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-Data.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-Data.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-Home.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-Home.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-Presentation.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-Presentation.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Result.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Result.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/RxCocoa.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/RxCocoa.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/RxSwift.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/RxSwift.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SDWebImage.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SDWebImage.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SnapKit.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SnapKit.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SwiftGen.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SwiftGen.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SwiftLint.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SwiftLint.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SwiftMessages-SwiftMessages.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SwiftMessages-SwiftMessages.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SwiftMessages.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/SwiftMessages.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/ar.lproj/Posts.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/ar.lproj/Posts.strings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/en.lproj/Posts.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/en.lproj/Posts.strings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostDetail/PostDetail/Navigation/PostDetailModule.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PostDetail/PostDetail/Navigation/PostDetailModule.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailBuilder.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailBuilder.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/contents.xcworkspacedata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/xcshareddata/xcschemes/Presentation.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/xcshareddata/xcschemes/Presentation.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Navigation/Flow.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Navigation/Flow.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Navigation/UITableViewCell+Navigation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Navigation/UIViewController+Navigation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewController+UINavigationControllerDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/NavigationController/RootViewController+UINavigationControllerDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewConrollerProtocolImpl.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewConrollerProtocolImpl.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewController+Navigation.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewController+Navigation.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/NavigationController/NavigationController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/NavigationController/NavigationController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FormEntryTextField.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FormEntryTextField.swift" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +193,10 @@
     <expand />
     <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_B048D844-FE9F-40D1-8222-E39FA49FB094" />
+  <component name="FavoritesManager">
+    <favorites_list name="Posts" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -226,7 +206,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Presentation" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="EditPost" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.GENERIC" value="false" />
@@ -250,7 +230,16 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="AppleRunConfiguration" factoryName="Application" editBeforeRun="true" singleton="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="App" TARGET_NAME="App" CONFIG_NAME="Debug" SCHEME_NAME="App" IS_LOCATION_SIMULATION_ALLOWED="true" LOCATION_SCENARIO_ID="com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier" LOCATION_SCENARIO_TYPE="1" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="App" RUN_TARGET_NAME="App" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+    <configuration name="AddPost" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AddPost" TARGET_NAME="AddPost" CONFIG_NAME="Debug" SCHEME_NAME="AddPost" IS_LOCATION_SIMULATION_ALLOWED="true" LOCATION_SCENARIO_ID="com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier" LOCATION_SCENARIO_TYPE="1" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="AppleRunConfiguration" factoryName="Application" singleton="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="App" TARGET_NAME="App" CONFIG_NAME="Debug" SCHEME_NAME="App" IS_LOCATION_SIMULATION_ALLOWED="true" LOCATION_SCENARIO_ID="com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier" LOCATION_SCENARIO_TYPE="1" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="App" RUN_TARGET_NAME="App" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
       </EXTENSION>
@@ -260,6 +249,15 @@
       </method>
     </configuration>
     <configuration name="Dependencies" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Dependencies" TARGET_NAME="Dependencies" CONFIG_NAME="Debug" SCHEME_NAME="Dependencies" IS_LOCATION_SIMULATION_ALLOWED="true" LOCATION_SCENARIO_ID="com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier" LOCATION_SCENARIO_TYPE="1" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditPost" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EditPost" TARGET_NAME="EditPost" CONFIG_NAME="Debug" SCHEME_NAME="EditPost" IS_LOCATION_SIMULATION_ALLOWED="true" LOCATION_SCENARIO_ID="com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier" LOCATION_SCENARIO_TYPE="1" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
       </EXTENSION>
@@ -279,12 +277,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.Dependencies" />
+      <item itemvalue="Application.AddPost" />
       <item itemvalue="Application.Home" />
-      <item itemvalue="Application.Data" />
       <item itemvalue="Application.PostDetail" />
-      <item itemvalue="Application.Core" />
       <item itemvalue="Application.Presentation" />
+      <item itemvalue="Application.Dependencies" />
+      <item itemvalue="Application.Data" />
+      <item itemvalue="Application.Core" />
+      <item itemvalue="Application.EditPost" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -306,7 +306,11 @@
       <workItem from="1573502515903" duration="3469000" />
       <workItem from="1573511601870" duration="18000" />
       <workItem from="1573552078492" duration="11211000" />
-      <workItem from="1573569260991" duration="3313000" />
+      <workItem from="1573569260991" duration="3524000" />
+      <workItem from="1573748306049" duration="1811000" />
+      <workItem from="1573754618704" duration="1711000" />
+      <workItem from="1573828987582" duration="237000" />
+      <workItem from="1573829231053" duration="11017000" />
     </task>
     <servers />
   </component>
@@ -336,79 +340,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Core/Core/CoreAppDelegate.swift</url>
-          <line>33</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostCell.swift</url>
-          <line>17</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift</url>
-          <line>63</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift</url>
-          <line>65</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift</url>
-          <line>64</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift</url>
-          <line>66</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift</url>
-          <line>67</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift</url>
-          <line>68</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift</url>
-          <line>69</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift</url>
-          <line>70</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift</url>
-          <line>71</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/PagedTableView.swift</url>
-          <line>161</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/App/App/SceneDelegate.swift</url>
-          <line>23</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/App/App/SceneDelegate.swift</url>
-          <line>25</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/App/App/SceneDelegate.swift</url>
-          <line>28</line>
-          <option name="timeStamp" value="67" />
+          <url>file://$PROJECT_DIR$/PostDetail/PostDetail/PostDetailViewController.swift</url>
+          <line>19</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -10,7 +10,6 @@ import UIKit
 
 public protocol HomeModuleProtocol {
     func homeScreen() -> UIViewController
-    func push() -> UIViewController
 }
 
 extension Dependencies {

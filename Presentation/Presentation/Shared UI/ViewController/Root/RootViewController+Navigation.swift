@@ -25,13 +25,26 @@ public extension RootViewController {
 }
 
 public extension RootViewController {
+    enum NavigationType {
+        case push
+        case add
+        case present
+    }
 
-    func navigate(vc: UIViewController) {
+    func navigate(vc: UIViewController, type: NavigationType, animated: Bool = true) {
 
         vc.modalPresentationStyle = .fullScreen
         vc.modalTransitionStyle = .coverVertical
 
-        pushViewController(vc, animated: true)
+        switch type {
+        case .push:
+            pushViewController(vc, animated: animated)
+        case .add:
+            addChild(vc)
+        case .present:
+            present(vc, animated: animated)
+
+        }
         vc.view.frame = view.safeAreaLayoutGuide.layoutFrame
         view.addSubview(vc.view)
 

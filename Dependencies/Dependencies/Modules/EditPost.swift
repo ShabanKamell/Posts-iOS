@@ -7,10 +7,10 @@
 //
 
 import UIKit
+import Data
 
 public protocol EditPostModuleProtocol {
-    func editPostScreen() -> UIViewController
-    func push() -> UIViewController
+    func editPostScreen(post: Post, onUpdatePost: @escaping () -> Void) -> UIViewController
 }
 
 extension Dependencies {

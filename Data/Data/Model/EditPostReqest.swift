@@ -10,8 +10,8 @@ public struct EditPostRequest: Encodable, Decodable {
     let title: String
     let body: String
 
-    static func from(post: Post) -> EditPostRequest {
-        return EditPostRequest(
+    public static func from(post: Post) -> EditPostRequest {
+         EditPostRequest(
                 id: post.id,
                 title: post.title,
                 body: post.body

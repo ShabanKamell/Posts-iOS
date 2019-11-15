@@ -10,7 +10,7 @@ public class Post {
    public var title: String
    public var body: String
 
-    init(id: Int, title: String, body: String) {
+    public init(id: Int, title: String, body: String) {
         self.id = id
         self.title = title
         self.body = body

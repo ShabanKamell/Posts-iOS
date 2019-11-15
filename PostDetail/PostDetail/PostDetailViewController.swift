@@ -26,11 +26,11 @@ final class PostDetailViewController: BaseViewController {
 
 extension PostDetailViewController: NavControllerContext {
     public func prefersNavBarHidden(navController: UINavigationController) -> Bool {
-        return false
+         false
     }
 
     func preferredBackButtonMode(navController: UINavigationController) -> BackButtonMode {
-        return .withoutText
+         .withoutText
     }
 }
 

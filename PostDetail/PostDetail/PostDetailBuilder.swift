@@ -13,7 +13,7 @@ struct PostDetailBuilder {
         let vm = PostDetailViewModel()
         vm.post = post
         vc.vm = vm
-        return PostDetailViewController()
+        return vc
     }
 
 }

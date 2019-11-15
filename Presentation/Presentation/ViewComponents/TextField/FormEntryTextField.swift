@@ -23,7 +23,7 @@ enum HorizontalEntryPosition: Int {
 }
 
 @IBDesignable
-final class FormEntryTextField: FloatingLabelTextField {
+public final class FormEntryTextField: FloatingLabelTextField {
     @IBInspectable var defaultStyle: Bool = true
     @IBInspectable var iconImage: UIImage?
     @IBInspectable var imageViewMode: Int = FormEntryImageViewMode.left.rawValue
@@ -53,7 +53,7 @@ final class FormEntryTextField: FloatingLabelTextField {
         }
     }
     fileprivate var separators = [UIView]()
-    override var placeholder: String? {
+    public override var placeholder: String? {
         didSet {
             attributedPlaceholder = NSAttributedString(string:placeholder ?? "",
                     attributes: [.foregroundColor: UIColor.hiHint,
@@ -61,11 +61,11 @@ final class FormEntryTextField: FloatingLabelTextField {
         }
     }
 
-    override func textRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.inset(by: padding)
+    public override func textRect(forBounds bounds: CGRect) -> CGRect {
+         bounds.inset(by: padding)
     }
 
-    override func clearButtonRect(forBounds bounds: CGRect) -> CGRect {
+    public override func clearButtonRect(forBounds bounds: CGRect) -> CGRect {
         let textBounds = textRect(forBounds: bounds)
         let iconWidth: CGFloat = 16
         if effectiveUserInterfaceLayoutDirection == .rightToLeft {
@@ -87,12 +87,12 @@ final class FormEntryTextField: FloatingLabelTextField {
         }
     }
 
-    override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.inset(by: padding)
+    public override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+         bounds.inset(by: padding)
     }
 
-    override func editingRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.inset(by: padding)
+    public override func editingRect(forBounds bounds: CGRect) -> CGRect {
+         bounds.inset(by: padding)
     }
 
     override init(frame: CGRect) {
@@ -105,12 +105,12 @@ final class FormEntryTextField: FloatingLabelTextField {
         modifyAppearance()
     }
 
-    override func didMoveToWindow() {
+    public override func didMoveToWindow() {
         super.didMoveToWindow()
         modifyAppearance()
     }
 
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         setCorners(
                 verticalEntryPosition: verticalEntryPositionEnum,

@@ -1,0 +1,162 @@
+"add_post" = "إضافة منشور";
+
+"Address" = "العنوان";
+
+"are you sure the student is picked up" = "هل أنت متأكد أن الطالب قام بالركوب؟";
+
+"Back" = "الرجوع";
+
+"Birth Date" = "تاريخ الميلاد";
+
+"boarded" = "في الحافلة";
+
+"Bus Location" = "موقع الحافلة";
+
+"can_not_be_less_than" = "يجب ألا يقل عن";
+
+"can_not_be_more_than" = "يجب ألا يزيد عن";
+
+"cancel" = "إلغاء";
+
+"Check your email for next steps" = "تحقق من بريدك الإلكتروني لمعرفة الخطوات التالية";
+
+"complete_trip" = "إنهاء الرحلة";
+
+"confirmation" = "تأكيد";
+
+"Connection too slow" = "Connection too slow, check your network.";
+
+"Country" = "البلد";
+
+"delete" = "حذف";
+
+"details" = "التفاصيل";
+
+"direction" = "الاتجاه";
+
+"edit" = "تعديل";
+
+"edit_post" = "تعديل منشور";
+
+"Email" = "البريد الإكتروني";
+
+"end_time" = "وقت النهاية";
+
+"Feedback" = "الاقتراح";
+
+"Fill required fields" = "املأ الحقول المطلوبة";
+
+"First name cannot be empty" = "لا يمكن أن يكون الاسم الأول فارغًا";
+
+/* (No Comment) */
+"First name cannot be less than 3 letters" = "لا يمكن أن يكون الاسم الأول أقل من 3 أحرف";
+
+/* (No Comment) */
+"First name is invalid" = "الاسم الأول غير صحيح";
+
+"forgot_Password" = "نسيت كلمة المرور";
+
+"forward" = "ذهاب";
+
+"Go to mail" = "الذهاب إلى البريد الإلكتروني";
+
+"History" = "التاريخ";
+
+"Invalid" = "غير صحيح";
+
+"Invalid e-mail Address" = "بريد إكتروني غير صحيح";
+
+"Invalid e-mail Address" = "عنوان البريد الإلكتروني غير صحيح.";
+
+/* (No Comment) */
+"Last name cannot be empty" = "لا يمكن أن يكون الاسم الأخير فارغًا";
+
+/* (No Comment) */
+"Last name cannot be less than 3 letters" = "لا يمكن أن يكون الاسم الأخير أقل من 3 أحرف";
+
+/* (No Comment) */
+"Last name is invalid" = "الاسم الأخير غير صحيح";
+
+"Login" = "تسجيل الدخول";
+
+"must_be" = "يجب أن يكون ";
+
+"Name" = "الاسم";
+
+"Nationality" = "الجنسية";
+
+"network offline" = "لايوجد اتصال بالانترنت";
+
+"not_matching" = "غير مطابق";
+
+"OOPS! something went wrong" = "للأسف ، حدثت مشكلة غير متوقعة ، الرجاء المحاولة لاحقا.";
+
+"options" = "خيارات";
+
+"parent" = "الأب";
+
+/* (No Comment) */
+"Password cannot be empty" = "لا يمكن أن تكون كلمة المرور فارغة";
+
+/* (No Comment) */
+"Password must be at least 8 characters long" = "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل";
+
+"Phone Number 1" = "قم هاتف ١";
+
+"Phone Number 2" = "رقم هاتف ٢";
+
+"Picked_Up" = "تم الركوب";
+
+"pickup" = "الركوب";
+
+"Please enter a valid email" = "يرجى إدخال البريد الإلكتروني الصحيح";
+
+"proceed" = "استمرار";
+
+"Really want to log out" = "هل بالفعل تريد تسجيل الخروج؟";
+
+"really_want_to_complete_trip" = "هل بالفعل تريد إنهاء الرحلة؟";
+
+"really_want_to_start_trip" = "هل بالفعل تريد أن تبدأ الرحلة؟";
+
+"really_want_to_update_student_location" = "Really want to update student location?";
+
+"Register" = "تسجيل الدخول";
+
+"Required" = "مطلوب";
+
+"Reset Password" = "إعادة ضبط كلمة المرور";
+
+"return" = "عودة";
+
+"Save" = "حفظ";
+
+"School Code" = "كود المدرسة";
+
+"Send" = "إرسال";
+
+"Send Your Feedback" = "اقتراحك";
+
+"send_note" = "ملاحظة";
+
+"sent" = "تم بنجاح.";
+
+"start_time" = "وقت البداية";
+
+"start_trip" = "ابدأ الرحلة";
+
+"Tell us about your problem or recommendation" = "أخبرنا عن مشكلتك أو اقتراحك";
+
+"Today" = "اليوم";
+
+"trip_completed" = "الرحلة اكتملت";
+
+"Upcoming" = "التالي";
+
+"update_location" = "تحديث الموقع";
+
+"updated_successfully" = "تم التحديث بنجاح.";
+
+"waiting" = "في الانتظار";
+
+"Write note" = "اكتب ملاحظة";

@@ -22,7 +22,6 @@
 		04D208AC237A0052004CD6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D208A7237A0052004CD6B9 /* Assets.xcassets */; };
 		04D208AD237A0052004CD6B9 /* HomeStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D208A8237A0052004CD6B9 /* HomeStoryboards.swift */; };
 		1A54F22816E4083FB1804A0D /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F10AA938398363FC5311 /* HomeModule.swift */; };
-		1A54FC699B6F053C3642BA8C /* HomeFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F7D1F8B348CAA79157F6 /* HomeFlow.swift */; };
 		883DC1FE137AC66D5585D831 /* Pods_Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045AA9835A8D3D5E77DF3614 /* Pods_Home.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +89,34 @@
 			remoteGlobalIDString = 046B8023236F4AAF00AE23A4;
 			remoteInfo = Home;
 		};
+		047EBF1B237F1407005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0446417E237AC80900D8FF96 /* Dependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04464140237AB80C00D8FF96;
+			remoteInfo = Dependencies;
+		};
+		047EBF1D237F1407005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042078F4236F8B7A0007CFDE /* Data.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FFC236F3A1500AE23A4;
+			remoteInfo = Data;
+		};
+		047EBF1F237F1407005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042078FD236F8B810007CFDE /* Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FB4236F368D00AE23A4;
+			remoteInfo = Core;
+		};
+		047EBF21237F1407005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042078EB236F8B740007CFDE /* Presentation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FD8236F39E000AE23A4;
+			remoteInfo = Presentation;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -121,7 +148,6 @@
 		04D208A7237A0052004CD6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D208A8237A0052004CD6B9 /* HomeStoryboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStoryboards.swift; sourceTree = "<group>"; };
 		1A54F10AA938398363FC5311 /* HomeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModule.swift; sourceTree = "<group>"; };
-		1A54F7D1F8B348CAA79157F6 /* HomeFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFlow.swift; sourceTree = "<group>"; };
 		3FAEE7F96EFB5706E0AA7BFC /* Pods-Home.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home.debug.xcconfig"; path = "Target Support Files/Pods-Home/Pods-Home.debug.xcconfig"; sourceTree = "<group>"; };
 		DE4499736A80369D4D0C8C3F /* Pods-Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home.release.xcconfig"; path = "Target Support Files/Pods-Home/Pods-Home.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -279,7 +305,6 @@
 		1A54F2C0FA358B0D492BBB6F /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				1A54F7D1F8B348CAA79157F6 /* HomeFlow.swift */,
 				1A54F10AA938398363FC5311 /* HomeModule.swift */,
 			);
 			path = Navigation;
@@ -331,6 +356,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				047EBF1C237F1407005B93CE /* PBXTargetDependency */,
+				047EBF1E237F1407005B93CE /* PBXTargetDependency */,
+				047EBF20237F1407005B93CE /* PBXTargetDependency */,
+				047EBF22237F1407005B93CE /* PBXTargetDependency */,
 			);
 			name = Home;
 			productName = Home;
@@ -546,7 +575,6 @@
 				04D208A9237A0052004CD6B9 /* Assets.swift in Sources */,
 				042078E4236F8B060007CFDE /* PostsViewController.swift in Sources */,
 				042078E9236F8B060007CFDE /* PostCell.swift in Sources */,
-				1A54FC699B6F053C3642BA8C /* HomeFlow.swift in Sources */,
 				1A54F22816E4083FB1804A0D /* HomeModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,6 +594,26 @@
 			isa = PBXTargetDependency;
 			target = 046B8023236F4AAF00AE23A4 /* Home */;
 			targetProxy = 046B802F236F4AAF00AE23A4 /* PBXContainerItemProxy */;
+		};
+		047EBF1C237F1407005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dependencies;
+			targetProxy = 047EBF1B237F1407005B93CE /* PBXContainerItemProxy */;
+		};
+		047EBF1E237F1407005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Data;
+			targetProxy = 047EBF1D237F1407005B93CE /* PBXContainerItemProxy */;
+		};
+		047EBF20237F1407005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			targetProxy = 047EBF1F237F1407005B93CE /* PBXContainerItemProxy */;
+		};
+		047EBF22237F1407005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Presentation;
+			targetProxy = 047EBF21237F1407005B93CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

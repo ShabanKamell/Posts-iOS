@@ -7,7 +7,9 @@ import UIKit
 
 public protocol RootViewControllerProtocol {
     func get() -> UIViewController
-    func push(vc: UIViewController) -> UIViewController
+    func push(vc: UIViewController, animated: Bool)
+    func add(vc: UIViewController, animated: Bool)
+    func present(vc: UIViewController, animated: Bool)
 }
 
 extension Dependencies {

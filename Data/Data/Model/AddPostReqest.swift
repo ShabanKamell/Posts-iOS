@@ -8,4 +8,9 @@ import Foundation
 public struct AddPostRequest: Encodable, Decodable {
     let title: String
     let body: String
+
+    public init(title: String, body: String) {
+        self.title = title
+        self.body = body
+    }
 }

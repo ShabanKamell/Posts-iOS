@@ -13,9 +13,4 @@ public class HomeModule : HomeModuleProtocol {
     public func homeScreen() -> UIViewController {
         PostsBuilder.make()
     }
-
-    public func push() -> UIViewController {
-        Dependencies.shared.rootViewController.push(vc: homeScreen())
-    }
-
 }

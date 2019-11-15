@@ -5,9 +5,9 @@
 
 import Foundation
 
-class FormValidator {
+public class FormValidator {
 
-    static func isValid(fields: [ValidationInfo]) -> Bool {
+    public static func isValid(fields: [ValidationInfo]) -> Bool {
         var isValid = true
         fields.forEach { info in
             isValid = info.isValid && isValid

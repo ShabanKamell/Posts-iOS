@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		042078D1236F8A7A0007CFDE /* AppStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042078D0236F8A7A0007CFDE /* AppStoryboards.swift */; };
-		0446419D237AC8E800D8FF96 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0446419C237AC8E800D8FF96 /* Dependencies.framework */; };
-		0446419E237AC8E800D8FF96 /* Dependencies.framework in Copy Framworks */ = {isa = PBXBuildFile; fileRef = 0446419C237AC8E800D8FF96 /* Dependencies.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04464258237B118600D8FF96 /* Dependencies.framework in Copy Framworks */ = {isa = PBXBuildFile; fileRef = 044641F2237AE80D00D8FF96 /* Dependencies.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		046B7F79236F365B00AE23A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B7F78236F365B00AE23A4 /* AppDelegate.swift */; };
 		046B7F7B236F365B00AE23A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B7F7A236F365B00AE23A4 /* SceneDelegate.swift */; };
@@ -18,6 +16,7 @@
 		046B7F88236F365D00AE23A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B7F86236F365D00AE23A4 /* LaunchScreen.storyboard */; };
 		046B7F93236F365D00AE23A4 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B7F92236F365D00AE23A4 /* AppTests.swift */; };
 		046B7F9E236F365D00AE23A4 /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B7F9D236F365D00AE23A4 /* AppUITests.swift */; };
+		0475FC2C237EF566004350D0 /* Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044641F2237AE80D00D8FF96 /* Dependencies.framework */; };
 		04941D5A23703B4500B38971 /* Core.framework in Copy Framworks */ = {isa = PBXBuildFile; fileRef = 0420796A236F9CC40007CFDE /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04941D5B23703B5000B38971 /* Presentation.framework in Copy Framworks */ = {isa = PBXBuildFile; fileRef = 04207961236F9CC40007CFDE /* Presentation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04941D5C23703B5C00B38971 /* Data.framework in Copy Framworks */ = {isa = PBXBuildFile; fileRef = 04207973236F9CC40007CFDE /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -115,6 +114,104 @@
 			remoteGlobalIDString = 046B7F74236F365B00AE23A4;
 			remoteInfo = App;
 		};
+		0475FC2D237F0B60004350D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044641E8237AE80C00D8FF96 /* Dependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04464140237AB80C00D8FF96;
+			remoteInfo = Dependencies;
+		};
+		0475FC2F237F0B60004350D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0420796D236F9CC40007CFDE /* Data.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FFC236F3A1500AE23A4;
+			remoteInfo = Data;
+		};
+		0475FC31237F0B60004350D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04207964236F9CC40007CFDE /* Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FB4236F368D00AE23A4;
+			remoteInfo = Core;
+		};
+		0475FC33237F0B60004350D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0420795B236F9CC40007CFDE /* Presentation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FD8236F39E000AE23A4;
+			remoteInfo = Presentation;
+		};
+		0475FC39237F0B60004350D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04207952236F9CB90007CFDE /* Home.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B8023236F4AAF00AE23A4;
+			remoteInfo = Home;
+		};
+		0475FC42237F0BE6004350D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0475FC3D237F0BE6004350D0 /* PostDetail.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04D208362379F7B7004CD6B9;
+			remoteInfo = PostDetail;
+		};
+		0475FC44237F0BE6004350D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0475FC3D237F0BE6004350D0 /* PostDetail.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04D2083F2379F7B7004CD6B9;
+			remoteInfo = PostDetailTests;
+		};
+		0475FC46237F0BF0004350D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0475FC3D237F0BE6004350D0 /* PostDetail.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D208352379F7B7004CD6B9;
+			remoteInfo = PostDetail;
+		};
+		047EBFB9237F2522005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047EBFB4237F2522005B93CE /* AddPost.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04D208362379F7B7004CD6B9;
+			remoteInfo = AddPost;
+		};
+		047EBFBB237F2522005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047EBFB4237F2522005B93CE /* AddPost.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04D2083F2379F7B7004CD6B9;
+			remoteInfo = PostDetailTests;
+		};
+		047EBFC8237F2522005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047EBFC3237F2522005B93CE /* EditPost.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04D208362379F7B7004CD6B9;
+			remoteInfo = EditPost;
+		};
+		047EBFCA237F2522005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047EBFC3237F2522005B93CE /* EditPost.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04D2083F2379F7B7004CD6B9;
+			remoteInfo = PostDetailTests;
+		};
+		047EBFCC237F2540005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047EBFB4237F2522005B93CE /* AddPost.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D208352379F7B7004CD6B9;
+			remoteInfo = AddPost;
+		};
+		047EBFCE237F254D005B93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047EBFC3237F2522005B93CE /* EditPost.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D208352379F7B7004CD6B9;
+			remoteInfo = EditPost;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -128,7 +225,6 @@
 				04941D5A23703B4500B38971 /* Core.framework in Copy Framworks */,
 				04941D5B23703B5000B38971 /* Presentation.framework in Copy Framworks */,
 				04941D5C23703B5C00B38971 /* Data.framework in Copy Framworks */,
-				0446419E237AC8E800D8FF96 /* Dependencies.framework in Copy Framworks */,
 				04941D5D23703B7000B38971 /* Home.framework in Copy Framworks */,
 			);
 			name = "Copy Framworks";
@@ -160,6 +256,9 @@
 		046B7F99236F365D00AE23A4 /* AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046B7F9D236F365D00AE23A4 /* AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
 		046B7F9F236F365D00AE23A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0475FC3D237F0BE6004350D0 /* PostDetail.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PostDetail.xcodeproj; path = ../PostDetail/PostDetail.xcodeproj; sourceTree = "<group>"; };
+		047EBFB4237F2522005B93CE /* AddPost.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AddPost.xcodeproj; path = ../AddPost/AddPost.xcodeproj; sourceTree = "<group>"; };
+		047EBFC3237F2522005B93CE /* EditPost.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EditPost.xcodeproj; path = ../EditPost/EditPost.xcodeproj; sourceTree = "<group>"; };
 		04D207CE23799341004CD6B9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		04D207D723799348004CD6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A54F3A0CF028F58A272CDBF /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
@@ -176,7 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B54D55A19AA41766E75A6EC4 /* Pods_App.framework in Frameworks */,
-				0446419D237AC8E800D8FF96 /* Dependencies.framework in Frameworks */,
+				0475FC2C237EF566004350D0 /* Dependencies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +310,9 @@
 		04207906236F8B970007CFDE /* Deps */ = {
 			isa = PBXGroup;
 			children = (
+				047EBFB4237F2522005B93CE /* AddPost.xcodeproj */,
+				047EBFC3237F2522005B93CE /* EditPost.xcodeproj */,
+				0475FC3D237F0BE6004350D0 /* PostDetail.xcodeproj */,
 				044641E8237AE80C00D8FF96 /* Dependencies.xcodeproj */,
 				0420795B236F9CC40007CFDE /* Presentation.xcodeproj */,
 				04207964236F9CC40007CFDE /* Core.xcodeproj */,
@@ -322,6 +424,33 @@
 			path = AppUITests;
 			sourceTree = "<group>";
 		};
+		0475FC3E237F0BE6004350D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0475FC43237F0BE6004350D0 /* PostDetail.framework */,
+				0475FC45237F0BE6004350D0 /* PostDetailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047EBFB5237F2522005B93CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047EBFBA237F2522005B93CE /* AddPost.framework */,
+				047EBFBC237F2522005B93CE /* PostDetailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047EBFC4237F2522005B93CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047EBFC9237F2522005B93CE /* EditPost.framework */,
+				047EBFCB237F2522005B93CE /* PostDetailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1A54F69860F0073E6E41EB68 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -370,6 +499,14 @@
 			buildRules = (
 			);
 			dependencies = (
+				047EBFCF237F254D005B93CE /* PBXTargetDependency */,
+				047EBFCD237F2540005B93CE /* PBXTargetDependency */,
+				0475FC32237F0B60004350D0 /* PBXTargetDependency */,
+				0475FC30237F0B60004350D0 /* PBXTargetDependency */,
+				0475FC2E237F0B60004350D0 /* PBXTargetDependency */,
+				0475FC34237F0B60004350D0 /* PBXTargetDependency */,
+				0475FC3A237F0B60004350D0 /* PBXTargetDependency */,
+				0475FC47237F0BF0004350D0 /* PBXTargetDependency */,
 			);
 			name = App;
 			productName = App;
@@ -448,6 +585,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 047EBFB5237F2522005B93CE /* Products */;
+					ProjectRef = 047EBFB4237F2522005B93CE /* AddPost.xcodeproj */;
+				},
+				{
 					ProductGroup = 04207965236F9CC40007CFDE /* Products */;
 					ProjectRef = 04207964236F9CC40007CFDE /* Core.xcodeproj */;
 				},
@@ -460,8 +601,16 @@
 					ProjectRef = 044641E8237AE80C00D8FF96 /* Dependencies.xcodeproj */;
 				},
 				{
+					ProductGroup = 047EBFC4237F2522005B93CE /* Products */;
+					ProjectRef = 047EBFC3237F2522005B93CE /* EditPost.xcodeproj */;
+				},
+				{
 					ProductGroup = 04207953236F9CB90007CFDE /* Products */;
 					ProjectRef = 04207952236F9CB90007CFDE /* Home.xcodeproj */;
+				},
+				{
+					ProductGroup = 0475FC3E237F0BE6004350D0 /* Products */;
+					ProjectRef = 0475FC3D237F0BE6004350D0 /* PostDetail.xcodeproj */;
 				},
 				{
 					ProductGroup = 0420795C236F9CC40007CFDE /* Products */;
@@ -546,6 +695,48 @@
 			fileType = wrapper.cfbundle;
 			path = DependenciesTests.xctest;
 			remoteRef = 044641F3237AE80D00D8FF96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0475FC43237F0BE6004350D0 /* PostDetail.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PostDetail.framework;
+			remoteRef = 0475FC42237F0BE6004350D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0475FC45237F0BE6004350D0 /* PostDetailTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PostDetailTests.xctest;
+			remoteRef = 0475FC44237F0BE6004350D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		047EBFBA237F2522005B93CE /* AddPost.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AddPost.framework;
+			remoteRef = 047EBFB9237F2522005B93CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		047EBFBC237F2522005B93CE /* PostDetailTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PostDetailTests.xctest;
+			remoteRef = 047EBFBB237F2522005B93CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		047EBFC9237F2522005B93CE /* EditPost.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EditPost.framework;
+			remoteRef = 047EBFC8237F2522005B93CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		047EBFCB237F2522005B93CE /* PostDetailTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PostDetailTests.xctest;
+			remoteRef = 047EBFCA237F2522005B93CE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -681,6 +872,46 @@
 			isa = PBXTargetDependency;
 			target = 046B7F74236F365B00AE23A4 /* App */;
 			targetProxy = 046B7F9A236F365D00AE23A4 /* PBXContainerItemProxy */;
+		};
+		0475FC2E237F0B60004350D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dependencies;
+			targetProxy = 0475FC2D237F0B60004350D0 /* PBXContainerItemProxy */;
+		};
+		0475FC30237F0B60004350D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Data;
+			targetProxy = 0475FC2F237F0B60004350D0 /* PBXContainerItemProxy */;
+		};
+		0475FC32237F0B60004350D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			targetProxy = 0475FC31237F0B60004350D0 /* PBXContainerItemProxy */;
+		};
+		0475FC34237F0B60004350D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Presentation;
+			targetProxy = 0475FC33237F0B60004350D0 /* PBXContainerItemProxy */;
+		};
+		0475FC3A237F0B60004350D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Home;
+			targetProxy = 0475FC39237F0B60004350D0 /* PBXContainerItemProxy */;
+		};
+		0475FC47237F0BF0004350D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PostDetail;
+			targetProxy = 0475FC46237F0BF0004350D0 /* PBXContainerItemProxy */;
+		};
+		047EBFCD237F2540005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AddPost;
+			targetProxy = 047EBFCC237F2540005B93CE /* PBXContainerItemProxy */;
+		};
+		047EBFCF237F254D005B93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EditPost;
+			targetProxy = 047EBFCE237F254D005B93CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -823,6 +1054,7 @@
 			baseConfigurationReference = FC80E5D60DE1BC3BB92B5185 /* Pods-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6559T49JP6;
 				INFOPLIST_FILE = App/Info.plist;
@@ -832,6 +1064,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.posts.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -843,6 +1076,7 @@
 			baseConfigurationReference = EE6BB65BF2F9F3F84CF95E94 /* Pods-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6559T49JP6;
 				INFOPLIST_FILE = App/Info.plist;
@@ -852,6 +1086,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.posts.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

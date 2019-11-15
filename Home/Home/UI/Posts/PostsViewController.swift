@@ -12,12 +12,18 @@ final class PostsViewController: BaseViewController {
     var vm: PostsViewModel!
     var list: [Post] = []
     
+    
     @IBOutlet weak var tableView: PagedTableView!{
-        didSet {
-            tableView.register(.postCell, bundle: Bundle(for: type(of: self)))
+            didSet {
+                tableView.register(.postCell, bundle: Bundle(for: type(of: self)))
+            }
         }
-    }
-
+//    @IBOutlet weak var tableView: PagedTableView!{
+//        didSet {
+//            tableView.register(.postCell, bundle: Bundle(for: type(of: self)))
+//        }
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("tableView == nil \(tableView == nil)")
@@ -31,11 +37,11 @@ final class PostsViewController: BaseViewController {
 extension PostsViewController {
 
     @IBAction func addPost(_ sender: UIButton) {
-        Dependencies.shared.addPostModule.push()
-//        rootViewController.navigateToAddPost() {
-//            // on real life app, we can reload data
+        Dependencies.shared.addPostModule.addPostScreen {
+//            // on real world app, we can reload data
 //            // or simply add the new post at the top of the list
-//        }
+                }
+                .push()
     }
 
 }

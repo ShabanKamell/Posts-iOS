@@ -8,7 +8,7 @@ import Presentation
  class PostsViewModel: BaseViewModel {
 
     public func posts(pagingInfo: PagingInfo, onError: @escaping (Error) -> Void) -> Observable<[Post]> {
-        return postsRepository.all(pagingInfo: pagingInfo, onError: onError)
+         postsRepository.all(pagingInfo: pagingInfo, onError: onError)
                 .map { $0.toPresent() }
     }
 

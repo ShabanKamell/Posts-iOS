@@ -1,0 +1,8 @@
+/* Class = "UITextField"; placeholder = "Title"; ObjectID = "F8s-XC-lbm"; */
+"F8s-XC-lbm.placeholder" = "العنوان";
+
+/* Class = "UITextField"; placeholder = "Whate do you think about?"; ObjectID = "K4y-Tz-7Lb"; */
+"K4y-Tz-7Lb.placeholder" = "بم تفكر؟";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "ZDr-pS-Xzb"; */
+"ZDr-pS-Xzb.normalTitle" = "تعديل";

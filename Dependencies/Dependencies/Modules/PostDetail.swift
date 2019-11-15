@@ -11,7 +11,6 @@ import Data
 
 public protocol PostDetailModuleProtocol {
     func postDetailScreen(post: Post) -> UIViewController
-    func push(post: Post) -> UIViewController
 }
 
 extension Dependencies {

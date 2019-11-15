@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="adG-9N-UDP">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Edit Post View Controller-->
+        <scene sceneID="bE7-DK-avh">
+            <objects>
+                <viewController id="adG-9N-UDP" customClass="EditPostViewController" customModule="EditPost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Rg-tk-P7r">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="JVN-u7-odI">
+                                <rect key="frame" x="20" y="64" width="374" height="194"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F8s-XC-lbm" customClass="FormEntryTextField" customModule="Presentation">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Whate do you think about?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K4y-Tz-7Lb" customClass="FormEntryTextField" customModule="Presentation">
+                                        <rect key="frame" x="0.0" y="49" width="374" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="EaP-tM-Lnl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDr-pS-Xzb">
+                                        <rect key="frame" x="0.0" y="164" width="374" height="30"/>
+                                        <state key="normal" title="Edit"/>
+                                        <connections>
+                                            <action selector="editPost:" destination="adG-9N-UDP" eventType="touchUpInside" id="dAX-V9-Qqb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JVN-u7-odI" firstAttribute="top" secondItem="4OS-GG-3kl" secondAttribute="top" constant="20" id="IGF-Jo-SLK"/>
+                            <constraint firstItem="4OS-GG-3kl" firstAttribute="trailing" secondItem="JVN-u7-odI" secondAttribute="trailing" constant="20" id="ci8-Zb-J9u"/>
+                            <constraint firstItem="JVN-u7-odI" firstAttribute="leading" secondItem="4OS-GG-3kl" secondAttribute="leading" constant="20" id="j7c-ZJ-dgI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4OS-GG-3kl"/>
+                    </view>
+                    <connections>
+                        <outlet property="tfBody" destination="K4y-Tz-7Lb" id="tsf-nw-qYf"/>
+                        <outlet property="tfTitle" destination="F8s-XC-lbm" id="jSF-zX-cMx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSp-uK-tCD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-265.21739130434787" y="119.86607142857142"/>
+        </scene>
+    </scenes>
+</document>

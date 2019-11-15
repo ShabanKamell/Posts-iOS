@@ -13,8 +13,15 @@ extension RootViewController: RootViewControllerProtocol {
         rootViewController
     }
 
-    public func push(vc: UIViewController) -> UIViewController {
-        rootViewController.navigate(vc: vc)
-        return vc
+    public func push(vc: UIViewController, animated: Bool = true) {
+        rootViewController.navigate(vc: vc, type: .push, animated: animated)
+    }
+
+    public func add(vc: UIViewController, animated: Bool = true) {
+        rootViewController.navigate(vc: vc, type: .add, animated: animated)
+    }
+
+    public func present(vc: UIViewController, animated: Bool = true) {
+        rootViewController.navigate(vc: vc, type: .present, animated: animated)
     }
 }

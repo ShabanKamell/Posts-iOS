@@ -48,8 +48,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private func initFlow() {
         let root = Dependencies.shared.rootViewController.get() as! RootViewController
         root.window = window
-        UIApplication.shared.windows.first?.rootViewController = root
-        UIApplication.shared.windows.first?.makeKeyAndVisible()
+        window?.rootViewController = root
+        self.window?.makeKeyAndVisible()
+//        UIApplication.shared.windows.first?.rootViewController = root
+//        UIApplication.shared.windows.first?.makeKeyAndVisible()
     }
 
 

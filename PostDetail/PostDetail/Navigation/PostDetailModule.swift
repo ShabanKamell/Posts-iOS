@@ -15,7 +15,4 @@ public class PostDetailModule : PostDetailModuleProtocol {
         PostDetailBuilder.make(post: post)
     }
 
-    public func push(post: Post) -> UIViewController {
-        Dependencies.shared.rootViewController.push(vc: postDetailScreen(post: post))
-    }
 }
