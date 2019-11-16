@@ -29,8 +29,14 @@ public final class FormEntryTextField: FloatingLabelTextField {
             = UIApplication.shared.userInterfaceLayoutDirection == .leftToRight ?
             FormEntryImageViewMode.left.rawValue : FormEntryImageViewMode.right.rawValue
 
-    @IBInspectable var verticalEntryPosition: Int = VerticalEntryPosition.alone.rawValue { didSet { modifyAppearance() } }
-    @IBInspectable var horizontalEntryPosition: Int = HorizontalEntryPosition.alone.rawValue { didSet { modifyAppearance() } }
+    @IBInspectable var verticalEntryPosition: Int = VerticalEntryPosition.alone.rawValue {
+        didSet { modifyAppearance() }
+    }
+
+    @IBInspectable var horizontalEntryPosition: Int = HorizontalEntryPosition.alone.rawValue {
+        didSet { modifyAppearance() }
+    }
+
     @IBInspectable var rightContentInset: CGFloat = 0
 
     fileprivate var imageViewModeEnum: FormEntryImageViewMode {
@@ -200,7 +206,9 @@ public extension FormEntryTextField {
         case .right: roundingCorners.remove([.topLeft, .bottomLeft])
         }
 
-        cornerRadius = floor((frame.height / 2) - 1)
+        if cornerRadius.isZero {
+            cornerRadius = floor((frame.height / 2) - 1)
+        }
 
         borderWidth = 0.8
         borderColor = Asset.Colors.blackLight.color

@@ -12,7 +12,7 @@ extension UIView {
     @IBInspectable
     var cornerRadius: CGFloat {
         get {
-            return layer.cornerRadius
+             layer.cornerRadius
         }
         set {
             layer.cornerRadius = newValue
@@ -41,7 +41,7 @@ extension UIView {
     @IBInspectable
     var borderWidth: CGFloat {
         get {
-            return layer.borderWidth
+            layer.borderWidth
         }
         set {
             layer.borderWidth = newValue
@@ -68,7 +68,7 @@ extension UIView {
     @IBInspectable
     var shadowRadius: CGFloat {
         get {
-            return layer.shadowRadius
+            layer.shadowRadius
         }
         set {
             layer.shadowRadius = newValue
@@ -78,7 +78,7 @@ extension UIView {
     @IBInspectable
     var shadowOpacity: Float {
         get {
-            return layer.shadowOpacity
+            layer.shadowOpacity
         }
         set {
             layer.shadowOpacity = newValue
@@ -88,7 +88,7 @@ extension UIView {
     @IBInspectable
     var shadowOffset: CGSize {
         get {
-            return layer.shadowOffset
+            layer.shadowOffset
         }
         set {
             layer.shadowOffset = newValue

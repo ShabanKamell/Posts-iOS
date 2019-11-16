@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FloatingLabel.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostCell.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddPost/AddPost/Base.lproj/AddPost.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/AddPost/AddPost/Base.lproj/AddPost.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditPost/EditPost/Base.lproj/EditPost.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/EditPost/EditPost/Base.lproj/EditPost.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Extensions/UIKit/TaableView/UITableView+Cell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/UITableView+Cell.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Extensions/UIKit/TaableView/UITableView+Setup.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/UITableView+Setup.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/BaseCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/ConfigurableCell.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/CellConfigurator.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/TableDataSource.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/RequestProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/RxInterceptor.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Extensions/UIKit/View+Style.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Extensions/UIKit/View+Style.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FloatingLabelTextField.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FloatingLabelTextField.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FormEntryTextField.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FormEntryTextField.swift" afterDir="false" />
     </list>
@@ -154,7 +154,7 @@
       <workItem from="1573828987582" duration="237000" />
       <workItem from="1573829231053" duration="12953000" />
       <workItem from="1573863254842" duration="1497000" />
-      <workItem from="1573900889424" duration="4344000" />
+      <workItem from="1573900889424" duration="7744000" />
     </task>
     <servers />
   </component>
