@@ -11,14 +11,21 @@ import Dependencies
 
 class PostCell: BaseCell<Post, PostsViewModel> {
 
+    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var lblTime: UILabel!
     @IBOutlet weak var lblTitle: UILabel!
-    @IBOutlet weak var ivMore: UIImageView!
-
+    @IBOutlet weak var lblBody: UILabel!
+    @IBOutlet weak var ivAvatar: UIImageView!
+    @IBOutlet weak var btnMore: UIButton!
+    
     override func setup() {
         super.setup()
-        ivMore.tap(target: self, action: #selector(didTapMore))
+        btnMore.tap(target: self, action: #selector(didTapMore))
         contentView.tap(target: self, action: #selector(didTapCell))
         lblTitle.text = item.title
+        lblBody.text = item.body
+        lblName.text = "Sha"
+        lblTime.text = "4m"
     }
 
     @objc

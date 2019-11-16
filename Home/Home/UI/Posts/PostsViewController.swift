@@ -26,7 +26,6 @@ final class PostsViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("tableView == nil \(tableView == nil)")
         tableView.paginatedDelegate = self
         tableView.paginatedDataSource = self
         tableView.loadItems()

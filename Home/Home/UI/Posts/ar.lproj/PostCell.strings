@@ -1,2 +1,11 @@
-/* Class = "UILabel"; text = "TITLE"; ObjectID = "yOt-P7-XL6"; */
-"yOt-P7-XL6.text" = "TITLE";
+/* Class = "UILabel"; text = "BODY"; ObjectID = "B2s-fr-Oiu"; */
+"B2s-fr-Oiu.text" = "";
+
+/* Class = "UILabel"; text = "NAME"; ObjectID = "FVj-P5-rdw"; */
+"FVj-P5-rdw.text" = "";
+
+/* Class = "UILabel"; text = "4m"; ObjectID = "Igz-T2-hal"; */
+"Igz-T2-hal.text" = "";
+
+/* Class = "UILabel"; text = "TITLE"; ObjectID = "orB-2D-j6m"; */
+"orB-2D-j6m.text" = "";

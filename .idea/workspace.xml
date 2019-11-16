@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/More.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/More.imageset/more (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/UserPlaceholder.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/UserPlaceholder.imageset/profile.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/Resources/Assets.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/Base.lproj/PostCell.xib" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/Base.lproj/PostCell.xib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/Base.lproj/Posts.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/Base.lproj/Posts.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostCell.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/ar.lproj/PostCell.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/ar.lproj/PostCell.strings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/en.lproj/PostCell.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/en.lproj/PostCell.strings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -141,7 +153,8 @@
       <workItem from="1573748306049" duration="1811000" />
       <workItem from="1573754618704" duration="1711000" />
       <workItem from="1573828987582" duration="237000" />
-      <workItem from="1573829231053" duration="11249000" />
+      <workItem from="1573829231053" duration="12953000" />
+      <workItem from="1573863254842" duration="1386000" />
     </task>
     <servers />
   </component>
@@ -166,16 +179,5 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/PostDetail/PostDetail/PostDetailViewController.swift</url>
-          <line>19</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
