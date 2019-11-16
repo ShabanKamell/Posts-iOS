@@ -65,9 +65,7 @@
 		04207891236F63E70007CFDE /* ActionsBulletin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420784A236F63E70007CFDE /* ActionsBulletin.swift */; };
 		04207894236F63E70007CFDE /* RoundStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420784F236F63E70007CFDE /* RoundStackView.swift */; };
 		04207895236F63E70007CFDE /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207851236F63E70007CFDE /* BaseViewModel.swift */; };
-		04207898236F63E70007CFDE /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04207855236F63E70007CFDE /* LoadingCell.xib */; };
 		04207899236F63E70007CFDE /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207856236F63E70007CFDE /* ConfigurableCell.swift */; };
-		0420789A236F63E70007CFDE /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207857236F63E70007CFDE /* LoadingCell.swift */; };
 		0420789B236F63E70007CFDE /* PagedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207858236F63E70007CFDE /* PagedTableView.swift */; };
 		0420789C236F63E70007CFDE /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207859236F63E70007CFDE /* DatePicker.swift */; };
 		0420789D236F63E70007CFDE /* UIFont+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420785B236F63E70007CFDE /* UIFont+Custom.swift */; };
@@ -257,9 +255,7 @@
 		0420784A236F63E70007CFDE /* ActionsBulletin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionsBulletin.swift; sourceTree = "<group>"; };
 		0420784F236F63E70007CFDE /* RoundStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundStackView.swift; sourceTree = "<group>"; };
 		04207851236F63E70007CFDE /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
-		04207855236F63E70007CFDE /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		04207856236F63E70007CFDE /* ConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
-		04207857236F63E70007CFDE /* LoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		04207858236F63E70007CFDE /* PagedTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagedTableView.swift; sourceTree = "<group>"; };
 		04207859236F63E70007CFDE /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		0420785B236F63E70007CFDE /* UIFont+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Custom.swift"; sourceTree = "<group>"; };
@@ -528,9 +524,7 @@
 		04207852236F63E70007CFDE /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				04207855236F63E70007CFDE /* LoadingCell.xib */,
 				04207856236F63E70007CFDE /* ConfigurableCell.swift */,
-				04207857236F63E70007CFDE /* LoadingCell.swift */,
 				04207858236F63E70007CFDE /* PagedTableView.swift */,
 				1A54FAC73594EF91A291D2BE /* UITableView+Setup.swift */,
 				1A54FC16527B6F504AFBC364 /* UITableView+Cell.swift */,
@@ -951,7 +945,6 @@
 			files = (
 				042078AF236F63E80007CFDE /* Colors.xcassets in Resources */,
 				042078B0236F63E80007CFDE /* Localizable.strings in Resources */,
-				04207898236F63E70007CFDE /* LoadingCell.xib in Resources */,
 				042078B1236F63E80007CFDE /* Assets.xcassets in Resources */,
 				1A54FC71F67A77304B2E2A6E /* Root.storyboard in Resources */,
 			);
@@ -1065,7 +1058,6 @@
 				0420789C236F63E70007CFDE /* DatePicker.swift in Sources */,
 				04941D3723702A1F00B38971 /* NonHttpErrorHandler.swift in Sources */,
 				04207883236F63E70007CFDE /* TabBarSplitViewController.swift in Sources */,
-				0420789A236F63E70007CFDE /* LoadingCell.swift in Sources */,
 				042077BC236F4E850007CFDE /* UIView+RoundCorners.swift in Sources */,
 				042078AE236F63E80007CFDE /* ConfirmBulletinItem.swift in Sources */,
 				0420787B236F63E70007CFDE /* RoundImage.swift in Sources */,
