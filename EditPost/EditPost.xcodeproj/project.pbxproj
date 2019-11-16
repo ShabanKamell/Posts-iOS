@@ -170,15 +170,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04D2082C2379F7B7004CD6B9 = {
+		0496195223804544003963DD /* Misc */ = {
 			isa = PBXGroup;
 			children = (
 				04D208502379F7CB004CD6B9 /* Deps */,
-				04D208382379F7B7004CD6B9 /* EditPost */,
-				04D208432379F7B7004CD6B9 /* EditPostTests */,
 				04D208372379F7B7004CD6B9 /* Products */,
 				31677AE76FBC17FB4BED4BC1 /* Pods */,
 				8E33E65E51AEDACB05E514B6 /* Frameworks */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		04D2082C2379F7B7004CD6B9 = {
+			isa = PBXGroup;
+			children = (
+				0496195223804544003963DD /* Misc */,
+				04D208382379F7B7004CD6B9 /* EditPost */,
+				04D208432379F7B7004CD6B9 /* EditPostTests */,
 			);
 			sourceTree = "<group>";
 		};

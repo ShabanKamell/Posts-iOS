@@ -9,25 +9,20 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
-		<key>EditPost.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>41</integer>
-		</dict>
 		<key>PostDetail.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>6</integer>
 		</dict>
 		<key>PostDetail.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>22</integer>
 		</dict>
 		<key>PostDetailTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>40</integer>
+			<integer>44</integer>
 		</dict>
 	</dict>
 </dict>

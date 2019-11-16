@@ -18,6 +18,7 @@
 		1A54F4A5711F5C79E0A8CCC6 /* EditPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F85F5139F4E87231435C /* EditPost.swift */; };
 		1A54F5B02D019C3D55CE192A /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F1721281045543C9A612 /* PostDetail.swift */; };
 		1A54FC2F6979526F61C2D364 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F86B86AB6AA6F879B7D6 /* Home.swift */; };
+		BB2544D5EDA04B4F61739804 /* Pods_Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F697FCCBE74F48623E7548D7 /* Pods_Dependencies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +68,11 @@
 		1A54FB22C5FDD3539B6D2AD2 /* AddPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPost.swift; sourceTree = "<group>"; };
 		1A54FF74499138ABCAB1035A /* Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
 		2E557F94424EC974937DD1D5 /* Pods-Dependencies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependencies.release.xcconfig"; path = "Target Support Files/Pods-Dependencies/Pods-Dependencies.release.xcconfig"; sourceTree = "<group>"; };
+		765251E41C6782722F83555B /* Pods-Dependencies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependencies.release.xcconfig"; path = "Target Support Files/Pods-Dependencies/Pods-Dependencies.release.xcconfig"; sourceTree = "<group>"; };
 		92B4135C6D1683148DC4698D /* Pods-Dependencies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependencies.debug.xcconfig"; path = "Target Support Files/Pods-Dependencies/Pods-Dependencies.debug.xcconfig"; sourceTree = "<group>"; };
 		B46CAEFDFD648EB4CB4EFC76 /* Pods_Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DADB66B6FB9FA726F1347F /* Pods-Dependencies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependencies.debug.xcconfig"; path = "Target Support Files/Pods-Dependencies/Pods-Dependencies.debug.xcconfig"; sourceTree = "<group>"; };
+		F697FCCBE74F48623E7548D7 /* Pods_Dependencies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dependencies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C3EE093C1E257AA377ECEA /* Pods_Dependencies.framework in Frameworks */,
+				BB2544D5EDA04B4F61739804 /* Pods_Dependencies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +99,11 @@
 		04464137237AB80B00D8FF96 = {
 			isa = PBXGroup;
 			children = (
-				0446423A237B03FE00D8FF96 /* Deps */,
+				049619582380455D003963DD /* Misc */,
 				04464143237AB80C00D8FF96 /* Dependencies */,
 				0446414E237AB80C00D8FF96 /* DependenciesTests */,
-				04464142237AB80C00D8FF96 /* Products */,
-				B06101DDBEFB486C7B41B102 /* Pods */,
-				F17DBEF39A74EE44E9383BFC /* Frameworks */,
+				C35CCC4C8F6C379373090837 /* Pods */,
+				BAEA2FA5858FAC40D30FF57E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +155,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		049619582380455D003963DD /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				0446423A237B03FE00D8FF96 /* Deps */,
+				04464142237AB80C00D8FF96 /* Products */,
+				B06101DDBEFB486C7B41B102 /* Pods */,
+				F17DBEF39A74EE44E9383BFC /* Frameworks */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
 		1A54F13ACEB77741AD8A51CD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +182,24 @@
 			children = (
 				92B4135C6D1683148DC4698D /* Pods-Dependencies.debug.xcconfig */,
 				2E557F94424EC974937DD1D5 /* Pods-Dependencies.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		BAEA2FA5858FAC40D30FF57E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F697FCCBE74F48623E7548D7 /* Pods_Dependencies.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C35CCC4C8F6C379373090837 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4DADB66B6FB9FA726F1347F /* Pods-Dependencies.debug.xcconfig */,
+				765251E41C6782722F83555B /* Pods-Dependencies.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
