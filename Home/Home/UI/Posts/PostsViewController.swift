@@ -18,11 +18,6 @@ final class PostsViewController: BaseViewController {
                 tableView.register(.postCell, bundle: Bundle(for: type(of: self)))
             }
         }
-//    @IBOutlet weak var tableView: PagedTableView!{
-//        didSet {
-//            tableView.register(.postCell, bundle: Bundle(for: type(of: self)))
-//        }
-//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,25 +56,41 @@ extension PostsViewController: PaginatedTableViewDelegate {
 
 // MARK: Paginated Data Source
 extension PostsViewController: PaginatedTableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-         list.count
-    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { list.count }
+    func numberOfSections(in tableView: UITableView) -> Int { 1 }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: PostCell = tableView.configureCell(
+        let cell = tableView.configureCell(
                 identifier: .postCell,
                 indexPath: indexPath,
                 item: list[indexPath.row],
-                tableView: tableView,
-                vm: vm,
-                vc: self
-        )
+                delegate: self
+        ) as PostCell
+        cell.delegate = self
         return cell
     }
 
-    func numberOfSections(in tableView: UITableView) -> Int {
-         1
+}
+
+extension PostsViewController: PostCellDelegate {
+    func deletePost(post: Post, cell: ConfigurableCell<Post>) {
+        vm.delete(id: post.id)
+                .subscribe(onNext: { [weak self] response in
+                    guard self != nil else { return }
+                    self!.list.remove(at: cell.indexPath.row)
+                    cell.deleteRow()
+                })
+                .disposed(by: disposeBag)
     }
+}
+
+extension PostsViewController: ConfigurableCellDelegate {
+    public func cellTableView() -> UITableView {
+        tableView
+    }
+
+//    func tableView(for cell: ConfigurableCell<Post>) -> UITableView { tableView }
+    func viewController() -> UIViewController { self }
 }
 
 

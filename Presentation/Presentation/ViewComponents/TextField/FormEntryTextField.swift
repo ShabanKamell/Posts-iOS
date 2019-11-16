@@ -1,5 +1,3 @@
-//Copyright HitchHiker© 2017. All rights reserved.
-
 import UIKit
 
 enum FormEntryImageViewMode: Int {
@@ -14,7 +12,6 @@ enum VerticalEntryPosition: Int {
     case middle = 2
     case bottom = 3
 }
-
 enum HorizontalEntryPosition: Int {
     case alone = 0
     case left = 1
@@ -26,21 +23,26 @@ enum HorizontalEntryPosition: Int {
 public final class FormEntryTextField: FloatingLabelTextField {
     @IBInspectable var defaultStyle: Bool = true
     @IBInspectable var iconImage: UIImage?
-    @IBInspectable var imageViewMode: Int = FormEntryImageViewMode.left.rawValue
+    @IBInspectable var iconTintColor: UIColor?
+
+    @IBInspectable var imageViewMode: Int
+            = UIApplication.shared.userInterfaceLayoutDirection == .leftToRight ?
+            FormEntryImageViewMode.left.rawValue : FormEntryImageViewMode.right.rawValue
+
     @IBInspectable var verticalEntryPosition: Int = VerticalEntryPosition.alone.rawValue { didSet { modifyAppearance() } }
     @IBInspectable var horizontalEntryPosition: Int = HorizontalEntryPosition.alone.rawValue { didSet { modifyAppearance() } }
     @IBInspectable var rightContentInset: CGFloat = 0
 
     fileprivate var imageViewModeEnum: FormEntryImageViewMode {
-        return FormEntryImageViewMode(rawValue: imageViewMode) ?? .none
+        FormEntryImageViewMode(rawValue: imageViewMode) ?? .none
     }
 
     fileprivate var horizontalEntryPositionEnum: HorizontalEntryPosition {
-        return HorizontalEntryPosition(rawValue: horizontalEntryPosition) ?? .alone
+        HorizontalEntryPosition(rawValue: horizontalEntryPosition) ?? .alone
     }
 
     fileprivate var verticalEntryPositionEnum: VerticalEntryPosition {
-        return VerticalEntryPosition(rawValue: verticalEntryPosition) ?? .alone
+        VerticalEntryPosition(rawValue: verticalEntryPosition) ?? .alone
     }
 
     fileprivate var padding: UIEdgeInsets {
@@ -57,18 +59,18 @@ public final class FormEntryTextField: FloatingLabelTextField {
         didSet {
             attributedPlaceholder = NSAttributedString(string:placeholder ?? "",
                     attributes: [.foregroundColor: UIColor.hiHint,
-                                 .font : UIFont.cairo])
+                                 .font : UIFont.hiAccountCreationButton])
         }
     }
 
     public override func textRect(forBounds bounds: CGRect) -> CGRect {
-         bounds.inset(by: padding)
+        bounds.inset(by: padding)
     }
 
     public override func clearButtonRect(forBounds bounds: CGRect) -> CGRect {
         let textBounds = textRect(forBounds: bounds)
         let iconWidth: CGFloat = 16
-        if effectiveUserInterfaceLayoutDirection == .rightToLeft {
+        if effectiveUserInterfaceLayoutDirection == .leftToRight {
             let newBounds = CGRect(
                     x: textBounds.maxX - iconWidth,
                     y: 0,
@@ -139,13 +141,17 @@ public final class FormEntryTextField: FloatingLabelTextField {
 }
 
 // MARK: - Private methods
-extension FormEntryTextField {
+public extension FormEntryTextField {
     fileprivate func setIcons(_ imageViewMode: FormEntryImageViewMode) {
 
         guard let iconImage = iconImage else { return }
 
         let imageView = UIImageView(image: iconImage)
         imageView.contentMode = .scaleAspectFit
+
+        if iconTintColor != nil {
+            imageView.tintColor = iconTintColor
+        }
 
         let containerView = UIView(
                 frame: CGRect(
@@ -194,13 +200,11 @@ extension FormEntryTextField {
         case .right: roundingCorners.remove([.topLeft, .bottomLeft])
         }
 
-//        cornerRadius = floor((frame.height / 2) - 1)
-        cornerRadius = 10
+        cornerRadius = floor((frame.height / 2) - 1)
 
-        borderWidth = 0.3
-        borderColor = Asset.Colors.green.color
-//        borderColor = UIColor.clear
-        backgroundColor = UIColor.white
+        borderWidth = 0.8
+        borderColor = Asset.Colors.blackLight.color
+        backgroundColor = UIColor.clear
 
     }
 

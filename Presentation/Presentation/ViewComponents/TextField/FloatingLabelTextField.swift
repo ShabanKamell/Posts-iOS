@@ -1,33 +1,19 @@
-//  Copyright 2016-2019 Skyscanner Ltd
-//
-//  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance
-//  with the License. You may obtain a copy of the License at
-//
-//  http://www.apache.org/licenses/LICENSE-2.0
-//
-//  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed
-//  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
-//  for the specific language governing permissions and limitations under the License.
-
 import UIKit
 import SnapKit
 
-/**
- A beautiful and flexible textfield implementation with support for title label, error message and placeholder.
- */
 @IBDesignable
 open class FloatingLabelTextField: UITextField { // swiftlint:disable:this type_body_length
     /**
      A Boolean value that determines if the language displayed is LTR.
      Default value set automatically from the application language settings.
      */
-    @objc open var isLTRLanguage: Bool = UIApplication.shared.userInterfaceLayoutDirection == .rightToLeft {
+    @objc open var isLTRLanguage: Bool = UIApplication.shared.userInterfaceLayoutDirection == .leftToRight {
         didSet {
-            updateTextAligment()
+            updateTextAlignment()
         }
     }
 
-    fileprivate func updateTextAligment() {
+    fileprivate func updateTextAlignment() {
         if isLTRLanguage {
             textAlignment = .left
             titleLabel.textAlignment = .left
@@ -159,7 +145,7 @@ open class FloatingLabelTextField: UITextField { // swiftlint:disable:this type_
     }
 
     /// A UIColor value that determines the text color of the title label when editing
-    @IBInspectable dynamic open var selectedTitleColor: UIColor = Asset.Colors.green.color {
+    @IBInspectable dynamic open var selectedTitleColor: UIColor = .blue {
         didSet {
             updateTitleColor()
         }
@@ -175,7 +161,7 @@ open class FloatingLabelTextField: UITextField { // swiftlint:disable:this type_
     // MARK: Line height
 
     /// A CGFloat value that determines the height for the bottom line when the control is in the normal state
-    @IBInspectable dynamic open var lineHeight: CGFloat = 1 {
+    @IBInspectable dynamic open var lineHeight: CGFloat = 0.5 {
         didSet {
             updateLineView()
             setNeedsDisplay()
@@ -196,7 +182,7 @@ open class FloatingLabelTextField: UITextField { // swiftlint:disable:this type_
     open var lineView: UIView!
 
     /// The internal `UILabel` that displays the selected, deselected title or error message based on the current state.
-    open var titleLabel: UILabel!
+    open var titleLabel: FloatingLabel!
 
     // MARK: Properties
     open var uppercaseTitle = false
@@ -206,7 +192,7 @@ open class FloatingLabelTextField: UITextField { // swiftlint:disable:this type_
     This can be the `title`, `selectedTitle` or the `errorMessage`.
     The default implementation converts the text to uppercase.
     */
-   lazy open var titleFormatter: ((String) -> String) = { (text: String) -> String in
+    lazy open var titleFormatter: ((String) -> String) = { (text: String) -> String in
         guard self.uppercaseTitle else {
             return text
         }
@@ -338,7 +324,7 @@ open class FloatingLabelTextField: UITextField { // swiftlint:disable:this type_
         createLineView()
         updateColors()
         addEditingChangedObserver()
-        updateTextAligment()
+        updateTextAlignment()
     }
 
     fileprivate func addEditingChangedObserver() {
@@ -356,16 +342,19 @@ open class FloatingLabelTextField: UITextField { // swiftlint:disable:this type_
     // MARK: create components
 
     fileprivate func createTitleLabel() {
-        let titleLabel = UILabel()
+        let titleLabel = FloatingLabel()
         titleLabel.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         titleLabel.font = titleFont
         titleLabel.alpha = 0.0
         titleLabel.textColor = titleColor
+        titleLabel.frame.size.width = self.frame.width
+
         addSubview(titleLabel)
-        titleLabel.snp.makeConstraints { make in
-            make.top.equalToSuperview()
-            make.width.equalToSuperview()
+
+        titleLabel.snp.makeConstraints { (make) -> Void in
+            make.width.equalTo(self.snp.width)
         }
+
         self.titleLabel = titleLabel
     }
 
@@ -628,16 +617,20 @@ open class FloatingLabelTextField: UITextField { // swiftlint:disable:this type_
     - returns: The rectangle that the title label should render in
     */
     open func titleLabelRectForBounds(_ bounds: CGRect, editing: Bool) -> CGRect {
+        let frameWidth = bounds.size.width
+        let boundsWidth = frame.size.width
+        let mainWidth = UIScreen.main.bounds.width
+
         if editing {
             return CGRect(
                     x: 0,
                     y: 0,
-                    width: bounds.size.width - 30,
+                    width: bounds.size.width,
                     height: titleHeight()
             )
         }
         return CGRect(
-                x: 30,
+                x: 0,
                 y: titleHeight(),
                 width: bounds.size.width,
                 height: titleHeight()

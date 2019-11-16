@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/More.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/More.imageset/more (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/UserPlaceholder.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.xcassets/UserPlaceholder.imageset/profile.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FloatingLabel.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/Resources/Assets.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/Resources/Assets.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/Base.lproj/PostCell.xib" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/Base.lproj/PostCell.xib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/Base.lproj/Posts.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/Base.lproj/Posts.storyboard" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostCell.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/ar.lproj/PostCell.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/ar.lproj/PostCell.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/en.lproj/PostCell.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/en.lproj/PostCell.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Extensions/UIKit/TaableView/UITableView+Cell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/UITableView+Cell.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Extensions/UIKit/TaableView/UITableView+Setup.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/UITableView+Setup.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/BaseCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/ConfigurableCell.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/CellConfigurator.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/TableDataSource.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FloatingLabelTextField.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FloatingLabelTextField.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FormEntryTextField.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/TextField/FormEntryTextField.swift" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="EditPost" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Presentation" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.GENERIC" value="false" />
@@ -154,7 +153,8 @@
       <workItem from="1573754618704" duration="1711000" />
       <workItem from="1573828987582" duration="237000" />
       <workItem from="1573829231053" duration="12953000" />
-      <workItem from="1573863254842" duration="1386000" />
+      <workItem from="1573863254842" duration="1497000" />
+      <workItem from="1573900889424" duration="4344000" />
     </task>
     <servers />
   </component>

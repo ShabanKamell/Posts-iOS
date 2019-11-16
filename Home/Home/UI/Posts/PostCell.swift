@@ -9,7 +9,10 @@ import Presentation
 import Data
 import Dependencies
 
-class PostCell: BaseCell<Post, PostsViewModel> {
+protocol PostCellDelegate {
+    func deletePost(post: Post, cell: ConfigurableCell<Post>)
+}
+class PostCell: ConfigurableCell<Post> {
 
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var lblTime: UILabel!
@@ -17,7 +20,9 @@ class PostCell: BaseCell<Post, PostsViewModel> {
     @IBOutlet weak var lblBody: UILabel!
     @IBOutlet weak var ivAvatar: UIImageView!
     @IBOutlet weak var btnMore: UIButton!
-    
+
+    var delegate: PostCellDelegate!
+
     override func setup() {
         super.setup()
         btnMore.tap(target: self, action: #selector(didTapMore))
@@ -37,7 +42,7 @@ class PostCell: BaseCell<Post, PostsViewModel> {
                     onUpdatePost: {
                         [weak self] in
                         guard self != nil else { return }
-                        self?.tableView.reloadData()
+                        self?.cellDelegate.cellTableView().reloadData()
                     }).push()
         }
         let delete = UIAlertAction(title: L10n.delete, style: .default){ [weak self] alert -> Void in
@@ -53,13 +58,7 @@ class PostCell: BaseCell<Post, PostsViewModel> {
     }
 
     private func deletePost() {
-        vm.delete(id: item.id)
-                .subscribe(onNext: { [weak self] response in
-                    guard self != nil else { return }
-                    (self!.vc as! PostsViewController).list.remove(at: self!.indexPath.row)
-                    self!.deleteRow()
-                })
-                .disposed(by: vc.disposeBag)
+        delegate.deletePost(post: item, cell: self)
     }
 
     @objc

@@ -35,9 +35,7 @@ public extension UITableView {
             identifier: Identifier,
             indexPath: IndexPath,
             item: Any,
-            tableView: UITableView,
-            vm: Any,
-            vc: BaseViewController
+            delegate: ConfigurableCellDelegate
     ) -> CELL {
 
         let cell: CELL = dequeueReusableCell(
@@ -46,9 +44,7 @@ public extension UITableView {
         )
         cell.configure(
                 item: item,
-                vm: vm,
-                vc: vc,
-                tableView: tableView
+                delegate: delegate
         )
 
         return cell
