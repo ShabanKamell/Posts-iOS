@@ -14,8 +14,8 @@ struct ConnectivityHandler: NSErrorHandler {
         NSURLErrorNetworkConnectionLost
     ]
 
-    func handle(error: NSError, info: RequestInfo) {
-        rootViewController.showError(message: L10n.networkOffline)
+    func handle(error: NSError, presentable: Presentable?) {
+//        rootViewController.showError(message: L10n.networkOffline)
     }
 
 

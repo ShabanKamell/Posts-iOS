@@ -25,6 +25,62 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		04687BC323809C6A004B0B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A54F807D432925E7D6AAEB6 /* AddPost.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D208352379F7B7004CD6B9;
+			remoteInfo = AddPost;
+		};
+		04687BC523809C6A004B0B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A54FAD13B13CA0FB494804B /* Dependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04464140237AB80C00D8FF96;
+			remoteInfo = Dependencies;
+		};
+		04687BC723809C6A004B0B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A54F6C6ED563CBCA8FD8566 /* Data.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FFC236F3A1500AE23A4;
+			remoteInfo = Data;
+		};
+		04687BC923809C6A004B0B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A54FBE9239D3C3DA04ACAE3 /* Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FB4236F368D00AE23A4;
+			remoteInfo = Core;
+		};
+		04687BCB23809C6A004B0B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A54F01C608AB7D93F36B792 /* Presentation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B7FD8236F39E000AE23A4;
+			remoteInfo = Presentation;
+		};
+		04687BCD23809C6A004B0B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A54F3A1EBF36644DCA40A8E /* EditPost.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D208352379F7B7004CD6B9;
+			remoteInfo = EditPost;
+		};
+		04687BCF23809C6A004B0B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A54F705F739D04049EB715F /* PostDetail.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D208352379F7B7004CD6B9;
+			remoteInfo = PostDetail;
+		};
+		04687BD123809C6A004B0B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A54F58B431FC691B6D55F80 /* Home.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B8023236F4AAF00AE23A4;
+			remoteInfo = Home;
+		};
 		046B7F8F236F365D00AE23A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 046B7F6D236F365B00AE23A4 /* Project object */;
@@ -462,6 +518,14 @@
 			buildRules = (
 			);
 			dependencies = (
+				04687BC423809C6A004B0B0F /* PBXTargetDependency */,
+				04687BC623809C6A004B0B0F /* PBXTargetDependency */,
+				04687BC823809C6A004B0B0F /* PBXTargetDependency */,
+				04687BCA23809C6A004B0B0F /* PBXTargetDependency */,
+				04687BCC23809C6A004B0B0F /* PBXTargetDependency */,
+				04687BCE23809C6A004B0B0F /* PBXTargetDependency */,
+				04687BD023809C6A004B0B0F /* PBXTargetDependency */,
+				04687BD223809C6A004B0B0F /* PBXTargetDependency */,
 			);
 			name = App;
 			productName = App;
@@ -815,6 +879,46 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		04687BC423809C6A004B0B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AddPost;
+			targetProxy = 04687BC323809C6A004B0B0F /* PBXContainerItemProxy */;
+		};
+		04687BC623809C6A004B0B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dependencies;
+			targetProxy = 04687BC523809C6A004B0B0F /* PBXContainerItemProxy */;
+		};
+		04687BC823809C6A004B0B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Data;
+			targetProxy = 04687BC723809C6A004B0B0F /* PBXContainerItemProxy */;
+		};
+		04687BCA23809C6A004B0B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Core;
+			targetProxy = 04687BC923809C6A004B0B0F /* PBXContainerItemProxy */;
+		};
+		04687BCC23809C6A004B0B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Presentation;
+			targetProxy = 04687BCB23809C6A004B0B0F /* PBXContainerItemProxy */;
+		};
+		04687BCE23809C6A004B0B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EditPost;
+			targetProxy = 04687BCD23809C6A004B0B0F /* PBXContainerItemProxy */;
+		};
+		04687BD023809C6A004B0B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PostDetail;
+			targetProxy = 04687BCF23809C6A004B0B0F /* PBXContainerItemProxy */;
+		};
+		04687BD223809C6A004B0B0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Home;
+			targetProxy = 04687BD123809C6A004B0B0F /* PBXContainerItemProxy */;
+		};
 		046B7F90236F365D00AE23A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 046B7F74236F365B00AE23A4 /* App */;
@@ -968,7 +1072,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6559T49JP6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -990,7 +1094,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6559T49JP6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

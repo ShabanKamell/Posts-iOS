@@ -9,7 +9,7 @@ import Data
 protocol NSErrorHandler {
     var supportedErrors: [Int] { get set }
     func canHandle(error: NSError) -> Bool
-    mutating func handle(error: NSError, info: RequestInfo)
+    func handle(error: NSError, presentable: Presentable?)
 }
 
 extension NSErrorHandler {

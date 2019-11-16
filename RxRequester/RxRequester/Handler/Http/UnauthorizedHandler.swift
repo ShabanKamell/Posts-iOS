@@ -10,7 +10,7 @@ import Data
 struct UnauthorizedHandler: ErrorCodeHandler {
     var supportedErrors: [Int] = [401]
 
-    func handle(error: MoyaError, info: RequestInfo) {
+    func handle(error: HTTPURLResponse, presentable: Presentable?) {
 
     }
 

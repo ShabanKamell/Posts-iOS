@@ -24,6 +24,9 @@
       location = "container:"
       name = "Common">
       <FileRef
+         location = "group:RxRequester/RxRequester.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Dependencies/Dependencies.xcodeproj">
       </FileRef>
       <FileRef

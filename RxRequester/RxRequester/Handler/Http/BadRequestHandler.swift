@@ -10,8 +10,8 @@ import Data
 struct BadRequestHandler: ErrorCodeHandler {
     var supportedErrors: [Int] = [400]
 
-    func handle(error: MoyaError, info: RequestInfo) {
-        showOriginalHttpErrorMessage(error: error)
+    func handle(error: HTTPURLResponse, presentable: Presentable?) {
+
     }
 
 }

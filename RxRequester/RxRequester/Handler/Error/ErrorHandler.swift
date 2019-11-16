@@ -6,13 +6,13 @@
 import Foundation
 import Data
 
-protocol NonHttpErrorHandler {
+protocol ErrorHandler {
     var supportedErrors: [Swift.Error.Type] { get set }
     func canHandle(error: Swift.Error) -> Bool
-    mutating func handle(error: Swift.Error, info: RequestInfo)
+    func handle(error: Swift.Error, presentable: Presentable?)
 }
 
-extension NonHttpErrorHandler {
+extension ErrorHandler {
     func canHandle(error: Swift.Error) -> Bool {
         let errorType = type(of: error)
 

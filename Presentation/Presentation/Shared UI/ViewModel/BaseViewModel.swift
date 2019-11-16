@@ -6,18 +6,41 @@
 import Foundation
 import RxSwift
 import Moya
+import RxRequester
 
-open class BaseViewModel:
-        Reportable,
-        ActivityIndicatable,
-        Alertable {
+open class BaseViewModel: Reportable, ActivityIndicatable, Alertable {
+
+    public var requester: RxRequester!
 
     public init() {
-        
+        setupRequester()
     }
-    
+
+    private func setupRequester() {
+        requester = RxRequester(presentable: self)
+    }
+
     open func viewDidLoad() {
 
+    }
+
+}
+
+extension BaseViewModel: Presentable {
+    public func showError(error: String) {
+        print("showError")
+    }
+
+    public func showLoading() {
+        print("showLoading")
+    }
+
+    public func hideLoading() {
+        print("hideLoading")
+    }
+
+    public func onHandleErrorFailed(throwable: Error) {
+        print("onHandleErrorFailed")
     }
 
 }

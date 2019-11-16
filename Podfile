@@ -86,7 +86,6 @@ target 'PostDetail' do
     postDetail_pods
 end
 
-
 #PostDetail feature module
 def dependencies_pods
 end
@@ -95,3 +94,14 @@ target 'Dependencies' do
     project 'Dependencies/Dependencies.project'
     dependencies_pods
 end
+
+#PostDetail feature module
+def rxRequester_pods
+  core_pods
+end
+
+target 'RxRequester' do
+  project 'RxRequester/RxRequester.project'
+  rxRequester_pods
+end
+

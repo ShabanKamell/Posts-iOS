@@ -12,8 +12,8 @@ struct TimeoutHandler: NSErrorHandler {
          NSURLErrorTimedOut
     ]
 
-    func handle(error: NSError, info: RequestInfo) {
-        rootViewController.showError(message: L10n.connectionTooSlow)
+    func handle(error: NSError, presentable: Presentable?) {
+//        rootViewController.showError(message: L10n.connectionTooSlow)
     }
 
 }
