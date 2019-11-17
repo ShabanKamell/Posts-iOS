@@ -8,5 +8,5 @@ import RxSwift
 
 public protocol ResumableHandler {
     func canHandle(error: Swift.Error) -> Bool
-    func handle<Element>(error: Swift.Error, presentable: Presentable?) -> Observable<Element>
+    func handle(error: Swift.Error, presentable: Presentable?) -> Observable<Any>
 }

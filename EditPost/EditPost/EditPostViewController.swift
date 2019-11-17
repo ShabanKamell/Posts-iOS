@@ -6,16 +6,19 @@
 import UIKit
 import Presentation
 import Data
+import RxSwift
 
-final class EditPostViewController: BaseViewController {
+final class EditPostViewController: UIViewController, ViewControllerProtocol {
     var vm: EditPostViewModel!
     var onUpdatePost: (() -> Void)!
 
     @IBOutlet weak var tfTitle: FormEntryTextField!
     @IBOutlet weak var tfBody: FormEntryTextField!
 
-    override func setup() {
-        super.setup()
+    private let disposeBag = DisposeBag()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
         title = L10n.editPost
         tfTitle.text = vm.post.title
         tfBody.text = vm.post.body

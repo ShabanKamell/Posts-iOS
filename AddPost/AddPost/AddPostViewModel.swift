@@ -4,9 +4,14 @@ import Foundation
 import RxSwift
 import Presentation
 import Data
+import RxRequester
 
-final class AddPostViewModel: BaseViewModel {
+final class AddPostViewModel: ViewModelProtocol {
+    var rxRequester: RxRequester!
 
+    init(rxRequester: RxRequester) {
+        self.rxRequester = rxRequester
+    }
     func addPost(request: AddPostRequest) -> Observable<Success> {
          postsRepository.add(request: request)
     }

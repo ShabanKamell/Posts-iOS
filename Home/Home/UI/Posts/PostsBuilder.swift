@@ -4,12 +4,13 @@
 //
 
 import UIKit
+import RxRequester
 
 struct PostsBuilder {
 
     static func make() -> PostsViewController {
         let vc = StoryboardScene.Posts.initialScene.instantiate()
-        let vm = PostsViewModel()
+        let vm = PostsViewModel(rxRequester: RxRequester(presentable: vc))
         vc.vm = vm
         return vc
     }

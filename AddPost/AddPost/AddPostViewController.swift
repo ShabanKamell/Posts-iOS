@@ -6,13 +6,16 @@
 import UIKit
 import Presentation
 import Data
+import RxSwift
 
-final class AddPostViewController: BaseViewController {
+final class AddPostViewController: UIViewController, ViewControllerProtocol {
     var vm: AddPostViewModel!
     var onAddPost: (() -> Void)!
 
     @IBOutlet weak var tfTitle: FormEntryTextField!
     @IBOutlet weak var tfBody: FormEntryTextField!
+
+    private let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()

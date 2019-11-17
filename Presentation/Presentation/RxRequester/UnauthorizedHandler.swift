@@ -9,7 +9,7 @@ import RxSwift
 
 struct UnauthorizedHandler: ResumableHandler {
 
-    func handle<Element>(error: Error, presentable: Presentable?) -> Observable<Element> {
+    func handle(error: Error, presentable: Presentable?) -> Observable<Any> {
         Observable.just("")
     }
 

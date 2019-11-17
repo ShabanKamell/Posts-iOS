@@ -27,7 +27,8 @@ public protocol Reportable {
             actionBlock: (() -> Void)?
     )
 
-    func show(_ error: NSError)
+    func show(error: Error, title: String)
+    func show(error: String, title: String)
 
 }
 
@@ -48,19 +49,29 @@ public extension Reportable {
         )
     }
 
-    func show(_ error: NSError) {
+    func show(error: String, title: String = "") {
         UINotificationFeedbackGenerator().notificationOccurred(.error)
 
+        let nsError = NSError (
+                domain: "Internal client error",
+                code: 100,
+                userInfo: [NSLocalizedDescriptionKey: error]
+        )
+
         CrashlyticsUtil.record(
-                error: error,
-                description: error.localizedDescription,
-                failure: error.localizedFailureReason ?? ""
+                error: nsError,
+                description: error,
+                failure: error
         )
 
         showError(
-                title: error.localizedDescription,
-                message: error.localizedFailureReason
+                title: title,
+                message: error
         )
+    }
+
+    func show(error: Error, title: String = "") {
+       show(error: error.localizedDescription, title: title)
     }
 
     func showError(

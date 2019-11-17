@@ -16,7 +16,7 @@ extension Observable{
             })
             guard handler != nil else { return Observable.error(error) }
             return handler!.handle(error: error, presentable: presentable)
-                    .flatMap(requestToBeResumed)
+                    .flatMap{ _ in requestToBeResumed() }
         }
     }
 

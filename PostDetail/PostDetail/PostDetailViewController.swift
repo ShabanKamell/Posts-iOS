@@ -7,7 +7,7 @@ import UIKit
 import Data
 import Presentation
 
-final class PostDetailViewController: BaseViewController {
+final class PostDetailViewController: UIViewController, ViewControllerProtocol {
     var vm: PostDetailViewModel!
     var post: Post!
 
@@ -15,8 +15,9 @@ final class PostDetailViewController: BaseViewController {
     
     @IBOutlet weak var lblBody: UILabel!
 
-    override func setup() {
-        super.setup()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
         title = L10n.details
         lblTitle.text = vm.post.title
         lblBody.text = vm.post.body

@@ -21,27 +21,27 @@ public class RxRequester {
     }
 
     public func request<T>(
-            requestOptions: RequestOptions = RequestOptions.defaultOptions(),
+            options: RequestOptions = RequestOptions.defaultOptions(),
             request: @escaping Request<T>) -> Observable<T> {
 
         request()
-                .subscribeOn(requestOptions.subscribeOn())
-                .observeOn(requestOptions.observeOn())
+                .subscribeOn(options.subscribeOn())
+                .observeOn(options.observeOn())
                 .handleResumable(requestToBeResumed: request, presentable: presentable)
                 .do(onSubscribe: { [weak self] in
-                    if requestOptions.showLoading { self?.presentable?.showLoading() }
+                    if options.showLoading { self?.presentable?.showLoading() }
                 })
                 .do(onError: { [weak self] error in
                     guard self != nil else { return }
 
-                    if requestOptions.showLoading { self?.presentable?.hideLoading() }
+                    if options.showLoading { self?.presentable?.hideLoading() }
 
-                    if requestOptions.inlineHandling?(error) == true { return }
+                    if options.inlineHandling?(error) == true { return }
 
                     ErrorProcessor.shared.process(error: error, presentable: self?.presentable)
                 })
                 .do(onNext: { [weak self] element in
-                    if requestOptions.showLoading { self?.presentable?.hideLoading() }
+                    if options.showLoading { self?.presentable?.hideLoading() }
                 })
     }
 }

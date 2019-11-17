@@ -4,12 +4,13 @@
 //
 
 import Foundation
+import RxRequester
 
 struct AddPostBuilder {
 
     static func make(onAddPost: @escaping () -> Void) -> AddPostViewController {
         let vc = StoryboardScene.AddPost.initialScene.instantiate()
-        let vm = AddPostViewModel()
+        let vm = AddPostViewModel(rxRequester: RxRequester(presentable: vc))
         vc.vm = vm
         vc.onAddPost = onAddPost
         return vc

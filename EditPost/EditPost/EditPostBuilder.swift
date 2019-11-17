@@ -6,12 +6,13 @@
 import Foundation
 import Presentation
 import Data
+import RxRequester
 
 struct EditPostBuilder {
 
     static func make(post: Post, onUpdatePost: @escaping () -> Void) -> EditPostViewController {
         let vc = StoryboardScene.EditPost.initialScene.instantiate()
-        let vm = EditPostViewModel()
+        let vm = EditPostViewModel(rxRequester: RxRequester(presentable: vc))
         vm.post = post
         vc.vm = vm
         vc.onUpdatePost = onUpdatePost

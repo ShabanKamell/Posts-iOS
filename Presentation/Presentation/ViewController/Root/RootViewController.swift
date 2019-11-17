@@ -15,12 +15,10 @@ public var rootViewController: RootViewController!
 
 public final class RootViewController:
         NavigationController,
-        ActivityIndicatable,
-        Reportable,
-        Alertable {
+        ViewControllerProtocol {
 
     var current: UIViewController?
-    var vm: RootVm!
+    public var vm: RootVm!
     public var window: UIWindow!
 
     public override func viewDidLoad() {

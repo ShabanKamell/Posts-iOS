@@ -26,5 +26,5 @@ public protocol Presentable {
     /**
       called when no error handler can handle the exception
      */
-    func onHandleErrorFailed(throwable: Error)
+    func onHandleErrorFailed(error: Error)
 }

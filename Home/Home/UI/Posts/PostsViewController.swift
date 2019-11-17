@@ -7,12 +7,13 @@ import UIKit
 import Data
 import Presentation
 import Dependencies
+import RxSwift
 
-final class PostsViewController: BaseViewController {
+final class PostsViewController: UIViewController, ViewControllerProtocol {
     var vm: PostsViewModel!
     var list: [Post] = []
-    
-    
+    private let disposeBag = DisposeBag()
+
     @IBOutlet weak var tableView: PagedTableView!{
             didSet {
                 tableView.register(.postCell, bundle: Bundle(for: type(of: self)))
