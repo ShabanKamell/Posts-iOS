@@ -2,58 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewControllerProtocol.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewModel/ViewModelFactory.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddPost/AddPost/AddPostBuilder.swift" beforeDir="false" afterPath="$PROJECT_DIR$/AddPost/AddPost/AddPostBuilder.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddPost/AddPost/AddPostViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/AddPost/AddPost/AddPostViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddPost/AddPost/AddPostViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/AddPost/AddPost/AddPostViewModel.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditPost/EditPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/EditPost/EditPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditPost/EditPost/EditPostBuilder.swift" beforeDir="false" afterPath="$PROJECT_DIR$/EditPost/EditPost/EditPostBuilder.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditPost/EditPost/EditPostViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/EditPost/EditPost/EditPostViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditPost/EditPost/EditPostViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/EditPost/EditPost/EditPostViewModel.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsBuilder.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsBuilder.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewModel.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailBuilder.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailBuilder.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/PostDetail/PostDetail/PostDetailViewModel.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Protocols/Reportable.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Protocols/Reportable.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/RxRequester/UnauthorizedHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/RxRequester/UnauthorizedHandler.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/Bulletin/ConfirmBulletin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Bulletin/ConfirmBulletin.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/Bulletin/ConfirmBulletinItem.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Bulletin/ConfirmBulletinItem.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/Bulletin/FeedbackBulletinItem.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Bulletin/FeedbackBulletinItem.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/Bulletin/InputBulletin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Bulletin/InputBulletin.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/Bulletin/InputBulletingItem.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Bulletin/InputBulletingItem.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/Color/UIFont+Custom.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Color/UIFont+Custom.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/DatePicker.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/DatePicker.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/GradientView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/GradientView.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/RoundStackView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/RoundStackView.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/ConfigurableCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/TableView/ConfigurableCell.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/PagedTableView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/TableView/PagedTableView.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/UITableView+Cell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/TableView/UITableView+Cell.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/TableView/UITableView+Setup.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/TableView/UITableView+Setup.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/View/NibLoadingView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/View/NibLoadingView.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/BaseViewController/BaseViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/Root.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewController/Root/Root.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootBuilder.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewController/Root/RootBuilder.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewConrollerProtocolImpl.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewController/Root/RootViewConrollerProtocolImpl.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewController+AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewController/Root/RootViewController+AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewController+Navigation.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewController/Root/RootViewController+Navigation.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewController+Presenters.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewController/Root/RootViewController+Presenters.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewController/Root/RootViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/Root/RootVm.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewController/Root/RootVm.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewController/UIPageViewController/AppPageViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewController/UIPageViewController/AppPageViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewModel/BaseViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewModel/BaseViewModel.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/ErrorProcessor.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/ErrorProcessor.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Resumable/ResumableHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Resumable/ResumableHandler.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Observable+Resumable.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Observable+Resumable.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Presentable.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Presentable.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/RxRequester.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/RxRequester.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewControllerProtocol.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewControllerProtocol.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewModel/BaseViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/ViewModel/BaseViewModel.swift" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +151,7 @@
       <workItem from="1573916344595" duration="110000" />
       <workItem from="1573916738934" duration="14228000" />
       <workItem from="1573938139635" duration="3300000" />
-      <workItem from="1573993427906" duration="6838000" />
+      <workItem from="1573993427906" duration="7911000" />
     </task>
     <servers />
   </component>
@@ -236,56 +189,6 @@
           <url>file://$PROJECT_DIR$/Presentation/Presentation/ViewModel/BaseViewModel.swift</url>
           <line>38</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/RxRequester/RxRequester/RxRequester.swift</url>
-          <line>31</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/RxRequester/RxRequester/RxRequester.swift</url>
-          <line>34</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/RxRequester/RxRequester/RxRequester.swift</url>
-          <line>43</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewModel.swift</url>
-          <line>17</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewModel.swift</url>
-          <line>16</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/RxRequester/RxRequester/RxRequester.swift</url>
-          <line>36</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Presentation/Presentation/ViewControllerProtocol.swift</url>
-          <line>30</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Presentation/Presentation/ViewControllerProtocol.swift</url>
-          <line>26</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Presentation/Presentation/ViewControllerProtocol.swift</url>
-          <line>22</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Presentation/Presentation/ViewControllerProtocol.swift</url>
-          <line>34</line>
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

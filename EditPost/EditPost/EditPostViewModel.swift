@@ -7,10 +7,8 @@ import Data
 import RxRequester
 
 final class EditPostViewModel: ViewModelProtocol {
-
-    var post: Post!
-
     var rxRequester: RxRequester!
+    var post: Post!
 
     init(rxRequester: RxRequester) {
         self.rxRequester = rxRequester

@@ -14,9 +14,10 @@ public protocol ViewControllerProtocol:
         ActivityIndicatable,
         Alertable {
     associatedtype VM: ViewModelProtocol
-    var vm: VM! { get set}
+    var vm: VM! { get set }
 }
 
+// MARK: Presentable implementation
 extension ViewControllerProtocol {
 
     public func showError(error: String) {
