@@ -4,7 +4,7 @@
 //
 
 import Foundation
-import Moya
+import RxRequester
 import Data
 
 struct ConnectivityHandler: NSErrorHandler {

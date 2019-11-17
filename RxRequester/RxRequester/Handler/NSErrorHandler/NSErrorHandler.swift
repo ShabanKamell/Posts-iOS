@@ -6,13 +6,13 @@
 import Foundation
 import Data
 
-protocol NSErrorHandler {
+public protocol NSErrorHandler {
     var supportedErrors: [Int] { get set }
     func canHandle(error: NSError) -> Bool
     func handle(error: NSError, presentable: Presentable?)
 }
 
-extension NSErrorHandler {
+public extension NSErrorHandler {
     func canHandle(error: NSError) -> Bool {
         let handler = supportedErrors.firstIndex(where: {
             $0 == error.code

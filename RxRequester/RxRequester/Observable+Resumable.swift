@@ -5,15 +5,18 @@
 
 import RxSwift
 
-extension Observable {
+extension Observable{
 
-    func handleResumable(presentable: Presentable?) -> Observable<Element> {
+    func handleResumable(
+            requestToBeResumed: @escaping Request<Element>,
+            presentable: Presentable?) -> Observable<Element> {
         catchError { error in
             let handler: ResumableHandler? = RxRequester.resumableHandlers.first(where: {
                 $0.canHandle(error: error)
             })
             guard handler != nil else { return Observable.error(error) }
             return handler!.handle(error: error, presentable: presentable)
+                    .flatMap(requestToBeResumed)
         }
     }
 

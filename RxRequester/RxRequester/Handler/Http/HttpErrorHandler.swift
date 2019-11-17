@@ -14,7 +14,7 @@ public protocol ErrorCodeHandler {
     func handle(error: HTTPURLResponse, presentable: Presentable?)
 }
 
-extension ErrorCodeHandler {
+public extension ErrorCodeHandler {
     func canHandle(error: HTTPURLResponse) -> Bool {
        let handler = supportedErrors.first(where: {
              $0 == error.statusCode

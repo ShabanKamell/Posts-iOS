@@ -6,13 +6,13 @@
 import Foundation
 import Data
 
-protocol ErrorHandler {
+public protocol ErrorHandler {
     var supportedErrors: [Swift.Error.Type] { get set }
     func canHandle(error: Swift.Error) -> Bool
     func handle(error: Swift.Error, presentable: Presentable?)
 }
 
-extension ErrorHandler {
+public extension ErrorHandler {
     func canHandle(error: Swift.Error) -> Bool {
         let errorType = type(of: error)
 

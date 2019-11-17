@@ -4,11 +4,11 @@
 //
 
 import Foundation
-import Moya
+import RxRequester
 import Data
 
-struct UnauthorizedHandler: ErrorCodeHandler {
-    var supportedErrors: [Int] = [401]
+struct BadRequestHandler: ErrorCodeHandler {
+    var supportedErrors: [Int] = [400]
 
     func handle(error: HTTPURLResponse, presentable: Presentable?) {
 

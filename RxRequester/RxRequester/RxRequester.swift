@@ -22,12 +22,12 @@ public class RxRequester {
 
     public func request<T>(
             requestOptions: RequestOptions = RequestOptions.defaultOptions(),
-            request: Request<T>) -> Observable<T> {
+            request: @escaping Request<T>) -> Observable<T> {
 
         request()
                 .subscribeOn(requestOptions.subscribeOn())
                 .observeOn(requestOptions.observeOn())
-                .handleResumable(presentable: presentable)
+                .handleResumable(requestToBeResumed: request, presentable: presentable)
                 .do(onSubscribe: { [weak self] in
                     if requestOptions.showLoading { self?.presentable?.showLoading() }
                 })

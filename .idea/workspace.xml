@@ -2,54 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mac.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/Pods-RxRequester.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RxRequester/Pods-RxRequester-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RxRequester/Pods-RxRequester-acknowledgements.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RxRequester/Pods-RxRequester-acknowledgements.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RxRequester/Pods-RxRequester-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RxRequester/Pods-RxRequester-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RxRequester/Pods-RxRequester.debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RxRequester/Pods-RxRequester.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-RxRequester/Pods-RxRequester.release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Resumable/ResumableHandler.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Observable+Resumable.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Presentable.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RxRequester/RxRequester/RequestOptions.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RxRequester/RxRequester/RxRequester.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RxRequester/RxRequester/SchedulerProvider.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/App.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/App/App.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data/Network/Request/Single+ErrorHandle.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Network/Request/Single+ErrorHandle.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditPost/EditPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/EditPost/EditPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/Resources/Localizations/ar.lproj/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/Resources/Localizations/ar.lproj/Localizable.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/Resources/Localizations/en.lproj/Localizable.strings" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/Resources/Localizations/en.lproj/Localizable.strings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewModel.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/Handler/ErrorProcessor.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/ErrorProcessor.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/Handler/Http/BadRequestHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Http/BadRequestHandler.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/Handler/Http/HttpErrorHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Http/HttpErrorHandler.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/Handler/Http/UnauthorizedHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Http/UnauthorizedHandler.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/Handler/NSErrorHandler/ConnectivityHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/NSErrorHandler/ConnectivityHandler.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/Handler/NSErrorHandler/NSErrorHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/NSErrorHandler/NSErrorHandler.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/Handler/NSErrorHandler/TimeoutHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/NSErrorHandler/TimeoutHandler.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/Handler/NonHttp/NonHttpErrorHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Error/ErrorHandler.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewModel/BaseViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewModel/BaseViewModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Exception/RequestInfo.swift" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Error/ErrorHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Error/ErrorHandler.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Http/BadRequestHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/RxRequester/BadRequestHandler.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Http/HttpErrorHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Http/HttpErrorHandler.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Http/UnauthorizedHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/RxRequester/UnauthorizedHandler.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/NSErrorHandler/ConnectivityHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/RxRequester/ConnectivityHandler.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/NSErrorHandler/NSErrorHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/NSErrorHandler/NSErrorHandler.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/NSErrorHandler/TimeoutHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/RxRequester/TimeoutHandler.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Resumable/ResumableHandler.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Handler/Resumable/ResumableHandler.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxRequester/RxRequester/Observable+Resumable.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxRequester/RxRequester/Observable+Resumable.swift" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="RxRequester" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Presentation" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.cidr.execution.build.XcodeMessageFilterConfiguration.GENERIC" value="false" />
@@ -193,7 +158,7 @@
       <workItem from="1573900889424" duration="7744000" />
       <workItem from="1573916344595" duration="110000" />
       <workItem from="1573916738934" duration="14228000" />
-      <workItem from="1573938139635" duration="1036000" />
+      <workItem from="1573938139635" duration="3039000" />
     </task>
     <servers />
   </component>
@@ -225,22 +190,12 @@
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewModel/BaseViewModel.swift</url>
           <line>30</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewModel/BaseViewModel.swift</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewModel/BaseViewModel.swift</url>
-          <line>38</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Presentation/Presentation/Shared UI/ViewModel/BaseViewModel.swift</url>
           <line>42</line>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -13,13 +13,9 @@
 		1A54F0A58DEE7085B2CC1B8D /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FFF8B56B77D031EE8AF4 /* ErrorHandler.swift */; };
 		1A54F0AACF56F0001D165F06 /* HttpErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F0F9872CFD80F8DAF091 /* HttpErrorHandler.swift */; };
 		1A54F1C6311722A33B23270F /* SchedulerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FCA2EDC3708CE3D29E5C /* SchedulerProvider.swift */; };
-		1A54F22C560F1B3894FEED09 /* UnauthorizedHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F7896A001DC90161C3FB /* UnauthorizedHandler.swift */; };
 		1A54F24AD22E98A836FC05F6 /* NSErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F100E8EDEDA8846A64D5 /* NSErrorHandler.swift */; };
-		1A54F47FFC666F2B8F8A8F72 /* TimeoutHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F6B0C2EC1FDEA3B7CF3C /* TimeoutHandler.swift */; };
 		1A54F540A68D3CD07EC06078 /* ResumableHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FE5C34199CF102016E57 /* ResumableHandler.swift */; };
 		1A54F683B6B73363FF2C6BE2 /* Observable+Resumable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F1AC965706D717E802E8 /* Observable+Resumable.swift */; };
-		1A54F73C860FC65BCC7D96FD /* ConnectivityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F7E44D03B32E36915AF4 /* ConnectivityHandler.swift */; };
-		1A54F96E763B4C2DD9BC9175 /* BadRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F9FDA5A62AF2D6CFFAF3 /* BadRequestHandler.swift */; };
 		1A54FACAB1BD2C6436085723 /* RequestOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FDFCEC27C7BD3D98DCE7 /* RequestOptions.swift */; };
 		1A54FAD7D255510336A237FA /* ErrorProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FE7DE1C79F9C2232EF8D /* ErrorProcessor.swift */; };
 		1A54FD7E197E167FEFC8D1FE /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F2E13C60FBA59739E7EC /* Presentable.swift */; };
@@ -50,11 +46,7 @@
 		1A54F100E8EDEDA8846A64D5 /* NSErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSErrorHandler.swift; sourceTree = "<group>"; };
 		1A54F1AC965706D717E802E8 /* Observable+Resumable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Resumable.swift"; sourceTree = "<group>"; };
 		1A54F2E13C60FBA59739E7EC /* Presentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
-		1A54F6B0C2EC1FDEA3B7CF3C /* TimeoutHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeoutHandler.swift; sourceTree = "<group>"; };
 		1A54F73AA4E0A5C0E63A3D84 /* RxRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxRequester.swift; sourceTree = "<group>"; };
-		1A54F7896A001DC90161C3FB /* UnauthorizedHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnauthorizedHandler.swift; sourceTree = "<group>"; };
-		1A54F7E44D03B32E36915AF4 /* ConnectivityHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityHandler.swift; sourceTree = "<group>"; };
-		1A54F9FDA5A62AF2D6CFFAF3 /* BadRequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadRequestHandler.swift; sourceTree = "<group>"; };
 		1A54FCA2EDC3708CE3D29E5C /* SchedulerProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerProvider.swift; sourceTree = "<group>"; };
 		1A54FDFCEC27C7BD3D98DCE7 /* RequestOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOptions.swift; sourceTree = "<group>"; };
 		1A54FE5C34199CF102016E57 /* ResumableHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumableHandler.swift; sourceTree = "<group>"; };
@@ -158,8 +150,6 @@
 		1A54F450C01BC708072350C0 /* NSErrorHandler */ = {
 			isa = PBXGroup;
 			children = (
-				1A54F6B0C2EC1FDEA3B7CF3C /* TimeoutHandler.swift */,
-				1A54F7E44D03B32E36915AF4 /* ConnectivityHandler.swift */,
 				1A54F100E8EDEDA8846A64D5 /* NSErrorHandler.swift */,
 			);
 			path = NSErrorHandler;
@@ -176,9 +166,7 @@
 		1A54FCBF325B1FE275AE846E /* Http */ = {
 			isa = PBXGroup;
 			children = (
-				1A54F9FDA5A62AF2D6CFFAF3 /* BadRequestHandler.swift */,
 				1A54F0F9872CFD80F8DAF091 /* HttpErrorHandler.swift */,
-				1A54F7896A001DC90161C3FB /* UnauthorizedHandler.swift */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -340,12 +328,8 @@
 				1A54FFA04B21CE226905D141 /* RxRequester.swift in Sources */,
 				1A54FACAB1BD2C6436085723 /* RequestOptions.swift in Sources */,
 				1A54F1C6311722A33B23270F /* SchedulerProvider.swift in Sources */,
-				1A54F47FFC666F2B8F8A8F72 /* TimeoutHandler.swift in Sources */,
-				1A54F73C860FC65BCC7D96FD /* ConnectivityHandler.swift in Sources */,
 				1A54F24AD22E98A836FC05F6 /* NSErrorHandler.swift in Sources */,
-				1A54F96E763B4C2DD9BC9175 /* BadRequestHandler.swift in Sources */,
 				1A54F0AACF56F0001D165F06 /* HttpErrorHandler.swift in Sources */,
-				1A54F22C560F1B3894FEED09 /* UnauthorizedHandler.swift in Sources */,
 				1A54F0A58DEE7085B2CC1B8D /* ErrorHandler.swift in Sources */,
 				1A54FAD7D255510336A237FA /* ErrorProcessor.swift in Sources */,
 				1A54F540A68D3CD07EC06078 /* ResumableHandler.swift in Sources */,
