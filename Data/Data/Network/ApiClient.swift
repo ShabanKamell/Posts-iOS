@@ -7,19 +7,31 @@ import Foundation
 import Moya
 import Core
 
-private func jsonResponseDataFormatter(_ data: Data) -> Data {
+private func jsonResponseDataFormatter(_ data: Data) -> String {
     do {
         let dataAsJSON = try JSONSerialization.jsonObject(with: data)
         let prettyData =  try JSONSerialization.data(withJSONObject: dataAsJSON, options: .prettyPrinted)
-        return prettyData
-    } catch {
-        return data // fallback to original data if it can't be serialized.
-    }
+        return String(decoding: prettyData, as: UTF8.self)
+    } catch { return String(decoding: data, as: UTF8.self) }
 }
 
-let api = MoyaProvider<Api>(
-        plugins: [NetworkLoggerPlugin(verbose: true, responseDataFormatter: jsonResponseDataFormatter)]
-)
+let api = createProvider()
+
+private func createProvider() -> MoyaProvider<Api> {
+    var config = NetworkLoggerPlugin.Configuration()
+
+    // Log Options
+    var logOptions = NetworkLoggerPlugin.Configuration.LogOptions()
+    logOptions.insert(NetworkLoggerPlugin.Configuration.LogOptions.verbose)
+    config.logOptions = logOptions
+
+    // Formatter
+    config.formatter = NetworkLoggerPlugin.Configuration.Formatter(responseData: jsonResponseDataFormatter)
+
+    let logger = NetworkLoggerPlugin(configuration: config)
+
+    return MoyaProvider<Api>(plugins: [logger])
+}
 
 enum Api {
     case posts(PagingInfo)
@@ -87,21 +99,10 @@ extension Api: TargetType {
         }
     }
 
-    public var validationType: ValidationType {
-        return .none
-    }
-
-    public var sampleData: Data {
-        return Data()
-    }
-
-    public var headers: [String: String]? {
-        return nil
-    }
-
-    var parameters: [String: Any]? {
-        return nil
-    }
+    public var validationType: ValidationType { .none }
+    public var sampleData: Data { Data() }
+    public var headers: [String: String]? { nil }
+    var parameters: [String: Any]? { nil }
 }
 
 public func url(_ route: TargetType) -> String {

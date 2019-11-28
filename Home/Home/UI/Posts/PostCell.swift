@@ -8,6 +8,7 @@ import UIKit
 import Presentation
 import Data
 import Dependencies
+import RxRequester
 
 protocol PostCellDelegate {
     func deletePost(post: Post, cell: ConfigurableCell<Post>)
@@ -25,6 +26,8 @@ class PostCell: ConfigurableCell<Post> {
 
     override func setup() {
         super.setup()
+        RxRequester.nsErrorHandlers = []
+        MoyaHandlers.statusCodeHandlers = []
         btnMore.tap(target: self, action: #selector(didTapMore))
         contentView.tap(target: self, action: #selector(didTapCell))
         lblTitle.text = item.title

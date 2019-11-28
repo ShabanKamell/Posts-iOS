@@ -12,7 +12,7 @@
 		<key>AddPost.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>14</integer>
 		</dict>
 		<key>PostDetail.xcscheme</key>
 		<dict>
@@ -22,12 +22,12 @@
 		<key>PostDetail.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>16</integer>
 		</dict>
 		<key>PostDetailTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>46</integer>
 		</dict>
 	</dict>
 </dict>

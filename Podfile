@@ -6,21 +6,17 @@ workspace 'Posts'
 
 #core module
 def core_pods
-  pod 'Crashlytics', '3.12.0'
-  
+  pod 'Crashlytics', '3.14.0'
   pod 'BulletinBoard'
-
-  pod 'SwiftLint', '0.29.0', :configurations => ['Debug']
+  pod 'SwiftLint', '0.37.0', :configurations => ['Debug']
   pod 'SwiftGen', '6.1.0', :configurations => ['Debug']
   pod 'BartyCrouch', '3.13.0', :configurations => ['Debug']
-
-  pod 'RxSwift',    '~> 4.0'
-  pod 'RxCocoa',    '~> 4.0'
-
-  pod 'Moya/RxSwift', '~> 13.0'
-
+  pod 'RxSwift',    '~> 5.0'
+  pod 'RxCocoa',    '~> 5.0'
+   pod 'Moya/RxSwift', '~> 14.0.0-beta.5'
   pod 'IQKeyboardManager'
-  
+
+  pod 'RxRequester/Moya', '~> 0.3.0'
 end
 
 target 'Core' do

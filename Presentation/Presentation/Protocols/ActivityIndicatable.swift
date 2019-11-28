@@ -11,7 +11,7 @@ private let loadingViewTag = 4875618
 
 public extension ActivityIndicatable {
 
-    public var isLoading: Bool { return rootViewController.view.viewWithTag(loadingViewTag) != nil }
+    public var isLoading: Bool { rootViewController.view.viewWithTag(loadingViewTag) != nil }
 
     public func showLoading(show: Bool) {
 
