@@ -16,7 +16,7 @@ final class EditPostViewModel: ViewModelProtocol {
         self.postsRepository = postsRepository
     }
 
-    func editPost(request: EditPostRequest) -> Observable<Success> {
+    func editPost(request: EditPostRequest) -> Single<Success> {
         postsRepository.edit(request: request)
     }
 

@@ -32,7 +32,7 @@ extension AddPostViewController {
 
         let request = AddPostRequest(title: tfTitle.text!, body: tfBody.text!)
         vm.addPost(request: request)
-                .subscribe(onNext: { [weak self] response in
+                .subscribe(onSuccess: { [weak self] response in
                     rootViewController.popViewController(animated: false)
                     self?.onAddPost?()
                 })

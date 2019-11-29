@@ -35,7 +35,7 @@ extension EditPostViewController {
         vm.post.body = tfBody.text!
 
         vm.editPost(request: EditPostRequest.from(post: vm.post))
-                .subscribe(onNext: { [weak self] response in
+                .subscribe(onSuccess: { [weak self] response in
                     rootViewController.popViewController(animated: false)
                     self?.onUpdatePost()
                 })

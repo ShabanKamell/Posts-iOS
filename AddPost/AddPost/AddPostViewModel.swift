@@ -15,7 +15,7 @@ final class AddPostViewModel: ViewModelProtocol {
         self.postsRepository = postsRepository
     }
 
-    func addPost(request: AddPostRequest) -> Observable<Success> {
+    func addPost(request: AddPostRequest) -> Single<Success> {
          postsRepository.add(request: request)
     }
 
