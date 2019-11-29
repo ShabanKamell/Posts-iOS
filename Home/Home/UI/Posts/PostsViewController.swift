@@ -38,21 +38,19 @@ extension PostsViewController {
                 }
                 .push()
     }
-
 }
 
 extension PostsViewController: PaginatedTableViewDelegate {
 
     func loadMore(start: Int, pageCount: Int, onSuccess: ((Int) -> Void)?, onError: ((Error) -> Void)?) {
         let pagingInfo = PagingInfo(start: start)
-        vm.posts(pagingInfo: pagingInfo, onError: { onError?($0) })
-                .subscribe(onNext: { [weak self] response in
+        vm.posts(pagingInfo: pagingInfo)
+                .subscribe(onSuccess: { [weak self] response in
                     self?.list += response
                     onSuccess?(response.count)
                 })
                 .disposed(by: disposeBag)
     }
-
 }
 
 // MARK: Paginated Data Source
@@ -70,13 +68,12 @@ extension PostsViewController: PaginatedTableViewDataSource {
         cell.delegate = self
         return cell
     }
-
 }
 
 extension PostsViewController: PostCellDelegate {
     func deletePost(post: Post, cell: ConfigurableCell<Post>) {
         vm.delete(id: post.id)
-                .subscribe(onNext: { [weak self] response in
+                .subscribe(onSuccess: { [weak self] response in
                     guard self != nil else { return }
                     self!.list.remove(at: cell.indexPath.row)
                     cell.deleteRow()
@@ -89,8 +86,6 @@ extension PostsViewController: ConfigurableCellDelegate {
     public func cellTableView() -> UITableView {
         tableView
     }
-
-//    func tableView(for cell: ConfigurableCell<Post>) -> UITableView { tableView }
     func viewController() -> UIViewController { self }
 }
 

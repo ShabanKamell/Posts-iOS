@@ -6,21 +6,23 @@ import Data
 import Presentation
 import RxRequester
 
-final class PostsViewModel: ViewModelProtocol {
+struct PostsViewModel: ViewModelProtocol {
     var rxRequester: RxRequester!
+    private let postsRepository: PostsRepository!
 
-    init(rxRequester: RxRequester) {
-         self.rxRequester = rxRequester
+    init(rxRequester: RxRequester, postsRepository: PostsRepository) {
+        self.rxRequester = rxRequester
+        self.postsRepository = postsRepository
     }
 
-    public func posts(pagingInfo: PagingInfo, onError: @escaping (Error) -> Void) -> Observable<[Post]> {
+    public func posts(pagingInfo: PagingInfo) -> Single<[Post]> {
         rxRequester.request {
-             postsRepository.all(pagingInfo: pagingInfo, onError: onError)
-                     .map { $0.toPresent() }
+            self.postsRepository.all(pagingInfo: pagingInfo)
+                    .map { ListMapper(PostMapper()).map($0) }
         }
     }
 
-    public func delete(id: Int) -> Observable<Success> {
+    public func delete(id: Int) -> Single<Success> {
          postsRepository.delete(id: id)
     }
 
