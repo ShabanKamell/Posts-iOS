@@ -17,9 +17,10 @@ public struct PostsRepository {
     }
 
     public func all(pagingInfo: PagingInfo) -> Single<[PostResponse]> {
-        remoteDataSource.all(pagingInfo: pagingInfo)
-                .catchError({ error in
-                    self.localDataSource.all(pagingInfo: pagingInfo)
+        localDataSource.all(pagingInfo: pagingInfo)
+                .flatMap({ items in
+                    if items.isEmpty { return self.remoteDataSource.all(pagingInfo: pagingInfo) }
+                    return Single.just(items)
                 })
     }
 

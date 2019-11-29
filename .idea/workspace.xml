@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AddPost/AddPost/AddPostViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/AddPost/AddPost/AddPostViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddPost/AddPost/AddPostViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/AddPost/AddPost/AddPostViewModel.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditPost/EditPost/EditPostViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/EditPost/EditPost/EditPostViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditPost/EditPost/EditPostViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/EditPost/EditPost/EditPostViewModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data/Posts/PostsRemoteDataSource.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Posts/PostsRemoteDataSource.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data/Posts/PostsRepository.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Posts/PostsRepository.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +163,7 @@
       <workItem from="1574938193998" duration="9356000" />
       <workItem from="1574956362205" duration="4771000" />
       <workItem from="1575043381249" duration="7233000" />
-      <workItem from="1575053435093" duration="356000" />
+      <workItem from="1575053435093" duration="1215000" />
     </task>
     <servers />
   </component>

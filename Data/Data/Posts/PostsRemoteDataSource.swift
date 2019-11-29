@@ -10,7 +10,9 @@ import RxSwift
 public struct PostsRemoteDataSource {
 
     func all(pagingInfo: PagingInfo) -> Single<[PostResponse]> {
-        api.rx.request(.posts(pagingInfo)).mapList()
+        api.rx.request(.posts(pagingInfo))
+                .mapList()
+                .do(onSuccess: { items in PostEntity.saveItems(items: items)})
     }
 
     func add(request: AddPostRequest) -> Single<Success> {
