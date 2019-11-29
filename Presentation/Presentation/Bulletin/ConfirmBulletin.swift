@@ -15,18 +15,22 @@ class ConfirmBulletin: NSObject {
     var confirmHandler: ConfirmHandler
     var cancelHandler: CancelHandler
     var message: String
+    var actionButtonTitle: String
+    var alternativeButtonTitle: String
 
-    lazy var bulletinManager: BLTNItemManager = {
-        return BLTNItemManager(rootItem: createPage())
-    }()
+    lazy var bulletinManager: BLTNItemManager = { BLTNItemManager(rootItem: createPage()) }()
 
     init(
             vc: UIViewController,
             message: String,
+            actionButtonTitle: String = L10n.proceed,
+            alternativeButtonTitle: String = L10n.cancel,
             confirmHandler: @escaping ConfirmHandler,
             cancelHandler: CancelHandler = nil
-            ) {
+    ) {
         self.message = message
+        self.actionButtonTitle = actionButtonTitle
+        self.alternativeButtonTitle = alternativeButtonTitle
         self.confirmHandler = confirmHandler
         self.cancelHandler = cancelHandler
         self.presentingVC = vc
@@ -38,16 +42,12 @@ class ConfirmBulletin: NSObject {
     }
 
     func createPage() -> BLTNPageItem {
-        let page = ConfirmBulletinItem(title: L10n.confirmation)
+        let page = BLTNPageItem(title: L10n.confirmation)
 
-        page.isDismissable = false
+        page.isDismissable = true
         page.descriptionText = message
-        page.actionButtonTitle = L10n.proceed
-        page.alternativeButtonTitle = L10n.cancel
-
-        page.appearance.actionButtonColor = Asset.Colors.green.color
-        page.appearance.alternativeButtonTitleColor = Asset.Colors.green.color
-
+        page.actionButtonTitle = actionButtonTitle
+        page.alternativeButtonTitle = alternativeButtonTitle
         page.actionHandler = { [weak self] item in
             self?.bulletinManager.dismissBulletin()
             self?.confirmHandler(item)

@@ -7,56 +7,35 @@ import Foundation
 import Moya
 import RxSwift
 
-public let postsRepository: PostsRepository = PostsRepository()
+public struct PostsRepository {
+    private let remoteDataSource: PostsRemoteDataSource!
+    private let localDataSource: PostsLocalDataSource!
 
-public class PostsRepository {
+    public init(remoteDataSource: PostsRemoteDataSource, localDataSource: PostsLocalDataSource) {
+        self.remoteDataSource = remoteDataSource
+        self.localDataSource = localDataSource
+    }
 
-    public func all(pagingInfo: PagingInfo, onError: @escaping (Error) -> Void) -> Observable<[PostResponse]> {
-         allLocal(pagingInfo: pagingInfo, onError: onError)
-                .flatMap({ [unowned self] items -> Observable<[PostResponse]> in
-                    if items.isEmpty {
-                        return self.allRemote(pagingInfo: pagingInfo, onError: onError)
-                    }
-                    return Observable.just(items)
+    public func all(pagingInfo: PagingInfo) -> Single<[PostResponse]> {
+        remoteDataSource.all(pagingInfo: pagingInfo)
+                .catchError({ error in
+                    self.localDataSource.all(pagingInfo: pagingInfo)
                 })
     }
 
-    private func allLocal(pagingInfo: PagingInfo, onError: @escaping (Error) -> Void) -> Observable<[PostResponse]> {
-        PostEntity.items(pagingInfo: pagingInfo)
-        .do(onError: { error in
-            onError(error)
-            print(error.localizedDescription)
-        })
+    public func add(request: AddPostRequest) -> Single<Success> {
+        remoteDataSource.add(request: request)
+                .flatMap({  _ in self.localDataSource.add(request: request) })
     }
 
-    private func allRemote(pagingInfo: PagingInfo, onError: @escaping (Error) -> Void) -> Observable<[PostResponse]> {
-        requestList(
-                request: {
-                    api.rx.request(.posts(pagingInfo))
-                },
-                showActivity: false,
-                onError: onError)
-                .do(onNext: { (items: [PostResponse]) in
-                    PostEntity.saveItems(items: items)
-                })
+    public func edit(request: EditPostRequest) -> Single<Success> {
+        remoteDataSource.edit(request: request)
+                .flatMap({ _ in self.localDataSource.edit(request: request) })
     }
 
-    public func add(request: AddPostRequest) -> Observable<Success> {
-        requestItem(request: {
-            api.rx.request(.addPost(request.encode()))
-        })
-    }
-
-    public func edit(request: EditPostRequest) -> Observable<Success> {
-        requestItem(request: {
-            api.rx.request(.editPost(request))
-        })
-    }
-
-    public func delete(id: Int) -> Observable<Success> {
-        requestItem(request: {
-            api.rx.request(.deletePost(id))
-        })
+    public func delete(id: Int) -> Single<Success> {
+        remoteDataSource.delete(id: id)
+                .flatMap({ _ in self.localDataSource.delete(id: id) })
     }
 }
 

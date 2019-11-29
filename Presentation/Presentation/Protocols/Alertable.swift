@@ -27,12 +27,6 @@ public protocol Alertable {
             placeholder: String?,
             callback: @escaping (String?) -> Void)
 
-    func showBulletin(
-            title: String,
-            description: String,
-            image: UIImage,
-            actions: [ButtetinAction]
-    )
 }
 
 private var bulletinManager: BLTNItemManager?
@@ -96,34 +90,6 @@ public extension Alertable{
         alertController.addAction(saveAction)
         alertController.addAction(cancelAction)
         rootViewController.present(alertController, animated: true, completion: nil)
-    }
-
-    func showBulletin(
-            title: String,
-            description: String,
-            image: UIImage,
-            actions: [ButtetinAction]
-    ) {
-        UIImpactFeedbackGenerator(style: .medium).impactOccurred()
-
-        let page = ActionsBulletin(
-                title: title,
-                image: image,
-                description: description,
-                actions: actions
-        )
-
-        page.dismissalHandler = { _ in
-            bulletinManager = nil
-        }
-
-        bulletinManager = BLTNItemManager(rootItem: page)
-        bulletinManager?.backgroundViewStyle = .dimmed
-        bulletinManager?.showBulletin(
-                above: RootViewController.topPresentedViewController,
-                animated: true,
-                completion: nil
-        )
     }
 
     private func showAlertController(

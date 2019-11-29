@@ -1,4 +1,4 @@
-platform :ios, '13.1'
+platform :ios, '11.0'
 
 use_frameworks!
 
@@ -12,11 +12,10 @@ def core_pods
   pod 'SwiftGen', '6.1.0', :configurations => ['Debug']
   pod 'BartyCrouch', '3.13.0', :configurations => ['Debug']
   pod 'RxSwift',    '~> 5.0'
-  pod 'RxCocoa',    '~> 5.0'
    pod 'Moya/RxSwift', '~> 14.0.0-beta.5'
   pod 'IQKeyboardManager'
+  pod 'RxRequester/Moya', '~> 0.4.0'
 
-  pod 'RxRequester/Moya', '~> 0.3.0'
 end
 
 target 'Core' do
@@ -91,13 +90,4 @@ target 'Dependencies' do
     dependencies_pods
 end
 
-#PostDetail feature module
-def rxRequester_pods
-  core_pods
-end
-
-target 'RxRequester' do
-  project 'RxRequester/RxRequester.project'
-  rxRequester_pods
-end
 

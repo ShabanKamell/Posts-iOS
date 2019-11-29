@@ -5,5 +5,11 @@
 
 import Foundation
 
-class PostsRepositoryBuilder {
+public struct PostsRepositoryBuilder {
+    
+    public static func make() -> PostsRepository {
+        let localDataSource = PostsLocalDataSource()
+        let remoteDataSource = PostsRemoteDataSource()
+       return PostsRepository(remoteDataSource: remoteDataSource, localDataSource: localDataSource)
+    }
 }

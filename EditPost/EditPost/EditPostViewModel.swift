@@ -9,13 +9,15 @@ import RxRequester
 final class EditPostViewModel: ViewModelProtocol {
     var rxRequester: RxRequester!
     var post: Post!
+    private let postsRepository: PostsRepository!
 
-    init(rxRequester: RxRequester) {
+    init(rxRequester: RxRequester, postsRepository: PostsRepository) {
         self.rxRequester = rxRequester
+        self.postsRepository = postsRepository
     }
 
     func editPost(request: EditPostRequest) -> Observable<Success> {
-         postsRepository.edit(request: request)
+        postsRepository.edit(request: request)
     }
 
 }

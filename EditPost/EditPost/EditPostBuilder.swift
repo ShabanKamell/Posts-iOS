@@ -12,7 +12,9 @@ struct EditPostBuilder {
 
     static func make(post: Post, onUpdatePost: @escaping () -> Void) -> EditPostViewController {
         let vc = StoryboardScene.EditPost.initialScene.instantiate()
-        let vm = EditPostViewModel(rxRequester: RxRequester(presentable: vc))
+
+        let vm = EditPostViewModel(rxRequester: RxRequester(presentable: vc),
+                postsRepository: PostsRepositoryBuilder.make())
         vm.post = post
         vc.vm = vm
         vc.onUpdatePost = onUpdatePost

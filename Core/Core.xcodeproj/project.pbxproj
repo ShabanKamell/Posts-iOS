@@ -47,7 +47,6 @@
 		046B7FC6236F368D00AE23A4 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B7FB8236F368D00AE23A4 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A54FB55CC6E380B16437617 /* CoreAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F78EFF4AF0A73B932F39 /* CoreAppDelegate.swift */; };
 		D395260063CB6B8F9801CC6F /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE47CABDC830DF4541F2893 /* Pods_Core.framework */; };
-		EF721921F582E397A866E10B /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BD1C6B4F275CE98E38207E /* Pods_Core.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,7 +115,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF721921F582E397A866E10B /* Pods_Core.framework in Frameworks */,
 				D395260063CB6B8F9801CC6F /* Pods_Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

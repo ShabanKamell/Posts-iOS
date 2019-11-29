@@ -46,9 +46,9 @@ class InputBulletin {
         bulletinManager.showBulletin(above: presentingVC)
     }
 
-    func makeTextFieldPage() -> InputBulletingItem {
+    func makeTextFieldPage() -> FeedbackBulletin {
 
-        let page = InputBulletingItem(title: title)
+        let page = FeedbackBulletin(title: title)
         page.descriptionText = descriptionText
         page.placeholder = placeholder
         page.actionButtonTitle = actionButtonTitle

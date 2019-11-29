@@ -8,10 +8,13 @@ import RxRequester
 
 final class AddPostViewModel: ViewModelProtocol {
     var rxRequester: RxRequester!
+    private let postsRepository: PostsRepository!
 
-    init(rxRequester: RxRequester) {
+    init(rxRequester: RxRequester, postsRepository: PostsRepository) {
         self.rxRequester = rxRequester
+        self.postsRepository = postsRepository
     }
+
     func addPost(request: AddPostRequest) -> Observable<Success> {
          postsRepository.add(request: request)
     }

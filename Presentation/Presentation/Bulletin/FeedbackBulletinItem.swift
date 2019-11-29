@@ -5,7 +5,7 @@
 
 import UIKit
 import BLTNBoard
-import Core
+
 /**
  * A subclass of page bulletin item that plays an haptic feedback when the buttons are pressed.
  *

@@ -32,30 +32,32 @@ public class PostEntity: NSManagedObject {
         }
     }
     
-    public class func items(pagingInfo: PagingInfo) -> Observable<[PostResponse]>{
-        let ps = PublishSubject<[PostResponse]>()
+    public class func items(pagingInfo: PagingInfo) -> Single<[PostResponse]>{
+        Single<[PostResponse]>.create(subscribe: { single in
+            managedContext()?.perform {
+                let request: NSFetchRequest<PostEntity> = PostEntity.fetchRequest()
+                request.fetchOffset = pagingInfo.start
+                request.fetchLimit = pagingInfo.limit
 
-        managedContext()?.perform {
-            let request: NSFetchRequest<PostEntity> = PostEntity.fetchRequest()
-            request.fetchOffset = pagingInfo.start
-            request.fetchLimit = pagingInfo.limit
-
-            var items: [PostEntity] =  []
-            do {
-                items = try managedContext()?.fetch(request) ?? []
-            } catch let error {
-                print(error.localizedDescription)
-                ps.onError(error)
+                var items: [PostEntity] =  []
+                do {
+                    items = try managedContext()?.fetch(request) ?? []
+                } catch let error {
+                    print(error.localizedDescription)
+                    single(.error(error))
+                }
+                let data = items.map {
+                    PostResponse(
+                            id: Int(truncatingIfNeeded: $0.id),
+                            title: $0.title!,
+                            body: $0.body!
+                    )
+                }
+                single(.success(data))
             }
-            ps.onNext(items.map {
-                PostResponse(
-                        id: Int(truncatingIfNeeded: $0.id),
-                        title: $0.title!,
-                        body: $0.body!
-                )
-            })
-        }
-        return ps
+
+            return Disposables.create()
+        })
     }
     
     public class func managedContext() -> NSManagedObjectContext?  {

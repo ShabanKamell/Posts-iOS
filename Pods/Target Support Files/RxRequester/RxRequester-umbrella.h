@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "RxRequester.h"
-#import "RxRequesterMoya.h"
 
 FOUNDATION_EXPORT double RxRequesterVersionNumber;
 FOUNDATION_EXPORT const unsigned char RxRequesterVersionString[];

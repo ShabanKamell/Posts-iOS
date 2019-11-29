@@ -19,7 +19,6 @@
 		1A54F7388FB65C808CC053AD /* PostDetailStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F73F8ADAEA45764F3736 /* PostDetailStoryboards.swift */; };
 		1A54F7873F27C74F94D7B7FB /* PostDetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F458CCB16464061E6759 /* PostDetailModule.swift */; };
 		870D7FC7CE2AA8F6B7AB2A06 /* Pods_PostDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B3A97CE1621EE7081CF237 /* Pods_PostDetail.framework */; };
-		CB7CABF586933FCDDF639BAB /* Pods_PostDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9942945D257A2299B73B77EC /* Pods_PostDetail.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,7 +149,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB7CABF586933FCDDF639BAB /* Pods_PostDetail.framework in Frameworks */,
 				870D7FC7CE2AA8F6B7AB2A06 /* Pods_PostDetail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,11 +340,11 @@
 			buildConfigurationList = 04D2084A2379F7B7004CD6B9 /* Build configuration list for PBXNativeTarget "PostDetail" */;
 			buildPhases = (
 				1620D73BEEB276E85290B6C2 /* [CP] Check Pods Manifest.lock */,
+				04D2087F2379FA4C004CD6B9 /* Common Scripts */,
 				04D208312379F7B7004CD6B9 /* Headers */,
 				04D208322379F7B7004CD6B9 /* Sources */,
 				04D208332379F7B7004CD6B9 /* Frameworks */,
 				04D208342379F7B7004CD6B9 /* Resources */,
-				04D2087F2379FA4C004CD6B9 /* Common Scripts */,
 			);
 			buildRules = (
 			);

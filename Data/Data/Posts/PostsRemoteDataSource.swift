@@ -4,6 +4,24 @@
 //
 
 import Foundation
+import Moya
+import RxSwift
 
-class PostsRemoteDataSource {
+public struct PostsRemoteDataSource {
+
+    func all(pagingInfo: PagingInfo) -> Single<[PostResponse]> {
+        api.rx.request(.posts(pagingInfo)).mapList()
+    }
+
+    func add(request: AddPostRequest) -> Single<Success> {
+        api.rx.request(.addPost(request.encode())).mapItem()
+    }
+
+    func edit(request: EditPostRequest) -> Single<Success> {
+        api.rx.request(.editPost(request)).mapItem()
+    }
+
+    func delete(id: Int) -> Single<Success> {
+        api.rx.request(.deletePost(id)).mapItem()
+    }
 }

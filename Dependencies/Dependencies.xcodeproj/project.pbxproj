@@ -12,7 +12,6 @@
 		04464152237AB80C00D8FF96 /* Dependencies.h in Headers */ = {isa = PBXBuildFile; fileRef = 04464144237AB80C00D8FF96 /* Dependencies.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0446415C237AB85800D8FF96 /* DependecyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446415B237AB85800D8FF96 /* DependecyManager.swift */; };
 		0446415E237AB89500D8FF96 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446415D237AB89500D8FF96 /* Dependencies.swift */; };
-		13C3EE093C1E257AA377ECEA /* Pods_Dependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46CAEFDFD648EB4CB4EFC76 /* Pods_Dependencies.framework */; };
 		1A54F12B598BA4B2D0E66507 /* AddPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FB22C5FDD3539B6D2AD2 /* AddPost.swift */; };
 		1A54F1870B5B1BECEA5FBE67 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FF74499138ABCAB1035A /* Root.swift */; };
 		1A54F4A5711F5C79E0A8CCC6 /* EditPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F85F5139F4E87231435C /* EditPost.swift */; };
@@ -80,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13C3EE093C1E257AA377ECEA /* Pods_Dependencies.framework in Frameworks */,
 				BB2544D5EDA04B4F61739804 /* Pods_Dependencies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -5,72 +5,72 @@
 
 import Foundation
 
-protocol Mapper {
+public protocol Mapper {
     associatedtype I
     associatedtype O
     func map(_ input: I) -> O
 }
 
-protocol ListMapperProtocol {
+public protocol ListMapperProtocol {
     associatedtype I
     associatedtype O
     func map(_ input: [I]) -> [O]
 }
 
-struct ListMapper<M: Mapper>: ListMapperProtocol {
-    typealias I = M.I
-    typealias O = M.O
+public struct ListMapper<M: Mapper>: ListMapperProtocol {
+    public typealias I = M.I
+    public typealias O = M.O
 
     private let mapper: M
 
-    init(_ mapper: M) {
+    public init(_ mapper: M) {
         self.mapper = mapper
     }
 
-    func map(_ input: [M.I]) -> [M.O] {
+    public func map(_ input: [M.I]) -> [M.O] {
         input.map { mapper.map($0) }
     }
 }
 
 
-protocol NullableInputListMapperProtocol {
+public protocol NullableInputListMapperProtocol {
     associatedtype I
     associatedtype O
     func map(_ input: [I]?) -> [O]
 }
 
-struct NullableInputListMapper<M: Mapper>: NullableInputListMapperProtocol {
-    typealias I = M.I
-    typealias O = M.O
+public struct NullableInputListMapper<M: Mapper>: NullableInputListMapperProtocol {
+    public typealias I = M.I
+    public typealias O = M.O
 
     private let mapper: M
 
-    init(_ mapper: M) {
+    public init(_ mapper: M) {
         self.mapper = mapper
     }
 
-    func map(_ input: [M.I]?) -> [M.O] {
+    public func map(_ input: [M.I]?) -> [M.O] {
         input?.map { mapper.map($0) } ?? []
     }
 }
 
-protocol NullableOutputListMapperProtocol {
+public protocol NullableOutputListMapperProtocol {
     associatedtype I
     associatedtype O
     func map(_ input: [I]) -> [O]?
 }
 
-struct NullableOutputListMapper<M: Mapper>: NullableOutputListMapperProtocol {
-    typealias I = M.I
-    typealias O = M.O
+public struct NullableOutputListMapper<M: Mapper>: NullableOutputListMapperProtocol {
+    public typealias I = M.I
+    public typealias O = M.O
 
     private let mapper: M
 
-    init(_ mapper: M) {
+    public init(_ mapper: M) {
         self.mapper = mapper
     }
 
-    func map(_ input: [M.I]) -> [M.O]? {
+    public func map(_ input: [M.I]) -> [M.O]? {
         input.isEmpty ? nil : input.map { mapper.map($0) }
     }
 }
