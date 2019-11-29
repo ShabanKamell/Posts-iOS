@@ -3,9 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data/Posts/PostsRemoteDataSource.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Posts/PostsRemoteDataSource.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data/Posts/PostsRepository.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Posts/PostsRepository.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/App/Navigation/AppDependencies.swift" beforeDir="false" afterPath="$PROJECT_DIR$/App/App/Navigation/AppDependencies.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Bundle+Helper.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Collection+Helper.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Comparable+Helper.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Date+Components.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Date+Format.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Date+Iso.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/DateFormatter+ISO.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Dictionary+Helper.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Double+Localized.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Int+Localized.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/JSONDecoder+Default.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/JSONEncoder+Default.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/NSAttributedString+Color.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/NSObject+ClassName.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/NSObjectProtocol+Retain.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Slice+Array.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/String+DateFormatter.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/String+Dimensions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/String+HTML.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/TimeInterval+Duration.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/URL+Open.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core/Protocols/JSONCodable.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Color/UIFont+Custom.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Font/UIFont+Custom.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/View/NibLoadingView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/Date/ItemPicker.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/Date/MonthPicker.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/Date/YearPicker.swift" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +190,7 @@
       <workItem from="1574938193998" duration="9356000" />
       <workItem from="1574956362205" duration="4771000" />
       <workItem from="1575043381249" duration="7233000" />
-      <workItem from="1575053435093" duration="1215000" />
+      <workItem from="1575053435093" duration="2388000" />
     </task>
     <servers />
   </component>

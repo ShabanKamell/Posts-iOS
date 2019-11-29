@@ -44,9 +44,6 @@
 		04207883236F63E70007CFDE /* TabBarSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207839236F63E70007CFDE /* TabBarSplitViewController.swift */; };
 		04207884236F63E70007CFDE /* RoundCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420783A236F63E70007CFDE /* RoundCornerView.swift */; };
 		04207885236F63E70007CFDE /* RoundShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420783B236F63E70007CFDE /* RoundShadowButton.swift */; };
-		04207886236F63E70007CFDE /* YearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420783D236F63E70007CFDE /* YearPicker.swift */; };
-		04207887236F63E70007CFDE /* ItemPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420783E236F63E70007CFDE /* ItemPicker.swift */; };
-		04207888236F63E70007CFDE /* MonthPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420783F236F63E70007CFDE /* MonthPicker.swift */; };
 		04207889236F63E70007CFDE /* FormEntryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207841236F63E70007CFDE /* FormEntryTextField.swift */; };
 		0420788A236F63E70007CFDE /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207842236F63E70007CFDE /* FloatingLabelTextField.swift */; };
 		0420788B236F63E70007CFDE /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04207843236F63E70007CFDE /* UITextField+fixCaretPosition.swift */; };
@@ -92,11 +89,10 @@
 		1A54F64066E85E602FB70863 /* RootViewController+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F318F356E4B05BCC80A7 /* RootViewController+UINavigationControllerDelegate.swift */; };
 		1A54F6C474A0A47244F86933 /* UITableView+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FD43AC48565A4A63EA88 /* UITableView+Setup.swift */; };
 		1A54F7EE8F9286679C8BC851 /* NavigationController+Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FD6E486D1827A45F85A3 /* NavigationController+Copy.swift */; };
-		1A54F8C998E3AD99E1807FC0 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FEC5AE123D1B56C3D53C /* BaseViewModel.swift */; };
+		1A54F8C998E3AD99E1807FC0 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FEC5AE123D1B56C3D53C /* ViewModelProtocol.swift */; };
 		1A54FA00877599F8AABD4D7C /* AppPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F94317057993049B168A /* AppPageViewController.swift */; };
 		1A54FB7E75B92C308C8D2466 /* AppearanceApplyingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FA98D59A0855F947DA36 /* AppearanceApplyingStrategy.swift */; };
 		1A54FBD47A086CD1F36FC013 /* UIViewController+RootNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F870EE9305DF27CF0345 /* UIViewController+RootNavigation.swift */; };
-		1A54FC094A20E6BD475A34B3 /* NibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F72BA387804C9D39786E /* NibLoadingView.swift */; };
 		1A54FC73F803B7B6D9A9225F /* PagedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F3327BF30634EDCC40D9 /* PagedTableView.swift */; };
 		1A54FCB646811F4D54116609 /* RootViewConrollerProtocolImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F852BDE57EAB1A20E500 /* RootViewConrollerProtocolImpl.swift */; };
 		1A54FCDF69E7E4E6CBB2D7DC /* RootVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F0163D7B571FCBF7DC67 /* RootVm.swift */; };
@@ -232,9 +228,6 @@
 		04207839236F63E70007CFDE /* TabBarSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarSplitViewController.swift; sourceTree = "<group>"; };
 		0420783A236F63E70007CFDE /* RoundCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCornerView.swift; sourceTree = "<group>"; };
 		0420783B236F63E70007CFDE /* RoundShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundShadowButton.swift; sourceTree = "<group>"; };
-		0420783D236F63E70007CFDE /* YearPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearPicker.swift; sourceTree = "<group>"; };
-		0420783E236F63E70007CFDE /* ItemPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPicker.swift; sourceTree = "<group>"; };
-		0420783F236F63E70007CFDE /* MonthPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthPicker.swift; sourceTree = "<group>"; };
 		04207841236F63E70007CFDE /* FormEntryTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormEntryTextField.swift; sourceTree = "<group>"; };
 		04207842236F63E70007CFDE /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
 		04207843236F63E70007CFDE /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
@@ -281,7 +274,6 @@
 		1A54F38740839CC403B311A6 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		1A54F3DD4CD0644BB704D084 /* RootViewController+Presenters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RootViewController+Presenters.swift"; sourceTree = "<group>"; };
 		1A54F71D247F7F5687CE4B71 /* Appearance+Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Appearance+Default.swift"; sourceTree = "<group>"; };
-		1A54F72BA387804C9D39786E /* NibLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadingView.swift; sourceTree = "<group>"; };
 		1A54F852BDE57EAB1A20E500 /* RootViewConrollerProtocolImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewConrollerProtocolImpl.swift; sourceTree = "<group>"; };
 		1A54F870EE9305DF27CF0345 /* UIViewController+RootNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+RootNavigation.swift"; sourceTree = "<group>"; };
 		1A54F8BA30CE5EA91C8471E9 /* Flow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
@@ -297,7 +289,7 @@
 		1A54FD5C0004D7B456BF64FB /* RootBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
 		1A54FD6E486D1827A45F85A3 /* NavigationController+Copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NavigationController+Copy.swift"; sourceTree = "<group>"; };
 		1A54FDD32C76824A6EE7C5C2 /* RootViewController+AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RootViewController+AppDelegate.swift"; sourceTree = "<group>"; };
-		1A54FEC5AE123D1B56C3D53C /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		1A54FEC5AE123D1B56C3D53C /* ViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
 		1A54FF40FFE2F80CF4938F44 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1A54FFD816812D959661B9AA /* UITableView+Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Cell.swift"; sourceTree = "<group>"; };
 		6042541199222D48DD5862EF /* Pods-Presentation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presentation.debug.xcconfig"; path = "Target Support Files/Pods-Presentation/Pods-Presentation.debug.xcconfig"; sourceTree = "<group>"; };
@@ -410,7 +402,6 @@
 				04207839236F63E70007CFDE /* TabBarSplitViewController.swift */,
 				0420783A236F63E70007CFDE /* RoundCornerView.swift */,
 				0420783B236F63E70007CFDE /* RoundShadowButton.swift */,
-				0420783C236F63E70007CFDE /* Date */,
 				04207840236F63E70007CFDE /* TextField */,
 				04207844236F63E70007CFDE /* FormEntryTextView.swift */,
 				04207845236F63E70007CFDE /* IconTextView.swift */,
@@ -419,16 +410,6 @@
 				04207848236F63E70007CFDE /* RoundedBtn.swift */,
 			);
 			path = ViewComponents;
-			sourceTree = "<group>";
-		};
-		0420783C236F63E70007CFDE /* Date */ = {
-			isa = PBXGroup;
-			children = (
-				0420783D236F63E70007CFDE /* YearPicker.swift */,
-				0420783E236F63E70007CFDE /* ItemPicker.swift */,
-				0420783F236F63E70007CFDE /* MonthPicker.swift */,
-			);
-			path = Date;
 			sourceTree = "<group>";
 		};
 		04207840236F63E70007CFDE /* TextField */ = {
@@ -547,10 +528,9 @@
 				1A54F31E5F309E7F7EB1FFD3 /* ViewControllerProtocol.swift */,
 				1A54F484F7EA23A706F7DF5F /* TableView */,
 				1A54F38740839CC403B311A6 /* GradientView.swift */,
-				1A54FC9A13B74C1DC5087784 /* Color */,
+				1A54FC9A13B74C1DC5087784 /* Font */,
 				1A54F235CAEACDCC4151AF23 /* DatePicker.swift */,
 				1A54FF67FF91DD1C22530E9F /* ViewModel */,
-				1A54FAB42CDB3D6211129657 /* View */,
 				1A54F4BB73AE0A8852F05A73 /* ViewController */,
 				1A54F99AE8B9F104F3923B40 /* RoundStackView.swift */,
 				1A54F8F154B5ADB5E0930493 /* NavigationController */,
@@ -650,20 +630,12 @@
 			path = NavigationController;
 			sourceTree = "<group>";
 		};
-		1A54FAB42CDB3D6211129657 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1A54F72BA387804C9D39786E /* NibLoadingView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1A54FC9A13B74C1DC5087784 /* Color */ = {
+		1A54FC9A13B74C1DC5087784 /* Font */ = {
 			isa = PBXGroup;
 			children = (
 				1A54F982ED8EFBAA2AEC575A /* UIFont+Custom.swift */,
 			);
-			path = Color;
+			path = Font;
 			sourceTree = "<group>";
 		};
 		1A54FDC876A3CD1600EFDB01 /* UIPageViewController */ = {
@@ -689,7 +661,7 @@
 		1A54FF67FF91DD1C22530E9F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				1A54FEC5AE123D1B56C3D53C /* BaseViewModel.swift */,
+				1A54FEC5AE123D1B56C3D53C /* ViewModelProtocol.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -968,7 +940,6 @@
 				042077C1236F4E850007CFDE /* Identifiers.swift in Sources */,
 				042078B7236F65D80007CFDE /* Reportable.swift in Sources */,
 				042077CC236F4E850007CFDE /* UIView+Gesture.swift in Sources */,
-				04207887236F63E70007CFDE /* ItemPicker.swift in Sources */,
 				0420792C236F901F0007CFDE /* PresentationStoryboards.swift in Sources */,
 				042077B4236F4E850007CFDE /* UIColor+Style.swift in Sources */,
 				042077CF236F4E850007CFDE /* UITabBarItem+Style.swift in Sources */,
@@ -989,7 +960,6 @@
 				042077CA236F4E850007CFDE /* View+Style.swift in Sources */,
 				042077B6236F4E850007CFDE /* Device+Helper.swift in Sources */,
 				042078CA236F6A550007CFDE /* Assets.swift in Sources */,
-				04207888236F63E70007CFDE /* MonthPicker.swift in Sources */,
 				042078BC236F666A0007CFDE /* GlobalVariables.swift in Sources */,
 				042077D0236F4E850007CFDE /* UINavigationController+NavigationStack.swift in Sources */,
 				04207883236F63E70007CFDE /* TabBarSplitViewController.swift in Sources */,
@@ -998,7 +968,6 @@
 				04207889236F63E70007CFDE /* FormEntryTextField.swift in Sources */,
 				042077C9236F4E850007CFDE /* UIViewController+ScrollToTop.swift in Sources */,
 				042077CD236F4E850007CFDE /* UITabBar+Style.swift in Sources */,
-				04207886236F63E70007CFDE /* YearPicker.swift in Sources */,
 				042077BE236F4E850007CFDE /* UIView+Loading.swift in Sources */,
 				042077C5236F4E850007CFDE /* UIButton+BackgroundImage.swift in Sources */,
 				042077C2236F4E850007CFDE /* ResizableImageView.swift in Sources */,
@@ -1031,8 +1000,7 @@
 				1A54FE8E9683778B42648B6B /* GradientView.swift in Sources */,
 				1A54F401F8BB332C02CC05BF /* UIFont+Custom.swift in Sources */,
 				1A54F013A32DBD5E76FC6161 /* DatePicker.swift in Sources */,
-				1A54F8C998E3AD99E1807FC0 /* BaseViewModel.swift in Sources */,
-				1A54FC094A20E6BD475A34B3 /* NibLoadingView.swift in Sources */,
+				1A54F8C998E3AD99E1807FC0 /* ViewModelProtocol.swift in Sources */,
 				1A54FA00877599F8AABD4D7C /* AppPageViewController.swift in Sources */,
 				1A54F4CE2940F4364D8A013C /* RootViewController+AppDelegate.swift in Sources */,
 				1A54FD9F8D3363AD9A84E15F /* RootViewController+Navigation.swift in Sources */,

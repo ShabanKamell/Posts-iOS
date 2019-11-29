@@ -16,7 +16,6 @@ import EditPost
 
 
 func setupDependencies() {
-    // register dependencies here
     let dependencies = Dependencies.shared
 
     dependencies.register(RootViewControllerProtocol.self) {
@@ -29,6 +28,4 @@ func setupDependencies() {
     dependencies.register(PostDetailModuleProtocol.self) { PostDetailModule() }
     dependencies.register(AddPostModuleProtocol.self) { AddPostModule()}
     dependencies.register(EditPostModuleProtocol.self) { EditPostModule() }
-
-
 }
