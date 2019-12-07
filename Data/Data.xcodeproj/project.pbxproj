@@ -24,7 +24,6 @@
 		046B800C236F3A1500AE23A4 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B800B236F3A1500AE23A4 /* DataTests.swift */; };
 		046B800E236F3A1500AE23A4 /* Data.h in Headers */ = {isa = PBXBuildFile; fileRef = 046B8000236F3A1500AE23A4 /* Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A54F07A969DCF36B68492E8 /* PostsRepositoryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F6DEBBC1C1D98A462ECB /* PostsRepositoryBuilder.swift */; };
-		1A54F1F0D6494C0C8FF502EE /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FD20036BC91CFFB0A138 /* Mapper.swift */; };
 		1A54F2F89DF613DC5CB6CCC2 /* PostsLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54FCFDAB7970AA13BB6C8C /* PostsLocalDataSource.swift */; };
 		1A54F3650C73F2080BB1791D /* PostsRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F074437614C54D7A30C4 /* PostsRemoteDataSource.swift */; };
 		1A54FEB3DF93B75560521250 /* PostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F975E95729D19828A441 /* PostsRepository.swift */; };
@@ -90,7 +89,6 @@
 		1A54F6DEBBC1C1D98A462ECB /* PostsRepositoryBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsRepositoryBuilder.swift; sourceTree = "<group>"; };
 		1A54F975E95729D19828A441 /* PostsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsRepository.swift; sourceTree = "<group>"; };
 		1A54FCFDAB7970AA13BB6C8C /* PostsLocalDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsLocalDataSource.swift; sourceTree = "<group>"; };
-		1A54FD20036BC91CFFB0A138 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
 		3C310833AD30B4BF1D1EEF25 /* Pods-Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.debug.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.debug.xcconfig"; sourceTree = "<group>"; };
 		48C4D3464114F36F13F9014F /* Pods_Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		533B7764FCAB9D707BAE4FC1 /* Pods-Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.debug.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.debug.xcconfig"; sourceTree = "<group>"; };
@@ -205,7 +203,6 @@
 				046B8000236F3A1500AE23A4 /* Data.h */,
 				046B8001236F3A1500AE23A4 /* Info.plist */,
 				1A54F45FADAC2CF4CD04671F /* Posts */,
-				1A54FD20036BC91CFFB0A138 /* Mapper.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -462,7 +459,6 @@
 				1A54FEB3DF93B75560521250 /* PostsRepository.swift in Sources */,
 				1A54F2F89DF613DC5CB6CCC2 /* PostsLocalDataSource.swift in Sources */,
 				1A54F3650C73F2080BB1791D /* PostsRemoteDataSource.swift in Sources */,
-				1A54F1F0D6494C0C8FF502EE /* Mapper.swift in Sources */,
 				1A54F07A969DCF36B68492E8 /* PostsRepositoryBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

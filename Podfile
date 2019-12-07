@@ -4,6 +4,10 @@ use_frameworks!
 
 workspace 'Posts'
 
+def modelMapper
+  pod 'ModelsMapper'
+end
+
 #core module
 def core_pods
   pod 'Crashlytics', '3.14.0'
@@ -12,7 +16,7 @@ def core_pods
   pod 'SwiftGen', '6.1.0', :configurations => ['Debug']
   pod 'BartyCrouch', '3.13.0', :configurations => ['Debug']
   pod 'RxSwift',    '~> 5.0'
-   pod 'Moya/RxSwift', '~> 14.0.0-beta.5'
+  pod 'Moya/RxSwift', '~> 14.0.0-beta.5'
   pod 'IQKeyboardManager'
   pod 'RxRequester/Moya', '~> 0.4.0'
 
@@ -48,6 +52,7 @@ end
 target 'Data' do
     project 'Data/Data.project'
     data_pods
+    modelMapper
 end
 
 #app module
@@ -69,6 +74,7 @@ end
 target 'Home' do
     project 'Home/Home.project'
     home_pods
+    modelMapper
 end
 
 #PostDetail feature module

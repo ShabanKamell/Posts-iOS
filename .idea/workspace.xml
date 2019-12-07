@@ -3,38 +3,38 @@
   <component name="ChangeListManager">
     <list default="true" id="dc95faf9-b08e-4c5e-afb3-82e74673cea7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/App/Navigation/AppDependencies.swift" beforeDir="false" afterPath="$PROJECT_DIR$/App/App/Navigation/AppDependencies.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Bundle+Helper.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Collection+Helper.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Comparable+Helper.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Date+Components.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Date+Format.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Date+Iso.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/DateFormatter+ISO.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Dictionary+Helper.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Double+Localized.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Int+Localized.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/JSONDecoder+Default.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/JSONEncoder+Default.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/NSAttributedString+Color.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/NSObject+ClassName.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/NSObjectProtocol+Retain.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/Slice+Array.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/String+DateFormatter.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/String+Dimensions.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/String+HTML.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/TimeInterval+Duration.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Extensions/Foundation/URL+Open.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Core/Protocols/JSONCodable.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/Color/UIFont+Custom.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Presentation/Font/UIFont+Custom.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/View/NibLoadingView.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/Date/ItemPicker.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/Date/MonthPicker.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/Presentation/ViewComponents/Date/YearPicker.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/AddPost/AddPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data/Mapper.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data/Model/PostResponse.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data/Model/PostResponse.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Dependencies/Dependencies.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditPost/EditPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/EditPost/EditPost.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Home/UI/Posts/PostsViewModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-acknowledgements.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Debug-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Debug-input-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Debug-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Debug-output-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Release-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Release-input-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Release-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks-Release-output-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App-frameworks.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Data/Pods-Data-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Data/Pods-Data-acknowledgements.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Data/Pods-Data-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Data/Pods-Data-acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Data/Pods-Data.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Data/Pods-Data.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Data/Pods-Data.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Data/Pods-Data.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Home/Pods-Home-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Home/Pods-Home-acknowledgements.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Home/Pods-Home-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Home/Pods-Home-acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Home/Pods-Home.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Home/Pods-Home.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Home/Pods-Home.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Home/Pods-Home.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/PostDetail/PostDetail.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Posts.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +65,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Data" />
@@ -77,18 +82,6 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="AddPost" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AddPost" TARGET_NAME="AddPost" CONFIG_NAME="Debug" SCHEME_NAME="AddPost" IS_LOCATION_SIMULATION_ALLOWED="true" LOCATION_SCENARIO_ID="com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier" LOCATION_SCENARIO_TYPE="1" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
@@ -148,6 +141,18 @@
       <item itemvalue="Application.EditPost" />
     </list>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -190,7 +195,9 @@
       <workItem from="1574938193998" duration="9356000" />
       <workItem from="1574956362205" duration="4771000" />
       <workItem from="1575043381249" duration="7233000" />
-      <workItem from="1575053435093" duration="2388000" />
+      <workItem from="1575053435093" duration="2730000" />
+      <workItem from="1575299103437" duration="633000" />
+      <workItem from="1575735801759" duration="3451000" />
     </task>
     <servers />
   </component>
@@ -216,16 +223,26 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575745015806">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="378" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777@0.23.1280.777" timestamp="1575745015806" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1575744671525">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1575744671525" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Presentation/Presentation/ViewModel/BaseViewModel.swift</url>
+          <url>file://$PROJECT_DIR$/Presentation/Presentation/ViewModel/ViewModelProtocol.swift</url>
           <line>26</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Presentation/Presentation/ViewModel/BaseViewModel.swift</url>
+          <url>file://$PROJECT_DIR$/Presentation/Presentation/ViewModel/ViewModelProtocol.swift</url>
           <line>38</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>

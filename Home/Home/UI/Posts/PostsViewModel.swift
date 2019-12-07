@@ -5,6 +5,7 @@ import RxSwift
 import Data
 import Presentation
 import RxRequester
+import ModelsMapper
 
 struct PostsViewModel: ViewModelProtocol {
     var rxRequester: RxRequester!

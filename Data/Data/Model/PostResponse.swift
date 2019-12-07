@@ -3,7 +3,7 @@
 // Copyright (c) 2019 sha. All rights reserved.
 //
 
-import Foundation
+import ModelsMapper
 
 public struct PostResponse: Decodable {
     let id: Int
