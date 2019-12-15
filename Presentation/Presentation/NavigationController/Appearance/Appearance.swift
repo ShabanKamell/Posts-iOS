@@ -18,7 +18,6 @@ public struct Appearance: Equatable {
 }
 
 public func ==(lhs: Appearance.Bar, rhs: Appearance.Bar) -> Bool {
-    return
         lhs.style == rhs.style &&
         lhs.backgroundColor == rhs.backgroundColor &&
         lhs.tintColor == rhs.tintColor &&
@@ -26,5 +25,5 @@ public func ==(lhs: Appearance.Bar, rhs: Appearance.Bar) -> Bool {
 }
 
 public func ==(lhs: Appearance, rhs: Appearance) -> Bool {
-    return lhs.statusBarStyle == rhs.statusBarStyle && lhs.navigationBar == rhs.navigationBar && lhs.toolbar == rhs.toolbar
+     lhs.statusBarStyle == rhs.statusBarStyle && lhs.navigationBar == rhs.navigationBar && lhs.toolbar == rhs.toolbar
 }

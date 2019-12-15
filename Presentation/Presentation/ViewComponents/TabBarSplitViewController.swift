@@ -15,7 +15,7 @@ public final class TabBarSplitViewController: UISplitViewController {
     fileprivate var secondaryNavigationViewController: NavigationController?
     fileprivate weak var privateTabBarController: UITabBarController?
     public override var tabBarController: UITabBarController? {
-        return privateTabBarController
+         privateTabBarController
     }
     
     convenience init(mainNavigationController: NavigationController, _ tabBarController: UITabBarController?) {
@@ -91,7 +91,7 @@ extension TabBarSplitViewController: UISplitViewControllerDelegate {
     
     public func splitViewController(_ splitViewController: UISplitViewController,
                              separateSecondaryFrom primaryViewController: UIViewController) -> UIViewController? {
-        return secondaryNavigationViewController
+         secondaryNavigationViewController
     }
     
     public func primaryViewController(forExpanding splitViewController: UISplitViewController) -> UIViewController? {

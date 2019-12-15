@@ -6,25 +6,6 @@
 import UIKit
 
 public extension RootViewController {
-
-//    func navigateToPosts(){
-//        navigate(vc: PostsBuilder.make())
-//    }
-//
-//    func navigateToPostDetail(post: Post){
-//        navigate(vc: PostDetailBuilder.make(post: post))
-//    }
-//
-//    func navigateToAddPost(onAddPost: @escaping () -> Void){
-//        navigate(vc: AddPostBuilder.make(onAddPost: onAddPost))
-//    }
-//
-//    func navigateToEditPost(post: Post, onUpdatePost: @escaping () -> Void){
-//        navigate(vc: EditPostBuilder.make(post: post, onUpdatePost: onUpdatePost))
-//    }
-}
-
-public extension RootViewController {
     enum NavigationType {
         case push
         case add
@@ -43,8 +24,8 @@ public extension RootViewController {
             addChild(vc)
         case .present:
             present(vc, animated: animated)
-
         }
+
         vc.view.frame = view.safeAreaLayoutGuide.layoutFrame
         view.addSubview(vc.view)
 

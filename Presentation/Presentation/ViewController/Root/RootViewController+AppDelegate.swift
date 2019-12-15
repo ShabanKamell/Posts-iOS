@@ -37,7 +37,7 @@ public extension RootViewController {
             continue userActivity: NSUserActivity,
             restorationHandler: @escaping ([UIUserActivityRestoring]?
             ) -> Void) -> Bool {
-        return false
+         false
     }
 
     func application(

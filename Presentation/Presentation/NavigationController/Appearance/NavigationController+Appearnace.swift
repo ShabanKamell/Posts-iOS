@@ -167,10 +167,10 @@ extension NavigationController : NavControllerContext {
     }
 
     public override var preferredStatusBarStyle: UIStatusBarStyle {
-        return appliedAppearance?.statusBarStyle ?? super.preferredStatusBarStyle
+         appliedAppearance?.statusBarStyle ?? super.preferredStatusBarStyle
     }
 
     public override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation {
-        return appliedAppearance != nil ? .fade : super.preferredStatusBarUpdateAnimation
+         appliedAppearance != nil ? .fade : super.preferredStatusBarUpdateAnimation
     }
 }

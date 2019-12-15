@@ -15,15 +15,15 @@ public protocol NavControllerContext: AnyObject where Self:  UIViewController {
 extension NavControllerContext {
 
     public func prefersNavBarHidden(navController: UINavigationController) -> Bool {
-        return true
+         true
     }
 
     public func prefersNavToolbarHidden(navController: UINavigationController) -> Bool {
-        return true
+         true
     }
 
     public func preferredNavBarAppearance(navController: UINavigationController) -> Appearance? {
-        return Appearance.defaultAppearance
+         Appearance.defaultAppearance
     }
 
     public func setNeedsUpdateNavBarAppearance() {
@@ -34,11 +34,11 @@ extension NavControllerContext {
     }
 
     public func preferredBackButtonMode(navController: UINavigationController) -> BackButtonMode {
-        return .withoutText
+         .withoutText
     }
 
     public func preferredBackButtonPosition(navController: UINavigationController) -> BackButtonPosition {
-        return .left
+         .left
     }
 }
 
